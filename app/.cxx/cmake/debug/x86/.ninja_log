@@ -1,0 +1,16 @@
+# ninja log v5
+42	1491	646098358	CMakeFiles/main.dir/src/main/cpp/main/Timer.cpp.o	45044fd97272f2fd
+4	1668	646098358	CMakeFiles/main.dir/src/main/cpp/main/Android.cpp.o	1e31f5b333ade78c
+6	1983	646098358	CMakeFiles/main.dir/src/main/cpp/main/Application.cpp.o	bd02821997e4479e
+11	1988	646098358	CMakeFiles/main.dir/src/main/cpp/main/EntryPoint.cpp.o	81e4937896ff4aa2
+0	1997	646098358	CMakeFiles/native_app_glue.dir/C_/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c.o	412616179f62cc2b
+7	2554	646098359	CMakeFiles/main.dir/src/main/cpp/main/Kernel.cpp.o	e4921b44896a3930
+35	2557	646098359	CMakeFiles/main.dir/src/main/cpp/rendering/Renderable.cpp.o	e2d7b5e8e63a3b2
+38	2588	646098359	CMakeFiles/main.dir/src/main/cpp/rendering/Geometry.cpp.o	2622141d00efcb52
+1565	3233	646098360	CMakeFiles/main.dir/src/main/cpp/rendering/Shader.cpp.o	cc16760acea53b0d
+1669	3417	646098360	CMakeFiles/main.dir/src/main/cpp/rendering/BasicShader.cpp.o	3690c5da2ad39bcb
+1998	3460	646098360	libnative_app_glue.a	a9ea35ea888a4a94
+1988	3540	646098360	CMakeFiles/main.dir/src/main/cpp/rendering/Renderer.cpp.o	ff3da5a76c83804d
+1983	3603	646098360	CMakeFiles/main.dir/src/main/cpp/main/MainTask.cpp.o	bf708920b3929554
+2554	3963	646098360	CMakeFiles/main.dir/src/main/cpp/main/MainApp.cpp.o	ea4d88b23ea1f95b
+3963	4862	646098361	../../../../build/intermediates/cmake/debug/obj/x86/libmain.so	d37a9995970b5d88

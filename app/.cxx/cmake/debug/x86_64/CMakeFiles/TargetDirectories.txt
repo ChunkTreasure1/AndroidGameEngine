@@ -1,0 +1,4 @@
+C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/x86_64/CMakeFiles/native_app_glue.dir
+C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/x86_64/CMakeFiles/main.dir
+C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

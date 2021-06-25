@@ -1,0 +1,79 @@
+[
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native_app_glue.dir\\C_\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\sources\\android\\native_app_glue\\android_native_app_glue.c.o   -c C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\sources\\android\\native_app_glue\\android_native_app_glue.c",
+  "file": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\sources\\android\\native_app_glue\\android_native_app_glue.c"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\EntryPoint.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\EntryPoint.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/EntryPoint.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\Application.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\Application.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/Application.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\Kernel.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\Kernel.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/Kernel.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\Android.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\Android.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/Android.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\Timer.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\Timer.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/Timer.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\rendering\\Shader.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\rendering\\Shader.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/rendering/Shader.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\rendering\\Geometry.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\rendering\\Geometry.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/rendering/Geometry.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\rendering\\Renderable.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\rendering\\Renderable.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/rendering/Renderable.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\rendering\\Renderer.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\rendering\\Renderer.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/rendering/Renderer.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\rendering\\BasicShader.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\rendering\\BasicShader.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/rendering/BasicShader.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\MainTask.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\MainTask.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/MainTask.cpp"
+},
+
+{
+  "directory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android28 --gcc-toolchain=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmain_EXPORTS -IC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\main.dir\\src\\main\\cpp\\main\\MainApp.cpp.o -c C:\\Programming\\Android\\GameEngine\\app\\src\\main\\cpp\\main\\MainApp.cpp",
+  "file": "C:/Programming/Android/GameEngine/app/src/main/cpp/main/MainApp.cpp"
+}
+]

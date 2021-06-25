@@ -1,0 +1,54 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "C:\\Programming\\Android\\GameEngine\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native_app_glue-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86_64",
+        "native_app_glue"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "native_app_glue",
+      "output": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86_64\\libnative_app_glue.a"
+    },
+    "main-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86_64",
+        "main"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "main",
+      "output": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libmain.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

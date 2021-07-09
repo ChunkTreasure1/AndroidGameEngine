@@ -16,8 +16,8 @@ CMAKE SERVER: {
     "major": 1,
     "minor": 1
   },
-  "sourceDirectory": "C:/Programming/Android/GameEngine/app",
-  "buildDirectory": "C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a",
+  "sourceDirectory": "C:/Programming/android/GameEngine/app/jni",
+  "buildDirectory": "C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a",
   "generator": "Ninja"
 }
 
@@ -37,7 +37,7 @@ CMAKE SERVER: {
   "type": "configure",
   "cacheArguments": [
     "",
-    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab",
+    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
     "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
     "-DANDROID_ABI\u003darmeabi-v7a",
@@ -46,13 +46,1195 @@ CMAKE SERVER: {
     "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
     "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
-    "-DCMAKE_SYSTEM_VERSION\u003d28"
+    "-DCMAKE_SYSTEM_VERSION\u003d28",
+    "-DANDROID_APP_PLATFORM\u003dandroid-28",
+    "-DANDROID_STL\u003dc++_static"
   ]
 }
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":299,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+CMAKE SERVER: Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"SDL2 was configured with the following options:","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: SDL2 was configured with the following options:
+CMAKE SERVER: SDL2 was configured with the following options:
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Platform: Android-1","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Platform: Android-1
+CMAKE SERVER: Platform: Android-1
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"64-bit:   FALSE","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 64-bit:   FALSE
+CMAKE SERVER: 64-bit:   FALSE
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Compiler: C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Compiler: C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Compiler: C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Subsystems:","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Subsystems:
+CMAKE SERVER: Subsystems:
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Atomic:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Atomic:	ON
+CMAKE SERVER:   Atomic:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Audio:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Audio:	ON
+CMAKE SERVER:   Audio:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Video:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Video:	ON
+CMAKE SERVER:   Video:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Render:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Render:	ON
+CMAKE SERVER:   Render:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Events:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Events:	ON
+CMAKE SERVER:   Events:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Joystick:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Joystick:	ON
+CMAKE SERVER:   Joystick:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Haptic:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Haptic:	ON
+CMAKE SERVER:   Haptic:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Power:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Power:	ON
+CMAKE SERVER:   Power:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Threads:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Threads:	ON
+CMAKE SERVER:   Threads:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Timers:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Timers:	ON
+CMAKE SERVER:   Timers:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  File:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   File:	ON
+CMAKE SERVER:   File:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Loadso:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Loadso:	ON
+CMAKE SERVER:   Loadso:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  CPUinfo:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   CPUinfo:	ON
+CMAKE SERVER:   CPUinfo:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Filesystem:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Filesystem:	ON
+CMAKE SERVER:   Filesystem:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Dlopen:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Dlopen:	ON
+CMAKE SERVER:   Dlopen:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Sensor:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Sensor:	ON
+CMAKE SERVER:   Sensor:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  Locale:\tON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   Locale:	ON
+CMAKE SERVER:   Locale:	ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Options:","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Options:
+CMAKE SERVER: Options:
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  3DNOW                  (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   3DNOW                  (Wanted: ON): OFF
+CMAKE SERVER:   3DNOW                  (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ALSA                   (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ALSA                   (Wanted: ON): OFF
+CMAKE SERVER:   ALSA                   (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ALSA_SHARED            (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ALSA_SHARED            (Wanted: ON): OFF
+CMAKE SERVER:   ALSA_SHARED            (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ALTIVEC                (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ALTIVEC                (Wanted: ON): OFF
+CMAKE SERVER:   ALTIVEC                (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ARMNEON                (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ARMNEON                (Wanted: OFF): OFF
+CMAKE SERVER:   ARMNEON                (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ARMSIMD                (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ARMSIMD                (Wanted: OFF): OFF
+CMAKE SERVER:   ARMSIMD                (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ARTS                   (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ARTS                   (Wanted: ON): OFF
+CMAKE SERVER:   ARTS                   (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ARTS_SHARED            (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ARTS_SHARED            (Wanted: ON): OFF
+CMAKE SERVER:   ARTS_SHARED            (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ASSEMBLY               (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ASSEMBLY               (Wanted: ON): ON
+CMAKE SERVER:   ASSEMBLY               (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ASSERTIONS             (Wanted: auto): auto","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ASSERTIONS             (Wanted: auto): auto
+CMAKE SERVER:   ASSERTIONS             (Wanted: auto): auto
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF
+CMAKE SERVER:   BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  CLOCK_GETTIME          (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   CLOCK_GETTIME          (Wanted: OFF): OFF
+CMAKE SERVER:   CLOCK_GETTIME          (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  DIRECTFB_SHARED        (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   DIRECTFB_SHARED        (Wanted: OFF): OFF
+CMAKE SERVER:   DIRECTFB_SHARED        (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  DIRECTX                (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   DIRECTX                (Wanted: OFF): OFF
+CMAKE SERVER:   DIRECTX                (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  DISKAUDIO              (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   DISKAUDIO              (Wanted: ON): ON
+CMAKE SERVER:   DISKAUDIO              (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  DUMMYAUDIO             (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   DUMMYAUDIO             (Wanted: ON): ON
+CMAKE SERVER:   DUMMYAUDIO             (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ESD                    (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ESD                    (Wanted: ON): OFF
+CMAKE SERVER:   ESD                    (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  ESD_SHARED             (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   ESD_SHARED             (Wanted: ON): OFF
+CMAKE SERVER:   ESD_SHARED             (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF
+CMAKE SERVER:   FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  FUSIONSOUND            (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   FUSIONSOUND            (Wanted: OFF): OFF
+CMAKE SERVER:   FUSIONSOUND            (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  FUSIONSOUND_SHARED     (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   FUSIONSOUND_SHARED     (Wanted: OFF): OFF
+CMAKE SERVER:   FUSIONSOUND_SHARED     (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  GCC_ATOMICS            (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   GCC_ATOMICS            (Wanted: ON): ON
+CMAKE SERVER:   GCC_ATOMICS            (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  HIDAPI                 (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   HIDAPI                 (Wanted: ON): ON
+CMAKE SERVER:   HIDAPI                 (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  JACK                   (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   JACK                   (Wanted: ON): OFF
+CMAKE SERVER:   JACK                   (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  JACK_SHARED            (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   JACK_SHARED            (Wanted: ON): OFF
+CMAKE SERVER:   JACK_SHARED            (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  JOYSTICK_VIRTUAL       (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   JOYSTICK_VIRTUAL       (Wanted: ON): OFF
+CMAKE SERVER:   JOYSTICK_VIRTUAL       (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  KMSDRM_SHARED          (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   KMSDRM_SHARED          (Wanted: ON): OFF
+CMAKE SERVER:   KMSDRM_SHARED          (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  LIBC                   (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   LIBC                   (Wanted: ON): ON
+CMAKE SERVER:   LIBC                   (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  LIBSAMPLERATE          (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   LIBSAMPLERATE          (Wanted: ON): OFF
+CMAKE SERVER:   LIBSAMPLERATE          (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  LIBSAMPLERATE_SHARED   (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   LIBSAMPLERATE_SHARED   (Wanted: ON): OFF
+CMAKE SERVER:   LIBSAMPLERATE_SHARED   (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  MMX                    (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   MMX                    (Wanted: ON): OFF
+CMAKE SERVER:   MMX                    (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  NAS                    (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   NAS                    (Wanted: ON): OFF
+CMAKE SERVER:   NAS                    (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  NAS_SHARED             (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   NAS_SHARED             (Wanted: ON): OFF
+CMAKE SERVER:   NAS_SHARED             (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  OSS                    (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   OSS                    (Wanted: ON): OFF
+CMAKE SERVER:   OSS                    (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  PTHREADS               (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   PTHREADS               (Wanted: ON): ON
+CMAKE SERVER:   PTHREADS               (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  PTHREADS_SEM           (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   PTHREADS_SEM           (Wanted: ON): ON
+CMAKE SERVER:   PTHREADS_SEM           (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  PULSEAUDIO             (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   PULSEAUDIO             (Wanted: ON): OFF
+CMAKE SERVER:   PULSEAUDIO             (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  PULSEAUDIO_SHARED      (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   PULSEAUDIO_SHARED      (Wanted: ON): OFF
+CMAKE SERVER:   PULSEAUDIO_SHARED      (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  RENDER_D3D             (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   RENDER_D3D             (Wanted: OFF): OFF
+CMAKE SERVER:   RENDER_D3D             (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  RENDER_METAL           (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   RENDER_METAL           (Wanted: OFF): OFF
+CMAKE SERVER:   RENDER_METAL           (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  RPATH                  (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   RPATH                  (Wanted: ON): OFF
+CMAKE SERVER:   RPATH                  (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SDL_DLOPEN             (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SDL_DLOPEN             (Wanted: ON): ON
+CMAKE SERVER:   SDL_DLOPEN             (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SDL_STATIC_PIC         (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SDL_STATIC_PIC         (Wanted: OFF): OFF
+CMAKE SERVER:   SDL_STATIC_PIC         (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SDL_TEST               (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SDL_TEST               (Wanted: OFF): OFF
+CMAKE SERVER:   SDL_TEST               (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SNDIO                  (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SNDIO                  (Wanted: ON): OFF
+CMAKE SERVER:   SNDIO                  (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SNDIO_SHARED           (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SNDIO_SHARED           (Wanted: ON): OFF
+CMAKE SERVER:   SNDIO_SHARED           (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SSE                    (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SSE                    (Wanted: ON): OFF
+CMAKE SERVER:   SSE                    (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SSE2                   (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SSE2                   (Wanted: OFF): OFF
+CMAKE SERVER:   SSE2                   (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SSE3                   (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SSE3                   (Wanted: OFF): OFF
+CMAKE SERVER:   SSE3                   (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  SSEMATH                (Wanted: OFF): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   SSEMATH                (Wanted: OFF): ON
+CMAKE SERVER:   SSEMATH                (Wanted: OFF): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_COCOA            (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_COCOA            (Wanted: OFF): OFF
+CMAKE SERVER:   VIDEO_COCOA            (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_DIRECTFB         (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_DIRECTFB         (Wanted: OFF): OFF
+CMAKE SERVER:   VIDEO_DIRECTFB         (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_DUMMY            (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_DUMMY            (Wanted: ON): ON
+CMAKE SERVER:   VIDEO_DUMMY            (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_KMSDRM           (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_KMSDRM           (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_KMSDRM           (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_METAL            (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_METAL            (Wanted: OFF): OFF
+CMAKE SERVER:   VIDEO_METAL            (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_OFFSCREEN        (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_OFFSCREEN        (Wanted: OFF): OFF
+CMAKE SERVER:   VIDEO_OFFSCREEN        (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_OPENGL           (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_OPENGL           (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_OPENGL           (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_OPENGLES         (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_OPENGLES         (Wanted: ON): ON
+CMAKE SERVER:   VIDEO_OPENGLES         (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_RPI              (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_RPI              (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_RPI              (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_VIVANTE          (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_VIVANTE          (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_VIVANTE          (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_VULKAN           (Wanted: ON): ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_VULKAN           (Wanted: ON): ON
+CMAKE SERVER:   VIDEO_VULKAN           (Wanted: ON): ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_WAYLAND          (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_WAYLAND          (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_WAYLAND          (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11              (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11              (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11              (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XCURSOR      (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XCURSOR      (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XCURSOR      (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XINERAMA     (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XINERAMA     (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XINERAMA     (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XINPUT       (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XINPUT       (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XINPUT       (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XRANDR       (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XRANDR       (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XRANDR       (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XSCRNSAVER   (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XSCRNSAVER   (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XSCRNSAVER   (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XSHAPE       (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XSHAPE       (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XSHAPE       (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  VIDEO_X11_XVM          (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   VIDEO_X11_XVM          (Wanted: ON): OFF
+CMAKE SERVER:   VIDEO_X11_XVM          (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  WASAPI                 (Wanted: OFF): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   WASAPI                 (Wanted: OFF): OFF
+CMAKE SERVER:   WASAPI                 (Wanted: OFF): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  WAYLAND_SHARED         (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   WAYLAND_SHARED         (Wanted: ON): OFF
+CMAKE SERVER:   WAYLAND_SHARED         (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"  X11_SHARED             (Wanted: ON): OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:   X11_SHARED             (Wanted: ON): OFF
+CMAKE SERVER:   X11_SHARED             (Wanted: ON): OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" CFLAGS:        -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\"","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  CFLAGS:        -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter "C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos"  "-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi"
+CMAKE SERVER:  CFLAGS:        -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter "C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos"  "-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi"
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" EXTRA_CFLAGS:  -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  EXTRA_CFLAGS:  -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall 
+CMAKE SERVER:  EXTRA_CFLAGS:  -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" EXTRA_LDFLAGS: -Wl,--no-undefined","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  EXTRA_LDFLAGS: -Wl,--no-undefined
+CMAKE SERVER:  EXTRA_LDFLAGS: -Wl,--no-undefined
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" EXTRA_LIBS:    m;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libdl.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/liblog.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libandroid.so;hidapi;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libGLESv1_CM.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libGLESv2.so","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  EXTRA_LIBS:    m;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libdl.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/liblog.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libandroid.so;hidapi;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libGLESv1_CM.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libGLESv2.so
+CMAKE SERVER:  EXTRA_LIBS:    m;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libdl.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/liblog.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libandroid.so;hidapi;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libGLESv1_CM.so;C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libGLESv2.so
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" Build Shared Library: ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  Build Shared Library: ON
+CMAKE SERVER:  Build Shared Library: ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" Build Static Library: ON","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  Build Static Library: ON
+CMAKE SERVER:  Build Static Library: ON
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":" Build Static Library with Position Independent Code: OFF","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:  Build Static Library with Position Independent Code: OFF
+CMAKE SERVER:  Build Static Library with Position Independent Code: OFF
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"If something was not detected, although the libraries","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: If something was not detected, although the libraries
+CMAKE SERVER: If something was not detected, although the libraries
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"were installed, then make sure you have set the","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: were installed, then make sure you have set the
+CMAKE SERVER: were installed, then make sure you have set the
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CFLAGS and LDFLAGS environment variables correctly.","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CFLAGS and LDFLAGS environment variables correctly.
+CMAKE SERVER: CFLAGS and LDFLAGS environment variables correctly.
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":449,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"You have called ADD_LIBRARY for library main without any source files. This typically indicates a problem with your CMakeLists.txt file","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: You have called ADD_LIBRARY for library main without any source files. This typically indicates a problem with your CMakeLists.txt file
+CMAKE SERVER: You have called ADD_LIBRARY for library main without any source files. This typically indicates a problem with your CMakeLists.txt file
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":599,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":750,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":899,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"You have called ADD_LIBRARY for library IMGUI without any source files. This typically indicates a problem with your CMakeLists.txt file","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: You have called ADD_LIBRARY for library IMGUI without any source files. This typically indicates a problem with your CMakeLists.txt file
+CMAKE SERVER: You have called ADD_LIBRARY for library IMGUI without any source files. This typically indicates a problem with your CMakeLists.txt file
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":916,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":933,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":950,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":966,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":983,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -92,6 +1274,46 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":166,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":333,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":500,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":666,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":833,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
 CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
@@ -123,7 +1345,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/Programming/Android/GameEngine/app","type":"reply"}
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFiles.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceRuns.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDependentOption.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GNUInstallDirs.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake","SDL2/CMakeLists.txt","SDL2/cmake/macros.cmake","SDL2/cmake/sdlchecks.cmake","SDL2/include/SDL_config.h.cmake","SDL2/sdl2.pc.in","SDL2/sdl2-config.in","SDL2/sdl2-config.in","SDL2/SDL2.spec.in","SDL2/cmake_uninstall.cmake.in","src/CMakeLists.txt","src/glm/CMakeLists.txt","src/glm/glm/CMakeLists.txt","src/imgui/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":["../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake","../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"C:/Users/xXRag/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/Programming/android/GameEngine/app/jni","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -137,7 +1359,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a","name":"Project","sourceDirectory":"C:/Programming/Android/GameEngine/app","targets":[{"artifacts":["C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/libnative_app_glue.a"],"buildDirectory":"C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue"}],"isGenerated":false,"language":"C","sources":["C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c"]}],"fullName":"libnative_app_glue.a","linkerLanguage":"C","name":"native_app_glue","sourceDirectory":"C:/Programming/Android/GameEngine/app","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/Programming/Android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so"],"buildDirectory":"C:/Programming/Android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["main_EXPORTS"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue"}],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/main/EntryPoint.cpp","src/main/cpp/main/Application.cpp","src/main/cpp/main/Kernel.cpp","src/main/cpp/main/Android.cpp","src/main/cpp/main/Timer.cpp","src/main/cpp/rendering/Shader.cpp","src/main/cpp/rendering/Geometry.cpp","src/main/cpp/rendering/Renderable.cpp","src/main/cpp/rendering/Renderer.cpp","src/main/cpp/rendering/BasicShader.cpp","src/main/cpp/main/MainTask.cpp","src/main/cpp/main/MainApp.cpp"]},{"isGenerated":false,"sources":["src/main/cpp/main/Application.h","src/main/cpp/main/Kernel.h","src/main/cpp/main/Task.h","src/main/cpp/main/Android.h","src/main/cpp/main/Timer.h","src/main/cpp/rendering/Shader.h","src/main/cpp/rendering/Geometry.h","src/main/cpp/rendering/Renderable.h","src/main/cpp/rendering/Renderer.h","src/main/cpp/rendering/BasicShader.h","src/main/cpp/main/MainTask.h","src/main/cpp/main/MainApp.h"]}],"fullName":"libmain.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments  -u ANativeActivity_onCreate","linkLibraries":"-landroid libnative_app_glue.a -llog -lEGL -lGLESv3 -latomic -lm","linkerLanguage":"CXX","name":"main","sourceDirectory":"C:/Programming/Android/GameEngine/app","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a","name":"GAME","sourceDirectory":"C:/Programming/android/GameEngine/app/jni","targets":[{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info    -marm","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/atomic/SDL_spinlock.c"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info   ","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/SDL.c","src/SDL_assert.c","src/SDL_dataqueue.c","src/SDL_error.c","src/SDL_hints.c","src/SDL_log.c","src/atomic/SDL_atomic.c","src/audio/SDL_audio.c","src/audio/SDL_audiocvt.c","src/audio/SDL_audiodev.c","src/audio/SDL_audiotypecvt.c","src/audio/SDL_mixer.c","src/audio/SDL_wave.c","src/cpuinfo/SDL_cpuinfo.c","src/dynapi/SDL_dynapi.c","src/events/SDL_clipboardevents.c","src/events/SDL_displayevents.c","src/events/SDL_dropevents.c","src/events/SDL_events.c","src/events/SDL_gesture.c","src/events/SDL_keyboard.c","src/events/SDL_mouse.c","src/events/SDL_quit.c","src/events/SDL_touch.c","src/events/SDL_windowevents.c","src/file/SDL_rwops.c","src/haptic/SDL_haptic.c","src/libm/e_atan2.c","src/libm/e_exp.c","src/libm/e_fmod.c","src/libm/e_log.c","src/libm/e_log10.c","src/libm/e_pow.c","src/libm/e_rem_pio2.c","src/libm/e_sqrt.c","src/libm/k_cos.c","src/libm/k_rem_pio2.c","src/libm/k_sin.c","src/libm/k_tan.c","src/libm/s_atan.c","src/libm/s_copysign.c","src/libm/s_cos.c","src/libm/s_fabs.c","src/libm/s_floor.c","src/libm/s_scalbn.c","src/libm/s_sin.c","src/libm/s_tan.c","src/locale/SDL_locale.c","src/misc/SDL_url.c","src/power/SDL_power.c","src/render/SDL_d3dmath.c","src/render/SDL_render.c","src/render/SDL_yuv_sw.c","src/render/direct3d/SDL_render_d3d.c","src/render/direct3d/SDL_shaders_d3d.c","src/render/direct3d11/SDL_render_d3d11.c","src/render/direct3d11/SDL_shaders_d3d11.c","src/render/opengl/SDL_render_gl.c","src/render/opengl/SDL_shaders_gl.c","src/render/opengles/SDL_render_gles.c","src/render/opengles2/SDL_render_gles2.c","src/render/opengles2/SDL_shaders_gles2.c","src/render/psp/SDL_render_psp.c","src/render/software/SDL_blendfillrect.c","src/render/software/SDL_blendline.c","src/render/software/SDL_blendpoint.c","src/render/software/SDL_drawline.c","src/render/software/SDL_drawpoint.c","src/render/software/SDL_render_sw.c","src/render/software/SDL_rotate.c","src/sensor/SDL_sensor.c","src/stdlib/SDL_crc32.c","src/stdlib/SDL_getenv.c","src/stdlib/SDL_iconv.c","src/stdlib/SDL_malloc.c","src/stdlib/SDL_qsort.c","src/stdlib/SDL_stdlib.c","src/stdlib/SDL_string.c","src/stdlib/SDL_strtokr.c","src/thread/SDL_thread.c","src/timer/SDL_timer.c","src/video/SDL_RLEaccel.c","src/video/SDL_blit.c","src/video/SDL_blit_0.c","src/video/SDL_blit_1.c","src/video/SDL_blit_A.c","src/video/SDL_blit_N.c","src/video/SDL_blit_auto.c","src/video/SDL_blit_copy.c","src/video/SDL_blit_slow.c","src/video/SDL_bmp.c","src/video/SDL_clipboard.c","src/video/SDL_egl.c","src/video/SDL_fillrect.c","src/video/SDL_pixels.c","src/video/SDL_rect.c","src/video/SDL_shape.c","src/video/SDL_stretch.c","src/video/SDL_surface.c","src/video/SDL_video.c","src/video/SDL_vulkan_utils.c","src/video/SDL_yuv.c","src/video/yuv2rgb/yuv_rgb.c","src/joystick/SDL_gamecontroller.c","src/joystick/SDL_joystick.c","src/audio/dummy/SDL_dummyaudio.c","src/audio/disk/SDL_diskaudio.c","src/loadso/dlopen/SDL_sysloadso.c","src/joystick/virtual/SDL_virtualjoystick.c","src/video/dummy/SDL_nullevents.c","src/video/dummy/SDL_nullframebuffer.c","src/video/dummy/SDL_nullvideo.c","src/core/android/SDL_android.c","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures/cpu-features.c","src/misc/android/SDL_sysurl.c","src/audio/android/SDL_androidaudio.c","src/filesystem/android/SDL_sysfilesystem.c","src/haptic/android/SDL_syshaptic.c","src/joystick/hidapi/SDL_hidapi_gamecube.c","src/joystick/hidapi/SDL_hidapi_ps4.c","src/joystick/hidapi/SDL_hidapi_ps5.c","src/joystick/hidapi/SDL_hidapi_rumble.c","src/joystick/hidapi/SDL_hidapi_steam.c","src/joystick/hidapi/SDL_hidapi_switch.c","src/joystick/hidapi/SDL_hidapi_xbox360.c","src/joystick/hidapi/SDL_hidapi_xbox360w.c","src/joystick/hidapi/SDL_hidapi_xboxone.c","src/joystick/hidapi/SDL_hidapijoystick.c","src/joystick/android/SDL_sysjoystick.c","src/joystick/steam/SDL_steamcontroller.c","src/power/android/SDL_syspower.c","src/locale/android/SDL_syslocale.c","src/timer/unix/SDL_systimer.c","src/sensor/android/SDL_androidsensor.c","src/video/android/SDL_androidclipboard.c","src/video/android/SDL_androidevents.c","src/video/android/SDL_androidgl.c","src/video/android/SDL_androidkeyboard.c","src/video/android/SDL_androidmessagebox.c","src/video/android/SDL_androidmouse.c","src/video/android/SDL_androidtouch.c","src/video/android/SDL_androidvideo.c","src/video/android/SDL_androidvulkan.c","src/video/android/SDL_androidwindow.c","src/thread/pthread/SDL_systhread.c","src/thread/pthread/SDL_sysmutex.c","src/thread/pthread/SDL_syscond.c","src/thread/pthread/SDL_systls.c","src/thread/pthread/SDL_syssem.c"]}],"fullName":"libSDL2.a","linkerLanguage":"C","name":"SDL2-static","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/libcpufeatures.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"}],"isGenerated":false,"language":"C","sources":["C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures/cpu-features.c"]}],"fullName":"libcpufeatures.a","linkerLanguage":"C","name":"cpufeatures","sourceDirectory":"C:/Programming/android/GameEngine/app/jni","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2main.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  ","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/main/android/SDL_android_main.c"]}],"fullName":"libSDL2main.a","linkerLanguage":"C","name":"SDL2main","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  ","defines":["GL_GLEXT_PROTOTYPES","SDL2_EXPORTS","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/SDL.c","src/SDL_assert.c","src/SDL_dataqueue.c","src/SDL_error.c","src/SDL_hints.c","src/SDL_log.c","src/atomic/SDL_atomic.c","src/audio/SDL_audio.c","src/audio/SDL_audiocvt.c","src/audio/SDL_audiodev.c","src/audio/SDL_audiotypecvt.c","src/audio/SDL_mixer.c","src/audio/SDL_wave.c","src/cpuinfo/SDL_cpuinfo.c","src/dynapi/SDL_dynapi.c","src/events/SDL_clipboardevents.c","src/events/SDL_displayevents.c","src/events/SDL_dropevents.c","src/events/SDL_events.c","src/events/SDL_gesture.c","src/events/SDL_keyboard.c","src/events/SDL_mouse.c","src/events/SDL_quit.c","src/events/SDL_touch.c","src/events/SDL_windowevents.c","src/file/SDL_rwops.c","src/haptic/SDL_haptic.c","src/libm/e_atan2.c","src/libm/e_exp.c","src/libm/e_fmod.c","src/libm/e_log.c","src/libm/e_log10.c","src/libm/e_pow.c","src/libm/e_rem_pio2.c","src/libm/e_sqrt.c","src/libm/k_cos.c","src/libm/k_rem_pio2.c","src/libm/k_sin.c","src/libm/k_tan.c","src/libm/s_atan.c","src/libm/s_copysign.c","src/libm/s_cos.c","src/libm/s_fabs.c","src/libm/s_floor.c","src/libm/s_scalbn.c","src/libm/s_sin.c","src/libm/s_tan.c","src/locale/SDL_locale.c","src/misc/SDL_url.c","src/power/SDL_power.c","src/render/SDL_d3dmath.c","src/render/SDL_render.c","src/render/SDL_yuv_sw.c","src/render/direct3d/SDL_render_d3d.c","src/render/direct3d/SDL_shaders_d3d.c","src/render/direct3d11/SDL_render_d3d11.c","src/render/direct3d11/SDL_shaders_d3d11.c","src/render/opengl/SDL_render_gl.c","src/render/opengl/SDL_shaders_gl.c","src/render/opengles/SDL_render_gles.c","src/render/opengles2/SDL_render_gles2.c","src/render/opengles2/SDL_shaders_gles2.c","src/render/psp/SDL_render_psp.c","src/render/software/SDL_blendfillrect.c","src/render/software/SDL_blendline.c","src/render/software/SDL_blendpoint.c","src/render/software/SDL_drawline.c","src/render/software/SDL_drawpoint.c","src/render/software/SDL_render_sw.c","src/render/software/SDL_rotate.c","src/sensor/SDL_sensor.c","src/stdlib/SDL_crc32.c","src/stdlib/SDL_getenv.c","src/stdlib/SDL_iconv.c","src/stdlib/SDL_malloc.c","src/stdlib/SDL_qsort.c","src/stdlib/SDL_stdlib.c","src/stdlib/SDL_string.c","src/stdlib/SDL_strtokr.c","src/thread/SDL_thread.c","src/timer/SDL_timer.c","src/video/SDL_RLEaccel.c","src/video/SDL_blit.c","src/video/SDL_blit_0.c","src/video/SDL_blit_1.c","src/video/SDL_blit_A.c","src/video/SDL_blit_N.c","src/video/SDL_blit_auto.c","src/video/SDL_blit_copy.c","src/video/SDL_blit_slow.c","src/video/SDL_bmp.c","src/video/SDL_clipboard.c","src/video/SDL_egl.c","src/video/SDL_fillrect.c","src/video/SDL_pixels.c","src/video/SDL_rect.c","src/video/SDL_shape.c","src/video/SDL_stretch.c","src/video/SDL_surface.c","src/video/SDL_video.c","src/video/SDL_vulkan_utils.c","src/video/SDL_yuv.c","src/video/yuv2rgb/yuv_rgb.c","src/joystick/SDL_gamecontroller.c","src/joystick/SDL_joystick.c","src/audio/dummy/SDL_dummyaudio.c","src/audio/disk/SDL_diskaudio.c","src/loadso/dlopen/SDL_sysloadso.c","src/joystick/virtual/SDL_virtualjoystick.c","src/video/dummy/SDL_nullevents.c","src/video/dummy/SDL_nullframebuffer.c","src/video/dummy/SDL_nullvideo.c","src/core/android/SDL_android.c","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures/cpu-features.c","src/misc/android/SDL_sysurl.c","src/audio/android/SDL_androidaudio.c","src/filesystem/android/SDL_sysfilesystem.c","src/haptic/android/SDL_syshaptic.c","src/joystick/hidapi/SDL_hidapi_gamecube.c","src/joystick/hidapi/SDL_hidapi_ps4.c","src/joystick/hidapi/SDL_hidapi_ps5.c","src/joystick/hidapi/SDL_hidapi_rumble.c","src/joystick/hidapi/SDL_hidapi_steam.c","src/joystick/hidapi/SDL_hidapi_switch.c","src/joystick/hidapi/SDL_hidapi_xbox360.c","src/joystick/hidapi/SDL_hidapi_xbox360w.c","src/joystick/hidapi/SDL_hidapi_xboxone.c","src/joystick/hidapi/SDL_hidapijoystick.c","src/joystick/android/SDL_sysjoystick.c","src/joystick/steam/SDL_steamcontroller.c","src/power/android/SDL_syspower.c","src/locale/android/SDL_syslocale.c","src/timer/unix/SDL_systimer.c","src/sensor/android/SDL_androidsensor.c","src/video/android/SDL_androidclipboard.c","src/video/android/SDL_androidevents.c","src/video/android/SDL_androidgl.c","src/video/android/SDL_androidkeyboard.c","src/video/android/SDL_androidmessagebox.c","src/video/android/SDL_androidmouse.c","src/video/android/SDL_androidtouch.c","src/video/android/SDL_androidvideo.c","src/video/android/SDL_androidvulkan.c","src/video/android/SDL_androidwindow.c","src/thread/pthread/SDL_systhread.c","src/thread/pthread/SDL_sysmutex.c","src/thread/pthread/SDL_syscond.c","src/thread/pthread/SDL_systls.c","src/thread/pthread/SDL_syssem.c"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC   -marm","defines":["GL_GLEXT_PROTOTYPES","SDL2_EXPORTS","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/atomic/SDL_spinlock.c"]}],"fullName":"libSDL2.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-lm -ldl -llog -landroid C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhidapi.so -lGLESv1_CM -lGLESv2 -Wl,--no-undefined -llog -latomic -lm","linkerLanguage":"C","name":"SDL2","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H","hidapi_EXPORTS"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"CXX","sources":["src/hidapi/android/hid.cpp"]}],"fullName":"libhidapi.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog -latomic -lm","linkerLanguage":"CXX","name":"hidapi","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"isGenerated":true,"sources":["../../.cxx/cmake/debug/armeabi-v7a/SDL2/CMakeFiles/uninstall","../../.cxx/cmake/debug/armeabi-v7a/SDL2/CMakeFiles/uninstall.rule"]}],"fullName":"uninstall","name":"uninstall","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","type":"UTILITY"},{"artifacts":["C:/Programming/android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src","fileGroups":[{"isGenerated":false,"sources":["Application/Application.h","Application/Window.h","Application/Timestep.h","Application/Events/Event.h","Application/Events/ApplicationEvent.h","Application/Events/KeyEvent.h","Application/Events/MouseEvent.h","Application/Layers/Layer.h","Application/Layers/ApplicationLayer.h","Application/Layers/ImGuiLayer.h","Application/Input/Input.h","Core.h","stb_image.h","Rendering/Renderer.h","Rendering/Framebuffer.h","Rendering/Buffers/VertexBuffer.h","Rendering/Buffers/VertexArray.h","Rendering/Buffers/BufferLayout.h","Rendering/Shaders/Shader.h","Rendering/Camera/OrthographicCamera.h","Rendering/Camera/OrthographicCameraController.h","Rendering/Texture2D/Texture2D.h","Rendering/Texture2D/TextureCache.h","Rendering/Texture2D/TextureLoader.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["main_EXPORTS"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/src/glm/glm/.."},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/../imgui"},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/backends"}],"isGenerated":false,"language":"CXX","sources":["Application/main.cpp","Application/Application.cpp","Application/Window.cpp","Application/Layers/Layer.cpp","Application/Layers/ApplicationLayer.cpp","Application/Layers/ImGuiLayer.cpp","Application/Layers/ApplicationLayer/ImGuiRenderer.cpp","Application/ImGui/ImGuiBuild.cpp","Application/Input/Input.cpp","Rendering/Renderer.cpp","Rendering/Framebuffer.cpp","Rendering/Buffers/VertexBuffer.cpp","Rendering/Buffers/VertexArray.cpp","Rendering/Shaders/Shader.cpp","Rendering/Camera/OrthographicCamera.cpp","Rendering/Camera/OrthographicCameraController.cpp","Rendering/Texture2D/Texture2D.cpp","Rendering/Texture2D/TextureCache.cpp","Rendering/Texture2D/TextureLoader.cpp"]}],"fullName":"libmain.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libSDL2.so -llog -lEGL -lGLESv3 imgui\\libIMGUI.a -latomic -lm","linkerLanguage":"CXX","name":"main","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/glm","name":"glm","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src/glm/glm","type":"INTERFACE_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/imgui/libIMGUI.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/imgui","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/../imgui"},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/backends"}],"isGenerated":false,"language":"CXX","sources":["imgui.cpp","imgui_demo.cpp","imgui_draw.cpp","imgui_tables.cpp","imgui_widgets.cpp","misc/cpp/imgui_stdlib.cpp","backends/imgui_impl_sdl.cpp","backends/imgui_impl_opengl3.cpp"]}],"fullName":"libIMGUI.a","linkerLanguage":"CXX","name":"IMGUI","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src/imgui","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"}]},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src","name":"MY_APP","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src","targets":[{"artifacts":["C:/Programming/android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src","fileGroups":[{"isGenerated":false,"sources":["Application/Application.h","Application/Window.h","Application/Timestep.h","Application/Events/Event.h","Application/Events/ApplicationEvent.h","Application/Events/KeyEvent.h","Application/Events/MouseEvent.h","Application/Layers/Layer.h","Application/Layers/ApplicationLayer.h","Application/Layers/ImGuiLayer.h","Application/Input/Input.h","Core.h","stb_image.h","Rendering/Renderer.h","Rendering/Framebuffer.h","Rendering/Buffers/VertexBuffer.h","Rendering/Buffers/VertexArray.h","Rendering/Buffers/BufferLayout.h","Rendering/Shaders/Shader.h","Rendering/Camera/OrthographicCamera.h","Rendering/Camera/OrthographicCameraController.h","Rendering/Texture2D/Texture2D.h","Rendering/Texture2D/TextureCache.h","Rendering/Texture2D/TextureLoader.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["main_EXPORTS"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/src/glm/glm/.."},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/../imgui"},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/backends"}],"isGenerated":false,"language":"CXX","sources":["Application/main.cpp","Application/Application.cpp","Application/Window.cpp","Application/Layers/Layer.cpp","Application/Layers/ApplicationLayer.cpp","Application/Layers/ImGuiLayer.cpp","Application/Layers/ApplicationLayer/ImGuiRenderer.cpp","Application/ImGui/ImGuiBuild.cpp","Application/Input/Input.cpp","Rendering/Renderer.cpp","Rendering/Framebuffer.cpp","Rendering/Buffers/VertexBuffer.cpp","Rendering/Buffers/VertexArray.cpp","Rendering/Shaders/Shader.cpp","Rendering/Camera/OrthographicCamera.cpp","Rendering/Camera/OrthographicCameraController.cpp","Rendering/Texture2D/Texture2D.cpp","Rendering/Texture2D/TextureCache.cpp","Rendering/Texture2D/TextureLoader.cpp"]}],"fullName":"libmain.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libSDL2.so -llog -lEGL -lGLESv3 imgui\\libIMGUI.a -latomic -lm","linkerLanguage":"CXX","name":"main","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/glm","name":"glm","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src/glm/glm","type":"INTERFACE_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/imgui/libIMGUI.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/imgui","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/../imgui"},{"path":"C:/Programming/android/GameEngine/app/jni/src/imgui/backends"}],"isGenerated":false,"language":"CXX","sources":["imgui.cpp","imgui_demo.cpp","imgui_draw.cpp","imgui_tables.cpp","imgui_widgets.cpp","misc/cpp/imgui_stdlib.cpp","backends/imgui_impl_sdl.cpp","backends/imgui_impl_opengl3.cpp"]}],"fullName":"libIMGUI.a","linkerLanguage":"CXX","name":"IMGUI","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src/imgui","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"}]},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","name":"SDL2","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","targets":[{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info    -marm","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/atomic/SDL_spinlock.c"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info   ","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/SDL.c","src/SDL_assert.c","src/SDL_dataqueue.c","src/SDL_error.c","src/SDL_hints.c","src/SDL_log.c","src/atomic/SDL_atomic.c","src/audio/SDL_audio.c","src/audio/SDL_audiocvt.c","src/audio/SDL_audiodev.c","src/audio/SDL_audiotypecvt.c","src/audio/SDL_mixer.c","src/audio/SDL_wave.c","src/cpuinfo/SDL_cpuinfo.c","src/dynapi/SDL_dynapi.c","src/events/SDL_clipboardevents.c","src/events/SDL_displayevents.c","src/events/SDL_dropevents.c","src/events/SDL_events.c","src/events/SDL_gesture.c","src/events/SDL_keyboard.c","src/events/SDL_mouse.c","src/events/SDL_quit.c","src/events/SDL_touch.c","src/events/SDL_windowevents.c","src/file/SDL_rwops.c","src/haptic/SDL_haptic.c","src/libm/e_atan2.c","src/libm/e_exp.c","src/libm/e_fmod.c","src/libm/e_log.c","src/libm/e_log10.c","src/libm/e_pow.c","src/libm/e_rem_pio2.c","src/libm/e_sqrt.c","src/libm/k_cos.c","src/libm/k_rem_pio2.c","src/libm/k_sin.c","src/libm/k_tan.c","src/libm/s_atan.c","src/libm/s_copysign.c","src/libm/s_cos.c","src/libm/s_fabs.c","src/libm/s_floor.c","src/libm/s_scalbn.c","src/libm/s_sin.c","src/libm/s_tan.c","src/locale/SDL_locale.c","src/misc/SDL_url.c","src/power/SDL_power.c","src/render/SDL_d3dmath.c","src/render/SDL_render.c","src/render/SDL_yuv_sw.c","src/render/direct3d/SDL_render_d3d.c","src/render/direct3d/SDL_shaders_d3d.c","src/render/direct3d11/SDL_render_d3d11.c","src/render/direct3d11/SDL_shaders_d3d11.c","src/render/opengl/SDL_render_gl.c","src/render/opengl/SDL_shaders_gl.c","src/render/opengles/SDL_render_gles.c","src/render/opengles2/SDL_render_gles2.c","src/render/opengles2/SDL_shaders_gles2.c","src/render/psp/SDL_render_psp.c","src/render/software/SDL_blendfillrect.c","src/render/software/SDL_blendline.c","src/render/software/SDL_blendpoint.c","src/render/software/SDL_drawline.c","src/render/software/SDL_drawpoint.c","src/render/software/SDL_render_sw.c","src/render/software/SDL_rotate.c","src/sensor/SDL_sensor.c","src/stdlib/SDL_crc32.c","src/stdlib/SDL_getenv.c","src/stdlib/SDL_iconv.c","src/stdlib/SDL_malloc.c","src/stdlib/SDL_qsort.c","src/stdlib/SDL_stdlib.c","src/stdlib/SDL_string.c","src/stdlib/SDL_strtokr.c","src/thread/SDL_thread.c","src/timer/SDL_timer.c","src/video/SDL_RLEaccel.c","src/video/SDL_blit.c","src/video/SDL_blit_0.c","src/video/SDL_blit_1.c","src/video/SDL_blit_A.c","src/video/SDL_blit_N.c","src/video/SDL_blit_auto.c","src/video/SDL_blit_copy.c","src/video/SDL_blit_slow.c","src/video/SDL_bmp.c","src/video/SDL_clipboard.c","src/video/SDL_egl.c","src/video/SDL_fillrect.c","src/video/SDL_pixels.c","src/video/SDL_rect.c","src/video/SDL_shape.c","src/video/SDL_stretch.c","src/video/SDL_surface.c","src/video/SDL_video.c","src/video/SDL_vulkan_utils.c","src/video/SDL_yuv.c","src/video/yuv2rgb/yuv_rgb.c","src/joystick/SDL_gamecontroller.c","src/joystick/SDL_joystick.c","src/audio/dummy/SDL_dummyaudio.c","src/audio/disk/SDL_diskaudio.c","src/loadso/dlopen/SDL_sysloadso.c","src/joystick/virtual/SDL_virtualjoystick.c","src/video/dummy/SDL_nullevents.c","src/video/dummy/SDL_nullframebuffer.c","src/video/dummy/SDL_nullvideo.c","src/core/android/SDL_android.c","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures/cpu-features.c","src/misc/android/SDL_sysurl.c","src/audio/android/SDL_androidaudio.c","src/filesystem/android/SDL_sysfilesystem.c","src/haptic/android/SDL_syshaptic.c","src/joystick/hidapi/SDL_hidapi_gamecube.c","src/joystick/hidapi/SDL_hidapi_ps4.c","src/joystick/hidapi/SDL_hidapi_ps5.c","src/joystick/hidapi/SDL_hidapi_rumble.c","src/joystick/hidapi/SDL_hidapi_steam.c","src/joystick/hidapi/SDL_hidapi_switch.c","src/joystick/hidapi/SDL_hidapi_xbox360.c","src/joystick/hidapi/SDL_hidapi_xbox360w.c","src/joystick/hidapi/SDL_hidapi_xboxone.c","src/joystick/hidapi/SDL_hidapijoystick.c","src/joystick/android/SDL_sysjoystick.c","src/joystick/steam/SDL_steamcontroller.c","src/power/android/SDL_syspower.c","src/locale/android/SDL_syslocale.c","src/timer/unix/SDL_systimer.c","src/sensor/android/SDL_androidsensor.c","src/video/android/SDL_androidclipboard.c","src/video/android/SDL_androidevents.c","src/video/android/SDL_androidgl.c","src/video/android/SDL_androidkeyboard.c","src/video/android/SDL_androidmessagebox.c","src/video/android/SDL_androidmouse.c","src/video/android/SDL_androidtouch.c","src/video/android/SDL_androidvideo.c","src/video/android/SDL_androidvulkan.c","src/video/android/SDL_androidwindow.c","src/thread/pthread/SDL_systhread.c","src/thread/pthread/SDL_sysmutex.c","src/thread/pthread/SDL_syscond.c","src/thread/pthread/SDL_systls.c","src/thread/pthread/SDL_syssem.c"]}],"fullName":"libSDL2.a","linkerLanguage":"C","name":"SDL2-static","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2main.a"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  ","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/main/android/SDL_android_main.c"]}],"fullName":"libSDL2main.a","linkerLanguage":"C","name":"SDL2main","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  ","defines":["GL_GLEXT_PROTOTYPES","SDL2_EXPORTS","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/SDL.c","src/SDL_assert.c","src/SDL_dataqueue.c","src/SDL_error.c","src/SDL_hints.c","src/SDL_log.c","src/atomic/SDL_atomic.c","src/audio/SDL_audio.c","src/audio/SDL_audiocvt.c","src/audio/SDL_audiodev.c","src/audio/SDL_audiotypecvt.c","src/audio/SDL_mixer.c","src/audio/SDL_wave.c","src/cpuinfo/SDL_cpuinfo.c","src/dynapi/SDL_dynapi.c","src/events/SDL_clipboardevents.c","src/events/SDL_displayevents.c","src/events/SDL_dropevents.c","src/events/SDL_events.c","src/events/SDL_gesture.c","src/events/SDL_keyboard.c","src/events/SDL_mouse.c","src/events/SDL_quit.c","src/events/SDL_touch.c","src/events/SDL_windowevents.c","src/file/SDL_rwops.c","src/haptic/SDL_haptic.c","src/libm/e_atan2.c","src/libm/e_exp.c","src/libm/e_fmod.c","src/libm/e_log.c","src/libm/e_log10.c","src/libm/e_pow.c","src/libm/e_rem_pio2.c","src/libm/e_sqrt.c","src/libm/k_cos.c","src/libm/k_rem_pio2.c","src/libm/k_sin.c","src/libm/k_tan.c","src/libm/s_atan.c","src/libm/s_copysign.c","src/libm/s_cos.c","src/libm/s_fabs.c","src/libm/s_floor.c","src/libm/s_scalbn.c","src/libm/s_sin.c","src/libm/s_tan.c","src/locale/SDL_locale.c","src/misc/SDL_url.c","src/power/SDL_power.c","src/render/SDL_d3dmath.c","src/render/SDL_render.c","src/render/SDL_yuv_sw.c","src/render/direct3d/SDL_render_d3d.c","src/render/direct3d/SDL_shaders_d3d.c","src/render/direct3d11/SDL_render_d3d11.c","src/render/direct3d11/SDL_shaders_d3d11.c","src/render/opengl/SDL_render_gl.c","src/render/opengl/SDL_shaders_gl.c","src/render/opengles/SDL_render_gles.c","src/render/opengles2/SDL_render_gles2.c","src/render/opengles2/SDL_shaders_gles2.c","src/render/psp/SDL_render_psp.c","src/render/software/SDL_blendfillrect.c","src/render/software/SDL_blendline.c","src/render/software/SDL_blendpoint.c","src/render/software/SDL_drawline.c","src/render/software/SDL_drawpoint.c","src/render/software/SDL_render_sw.c","src/render/software/SDL_rotate.c","src/sensor/SDL_sensor.c","src/stdlib/SDL_crc32.c","src/stdlib/SDL_getenv.c","src/stdlib/SDL_iconv.c","src/stdlib/SDL_malloc.c","src/stdlib/SDL_qsort.c","src/stdlib/SDL_stdlib.c","src/stdlib/SDL_string.c","src/stdlib/SDL_strtokr.c","src/thread/SDL_thread.c","src/timer/SDL_timer.c","src/video/SDL_RLEaccel.c","src/video/SDL_blit.c","src/video/SDL_blit_0.c","src/video/SDL_blit_1.c","src/video/SDL_blit_A.c","src/video/SDL_blit_N.c","src/video/SDL_blit_auto.c","src/video/SDL_blit_copy.c","src/video/SDL_blit_slow.c","src/video/SDL_bmp.c","src/video/SDL_clipboard.c","src/video/SDL_egl.c","src/video/SDL_fillrect.c","src/video/SDL_pixels.c","src/video/SDL_rect.c","src/video/SDL_shape.c","src/video/SDL_stretch.c","src/video/SDL_surface.c","src/video/SDL_video.c","src/video/SDL_vulkan_utils.c","src/video/SDL_yuv.c","src/video/yuv2rgb/yuv_rgb.c","src/joystick/SDL_gamecontroller.c","src/joystick/SDL_joystick.c","src/audio/dummy/SDL_dummyaudio.c","src/audio/disk/SDL_diskaudio.c","src/loadso/dlopen/SDL_sysloadso.c","src/joystick/virtual/SDL_virtualjoystick.c","src/video/dummy/SDL_nullevents.c","src/video/dummy/SDL_nullframebuffer.c","src/video/dummy/SDL_nullvideo.c","src/core/android/SDL_android.c","C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures/cpu-features.c","src/misc/android/SDL_sysurl.c","src/audio/android/SDL_androidaudio.c","src/filesystem/android/SDL_sysfilesystem.c","src/haptic/android/SDL_syshaptic.c","src/joystick/hidapi/SDL_hidapi_gamecube.c","src/joystick/hidapi/SDL_hidapi_ps4.c","src/joystick/hidapi/SDL_hidapi_ps5.c","src/joystick/hidapi/SDL_hidapi_rumble.c","src/joystick/hidapi/SDL_hidapi_steam.c","src/joystick/hidapi/SDL_hidapi_switch.c","src/joystick/hidapi/SDL_hidapi_xbox360.c","src/joystick/hidapi/SDL_hidapi_xbox360w.c","src/joystick/hidapi/SDL_hidapi_xboxone.c","src/joystick/hidapi/SDL_hidapijoystick.c","src/joystick/android/SDL_sysjoystick.c","src/joystick/steam/SDL_steamcontroller.c","src/power/android/SDL_syspower.c","src/locale/android/SDL_syslocale.c","src/timer/unix/SDL_systimer.c","src/sensor/android/SDL_androidsensor.c","src/video/android/SDL_androidclipboard.c","src/video/android/SDL_androidevents.c","src/video/android/SDL_androidgl.c","src/video/android/SDL_androidkeyboard.c","src/video/android/SDL_androidmessagebox.c","src/video/android/SDL_androidmouse.c","src/video/android/SDL_androidtouch.c","src/video/android/SDL_androidvideo.c","src/video/android/SDL_androidvulkan.c","src/video/android/SDL_androidwindow.c","src/thread/pthread/SDL_systhread.c","src/thread/pthread/SDL_sysmutex.c","src/thread/pthread/SDL_syscond.c","src/thread/pthread/SDL_systls.c","src/thread/pthread/SDL_syssem.c"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -idirafter \"C:/Programming/android/GameEngine/app/jni/SDL2/src/video/khronos\"  \"-IC:/Programming/android/GameEngine/app/jni/SDL2/src/hidapi/hidapi\" -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC   -marm","defines":["GL_GLEXT_PROTOTYPES","SDL2_EXPORTS","USING_GENERATED_CONFIG_H"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"C","sources":["src/atomic/SDL_spinlock.c"]}],"fullName":"libSDL2.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-lm -ldl -llog -landroid C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhidapi.so -lGLESv1_CM -lGLESv2 -Wl,--no-undefined -llog -latomic -lm","linkerLanguage":"C","name":"SDL2","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["C:/Programming/android/GameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so"],"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["GL_GLEXT_PROTOTYPES","USING_GENERATED_CONFIG_H","hidapi_EXPORTS"],"includePath":[{"path":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures"},{"path":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/include"},{"path":"C:/Programming/android/GameEngine/app/jni/SDL2/include"}],"isGenerated":false,"language":"CXX","sources":["src/hidapi/android/hid.cpp"]}],"fullName":"libhidapi.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog -latomic -lm","linkerLanguage":"CXX","name":"hidapi","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","sysroot":"C:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2","fileGroups":[{"isGenerated":true,"sources":["../../.cxx/cmake/debug/armeabi-v7a/SDL2/CMakeFiles/uninstall","../../.cxx/cmake/debug/armeabi-v7a/SDL2/CMakeFiles/uninstall.rule"]}],"fullName":"uninstall","name":"uninstall","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/SDL2","type":"UTILITY"}]},{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm","name":"glm","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src/glm","targets":[{"buildDirectory":"C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/glm","name":"glm","sourceDirectory":"C:/Programming/android/GameEngine/app/jni/src/glm/glm","type":"INTERFACE_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 

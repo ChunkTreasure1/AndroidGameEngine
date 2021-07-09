@@ -1,7 +1,7 @@
                     Executable : C:\Users\xXRag\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HC:\Programming\Android\GameEngine\app
--DCMAKE_FIND_ROOT_PATH=C:\Programming\Android\GameEngine\app\.cxx\cmake\debug\prefab\armeabi-v7a\prefab
+-HC:\Programming\android\GameEngine\app\jni
+-DCMAKE_FIND_ROOT_PATH=C:\Programming\android\GameEngine\app\.cxx\cmake\debug\prefab\armeabi-v7a\prefab
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=C:\Users\xXRag\AppData\Local\Android\Sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=armeabi-v7a
@@ -10,12 +10,14 @@ arguments :
 -DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
 -DCMAKE_ANDROID_NDK=C:\Users\xXRag\AppData\Local\Android\Sdk\ndk\21.4.7075529
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Programming\Android\GameEngine\app\build\intermediates\cmake\debug\obj\armeabi-v7a
--DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Programming\Android\GameEngine\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Programming\android\GameEngine\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Programming\android\GameEngine\app\build\intermediates\cmake\debug\obj\armeabi-v7a
 -DCMAKE_MAKE_PROGRAM=C:\Users\xXRag\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=28
--BC:\Programming\Android\GameEngine\app\.cxx\cmake\debug\armeabi-v7a
+-DANDROID_APP_PLATFORM=android-28
+-DANDROID_STL=c++_static
+-BC:\Programming\android\GameEngine\app\.cxx\cmake\debug\armeabi-v7a
 -GNinja
 jvmArgs : 
 

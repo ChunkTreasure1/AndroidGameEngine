@@ -1,0 +1,14 @@
+Android NDK: WARNING: Unsupported source file extensions in C:/Programming/android/GameEngine/app/jni/SDL2_mixer/external/mpg123-1.25.6/Android.mk for module mpg123    
+Android NDK:   src/libmpg123/icy.h src/libmpg123/icy2utf8.h src/libmpg123/synth.h src/libmpg123/synth_8bit.h src/libmpg123/dither.h    
+make: Nothing to be done for 'SDL2'.
+make: Nothing to be done for 'SDL2_image'.
+make: Nothing to be done for 'SDL2_mixer'.
+make: Nothing to be done for 'hidapi'.
+[x86_64] Compile++      : main <= main.cpp
+[x86_64] Compile++      : main <= Application.cpp
+[x86_64] Compile++      : main <= Window.cpp
+[x86_64] Compile++      : main <= Renderer.cpp
+[x86_64] Compile++      : main <= VertexBuffer.cpp
+[x86_64] Compile++      : main <= VertexArray.cpp
+[x86_64] SharedLibrary  : libmain.so
+make: Nothing to be done for 'mpg123'.

@@ -1,0 +1,6 @@
+make: Nothing to be done for 'SDL2'.
+make: Nothing to be done for 'SDL2_image'.
+make: Nothing to be done for 'SDL2_mixer'.
+make: Nothing to be done for 'hidapi'.
+make: Nothing to be done for 'main'.
+make: Nothing to be done for 'mpg123'.

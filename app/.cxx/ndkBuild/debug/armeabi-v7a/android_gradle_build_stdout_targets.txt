@@ -1,0 +1,8 @@
+make: Nothing to be done for 'SDL2'.
+make: Nothing to be done for 'SDL2_image'.
+make: Nothing to be done for 'SDL2_mixer'.
+make: Nothing to be done for 'hidapi'.
+[armeabi-v7a] Compile++ thumb: main <= VertexBuffer.cpp
+[armeabi-v7a] Compile++ thumb: main <= VertexArray.cpp
+[armeabi-v7a] SharedLibrary  : libmain.so
+make: Nothing to be done for 'mpg123'.

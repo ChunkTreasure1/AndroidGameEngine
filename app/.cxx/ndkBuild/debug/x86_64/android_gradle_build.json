@@ -1,0 +1,371 @@
+{
+  "buildFiles": [
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+      "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+      "APP_ABI\u003dx86_64",
+      "NDK_ALL_ABIS\u003dx86_64",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-28",
+      "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+      "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+      "APP_PLATFORM\u003dandroid-28",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+    "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+    "APP_ABI\u003dx86_64",
+    "NDK_ALL_ABIS\u003dx86_64",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-28",
+    "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+    "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "APP_PLATFORM\u003dandroid-28",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "main-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libmain.so"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "main",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libmain.so"
+    },
+    "vorbisidec-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libvorbisidec.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "vorbisidec",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libvorbisidec.a"
+    },
+    "timidity-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libtimidity.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "timidity",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libtimidity.a"
+    },
+    "hidapi-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libhidapi.so"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "hidapi",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libhidapi.so"
+    },
+    "jpeg-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libjpeg.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "jpeg",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libjpeg.a"
+    },
+    "png-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libpng.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "png",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libpng.a"
+    },
+    "SDL2_mixer-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libSDL2_mixer.so"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "SDL2_mixer",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libSDL2_mixer.so"
+    },
+    "webp-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libwebp.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "webp",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libwebp.a"
+    },
+    "modplug-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libmodplug.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "modplug",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libmodplug.a"
+    },
+    "ogg-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libogg.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "ogg",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libogg.a"
+    },
+    "SDL2-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libSDL2.so"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "SDL2",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libSDL2.so"
+    },
+    "cpufeatures-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libcpufeatures.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "cpufeatures",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libcpufeatures.a"
+    },
+    "webpdecoder_static-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libwebpdecoder_static.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "webpdecoder_static",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libwebpdecoder_static.a"
+    },
+    "FLAC-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libFLAC.a"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "FLAC",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libFLAC.a"
+    },
+    "SDL2_image-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libSDL2_image.so"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "SDL2_image",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libSDL2_image.so"
+    },
+    "mpg123-debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Programming\\android\\GameEngine\\app\\jni\\Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-28",
+        "NDK_OUT\u003dC:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj",
+        "NDK_LIBS_OUT\u003dC:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+        "APP_PLATFORM\u003dandroid-28",
+        "C:/Programming/android/GameEngine/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libmpg123.so"
+      ],
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "mpg123",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libmpg123.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "S",
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

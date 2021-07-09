@@ -1,0 +1,15 @@
+# sdl pkg-config source file
+
+prefix=C:/Program Files (x86)/GAME
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: sdl2
+Description: Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.
+Version: 2.0.14
+Requires:
+Conflicts:
+Libs: -L${libdir}  -lSDL2  
+Libs.private: -lC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/libGLESv2.so -lC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/libGLESv1_CM.so -lhidapi -lC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/libandroid.so -lC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so -lC:/Users/xXRag/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/24/libdl.so -lm  -Wl,--no-undefined 
+Cflags: -I${includedir}/SDL2  

@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
-  "cxxBuildFolder": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
-  "abiPlatformVersion": 28,
+  "originalCxxBuildFolder": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+  "cxxBuildFolder": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+  "abiPlatformVersion": 24,
   "cmake": {
-    "cmakeWrappingBaseFolder": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cxx\\debug\\x86",
-    "cmakeArtifactsBaseFolder": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+    "cmakeWrappingBaseFolder": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cxx\\debug\\x86",
+    "cmakeArtifactsBaseFolder": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,13 +19,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+      "buildRoot": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
       "cmakeToolchain": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
+          "value": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -45,7 +45,7 @@
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-28"
+          "value": "android-24"
         },
         {
           "name": "CMAKE_ANDROID_ARCH_ABI",
@@ -61,11 +61,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
+          "value": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
+          "value": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -77,19 +77,30 @@
         },
         {
           "name": "CMAKE_SYSTEM_VERSION",
-          "value": "28"
+          "value": "24"
+        },
+        {
+          "name": "ANDROID_APP_PLATFORM",
+          "value": "android-25"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_static"
         }
       ]
     },
-    "cmakeServerLogFile": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt"
+    "cmakeServerLogFile": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt"
   },
   "variant": {
-    "buildSystemArgumentList": [],
+    "buildSystemArgumentList": [
+      "-DANDROID_APP_PLATFORM\u003dandroid-25",
+      "-DANDROID_STL\u003dc++_static"
+    ],
     "cFlagsList": [],
     "cppFlagsList": [],
     "variantName": "debug",
-    "objFolder": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj",
-    "soFolder": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\lib",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "X86"
@@ -98,13 +109,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "C:\\Programming\\Android\\GameEngine\\app\\.cxx",
+      "cxxFolder": "C:\\Programming\\android\\GameEngine\\app\\.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates",
+      "intermediatesFolder": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "C:\\Programming\\Android\\GameEngine\\app",
-      "moduleBuildFile": "C:\\Programming\\Android\\GameEngine\\app\\build.gradle",
-      "makeFile": "C:\\Programming\\Android\\GameEngine\\app\\CMakeLists.txt",
+      "moduleRootFolder": "C:\\Programming\\android\\GameEngine\\app",
+      "moduleBuildFile": "C:\\Programming\\android\\GameEngine\\app\\build.gradle",
+      "makeFile": "C:\\Programming\\android\\GameEngine\\app\\jni\\CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529",
       "ndkVersion": "21.4.7075529",
@@ -190,9 +201,9 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "C:\\Programming\\Android\\GameEngine",
-        "cxxFolder": "C:\\Programming\\Android\\GameEngine\\.cxx",
-        "compilerSettingsCacheFolder": "C:\\Programming\\Android\\GameEngine\\.cxx",
+        "rootBuildGradleFolder": "C:\\Programming\\android\\GameEngine",
+        "cxxFolder": "C:\\Programming\\android\\GameEngine\\.cxx",
+        "compilerSettingsCacheFolder": "C:\\Programming\\android\\GameEngine\\.cxx",
         "sdkFolder": "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
@@ -203,10 +214,10 @@
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab"
+    "prefabDirectory": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab\\x86"
+  "prefabFolder": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\prefab\\x86"
 }

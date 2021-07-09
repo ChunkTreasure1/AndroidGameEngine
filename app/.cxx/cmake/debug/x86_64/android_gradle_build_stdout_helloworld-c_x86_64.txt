@@ -1,3 +1,0 @@
-ninja: Entering directory `C:\Programming\Android\GameEngine\app\.cxx\cmake\debug\x86_64'
-[1/2] Building CXX object CMakeFiles/helloworld-c.dir/src/main/cpp/main/EntryPoint.cpp.o
-[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86_64\libhelloworld-c.so

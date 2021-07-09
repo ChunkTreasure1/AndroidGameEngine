@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Programming\android\GameEngine\app\.cxx\cmake\debug\x86'
+ninja: no work to do.

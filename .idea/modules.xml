@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GameEngine.iml" filepath="$PROJECT_DIR$/.idea/modules/GameEngine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GameEngine.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GameEngine.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestProject.iml" filepath="$PROJECT_DIR$/.idea/modules/TestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestProject.app.iml" />
     </modules>
   </component>
 </project>

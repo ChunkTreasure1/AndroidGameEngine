@@ -1,0 +1,12 @@
+[x86] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/x86/
+make: Nothing to be done for 'SDL2_image'.
+make: Nothing to be done for 'SDL2_mixer'.
+make: Nothing to be done for 'hidapi'.
+[x86] Compile++      : main <= main.cpp
+[x86] Compile++      : main <= Application.cpp
+[x86] Compile++      : main <= Window.cpp
+[x86] Compile++      : main <= Renderer.cpp
+[x86] Compile++      : main <= VertexBuffer.cpp
+[x86] Compile++      : main <= VertexArray.cpp
+[x86] SharedLibrary  : libmain.so
+make: Nothing to be done for 'mpg123'.

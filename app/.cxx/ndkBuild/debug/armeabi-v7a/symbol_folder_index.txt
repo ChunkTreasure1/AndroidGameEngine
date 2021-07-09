@@ -1,0 +1,1 @@
+C:\Programming\android\GameEngine\app\build\intermediates\ndkBuild\debug\obj\local\armeabi-v7a

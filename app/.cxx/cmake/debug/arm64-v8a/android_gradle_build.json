@@ -1,47 +1,129 @@
 {
   "stringTable": {},
   "buildFiles": [
-    "C:\\Programming\\Android\\GameEngine\\app\\CMakeLists.txt"
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\SDL2\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\glm\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\imgui\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\glm\\glm\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
       "-C",
-      "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+      "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
     "-C",
-    "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+    "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "native_app_glue-Debug-arm64-v8a": {
+    "hidapi-Debug-arm64-v8a": {
       "buildCommandComponents": [
         "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
         "-C",
-        "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
-        "native_app_glue"
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "hidapi"
       ],
       "buildType": "debug",
       "abi": "arm64-v8a",
-      "artifactName": "native_app_glue",
-      "output": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\libnative_app_glue.a"
+      "artifactName": "hidapi",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libhidapi.so",
+      "runtimeFiles": []
+    },
+    "SDL2-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "SDL2"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libSDL2.so",
+      "runtimeFiles": [
+        "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libhidapi.so"
+      ]
+    },
+    "uninstall-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "uninstall"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "uninstall"
+    },
+    "SDL2main-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "SDL2main"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2main",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\SDL2\\libSDL2main.a"
+    },
+    "cpufeatures-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "cpufeatures"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "cpufeatures",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\libcpufeatures.a"
+    },
+    "SDL2-static-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "SDL2-static"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL2-static",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\SDL2\\libSDL2.a"
     },
     "main-Debug-arm64-v8a": {
       "buildCommandComponents": [
         "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
         "-C",
-        "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
         "main"
       ],
       "buildType": "debug",
       "abi": "arm64-v8a",
       "artifactName": "main",
-      "output": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libmain.so",
-      "runtimeFiles": []
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libmain.so",
+      "runtimeFiles": [
+        "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libSDL2.so"
+      ]
+    },
+    "IMGUI-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "IMGUI"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "IMGUI",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\src\\imgui\\libIMGUI.a"
     }
   },
   "toolchains": {},

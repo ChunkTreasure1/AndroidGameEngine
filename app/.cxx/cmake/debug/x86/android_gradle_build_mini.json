@@ -1,32 +1,74 @@
 {
   "buildFiles": [
-    "C:\\Programming\\Android\\GameEngine\\app\\CMakeLists.txt"
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\SDL2\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\glm\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\imgui\\CMakeLists.txt",
+    "C:\\Programming\\android\\GameEngine\\app\\jni\\src\\glm\\glm\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
       "-C",
-      "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+      "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
     "-C",
-    "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+    "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "native_app_glue-Debug-x86": {
-      "artifactName": "native_app_glue",
+    "SDL2-Debug-x86": {
+      "artifactName": "SDL2",
       "buildCommandComponents": [
         "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
         "-C",
-        "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
-        "native_app_glue"
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "SDL2"
       ],
       "abi": "x86",
-      "output": "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\libnative_app_glue.a",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libSDL2.so",
+      "runtimeFiles": [
+        "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libhidapi.so"
+      ]
+    },
+    "hidapi-Debug-x86": {
+      "artifactName": "hidapi",
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "hidapi"
+      ],
+      "abi": "x86",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libhidapi.so",
+      "runtimeFiles": []
+    },
+    "uninstall-Debug-x86": {
+      "artifactName": "uninstall",
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "uninstall"
+      ],
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "SDL2-static-Debug-x86": {
+      "artifactName": "SDL2-static",
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "SDL2-static"
+      ],
+      "abi": "x86",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\SDL2\\libSDL2.a",
       "runtimeFiles": []
     },
     "main-Debug-x86": {
@@ -34,11 +76,49 @@
       "buildCommandComponents": [
         "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
         "-C",
-        "C:\\Programming\\Android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
         "main"
       ],
       "abi": "x86",
-      "output": "C:\\Programming\\Android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libmain.so",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libmain.so",
+      "runtimeFiles": [
+        "C:\\Programming\\android\\GameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libSDL2.so"
+      ]
+    },
+    "SDL2main-Debug-x86": {
+      "artifactName": "SDL2main",
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "SDL2main"
+      ],
+      "abi": "x86",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\SDL2\\libSDL2main.a",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-x86": {
+      "artifactName": "cpufeatures",
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "cpufeatures"
+      ],
+      "abi": "x86",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "IMGUI-Debug-x86": {
+      "artifactName": "IMGUI",
+      "buildCommandComponents": [
+        "C:\\Users\\xXRag\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86",
+        "IMGUI"
+      ],
+      "abi": "x86",
+      "output": "C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\x86\\src\\imgui\\libIMGUI.a",
       "runtimeFiles": []
     }
   }

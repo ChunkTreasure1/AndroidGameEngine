@@ -1,23 +1,23 @@
-                    Executable : C:\Users\xXRag\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+                    Executable : C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HC:\Programming\android\GameEngine\app\jni
--DCMAKE_FIND_ROOT_PATH=C:\Programming\android\GameEngine\app\.cxx\cmake\debug\prefab\x86_64\prefab
+-HD:\Programming\AndroidGameEngine\app\jni
+-DCMAKE_FIND_ROOT_PATH=D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\prefab\x86_64\prefab
 -DCMAKE_BUILD_TYPE=Debug
--DCMAKE_TOOLCHAIN_FILE=C:\Users\xXRag\AppData\Local\Android\Sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\ivar\AppData\Local\Android\Sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=x86_64
--DANDROID_NDK=C:\Users\xXRag\AppData\Local\Android\Sdk\ndk\21.4.7075529
--DANDROID_PLATFORM=android-28
+-DANDROID_NDK=C:\Users\ivar\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DANDROID_PLATFORM=android-24
 -DCMAKE_ANDROID_ARCH_ABI=x86_64
--DCMAKE_ANDROID_NDK=C:\Users\xXRag\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=C:\Users\ivar\AppData\Local\Android\Sdk\ndk\21.4.7075529
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Programming\android\GameEngine\app\build\intermediates\cmake\debug\obj\x86_64
--DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Programming\android\GameEngine\app\build\intermediates\cmake\debug\obj\x86_64
--DCMAKE_MAKE_PROGRAM=C:\Users\xXRag\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_MAKE_PROGRAM=C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 -DCMAKE_SYSTEM_NAME=Android
--DCMAKE_SYSTEM_VERSION=28
--DANDROID_APP_PLATFORM=android-28
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_APP_PLATFORM=android-25
 -DANDROID_STL=c++_static
--BC:\Programming\android\GameEngine\app\.cxx\cmake\debug\x86_64
+-BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\x86_64
 -GNinja
 jvmArgs : 
 

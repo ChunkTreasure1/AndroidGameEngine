@@ -7,6 +7,7 @@
 
 #include "Event.h"
 #include <sstream>
+#include <Application/Timestep.h>
 
 class WindowResizeEvent : public Event
 {

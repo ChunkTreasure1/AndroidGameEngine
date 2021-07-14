@@ -4,10 +4,12 @@
 
 #include "Shader.h"
 #include "../../Core.h"
+#include "../../Application/Filesystem/Filesystem.h"
 
 #include <fstream>
 #include <GLES3/gl3.h>
 #include <glm/gtc/type_ptr.inl>
+#include <vector>
 
 Shader::Shader(const std::string &vPath, const std::string &fPath, bool isCode)
     : m_id(0)
@@ -17,35 +19,29 @@ Shader::Shader(const std::string &vPath, const std::string &fPath, bool isCode)
 
     if (!isCode)
     {
-        //Read fragment shader
-        std::ifstream fFile(fPath);
-        if (fFile.fail())
-        {
-            LOGE("Failed to open: %s", fPath.c_str());
-        }
+        //Vertex file
+        AAsset* pFile = Filesystem::Open(vPath);
+        uint32_t size = Filesystem::GetLength(pFile);
 
-        std::string line;
+        std::vector<char> vShader;
+        vShader.resize(size);
 
-        while (std::getline(fFile, line))
-        {
-            fCode += line + "\n";
-        }
+        Filesystem::Read(pFile, static_cast<void*>(vShader.data()), size);
+        Filesystem::Close(pFile);
 
-        fFile.close();
+        //Fragment file
+        pFile = Filesystem::Open(fPath);
+        size = Filesystem::GetLength(pFile);
 
-        //Read vertex shader
-        std::ifstream vFile(vPath);
-        if (vFile.fail())
-        {
-            LOGE("Failed to open: %s", vPath.c_str());
-        }
+        std::vector<char> fShader;
+        fShader.resize(size);
 
-        while (std::getline(vFile, line))
-        {
-            vCode += line + "\n";
-        }
+        Filesystem::Read(pFile, static_cast<void*>(fShader.data()), size);
+        Filesystem::Close(pFile);
 
-        vFile.close();
+        //Set code
+        vCode = vShader.data();
+        fCode = fShader.data();
     }
     else
     {

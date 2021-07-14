@@ -1,22 +1,22 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 28 min SDK version: arm64-v8a",
-    "file": "C:\\Programming\\android\\GameEngine\\app\\jni\\CMakeLists.txt",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027C:\\Programming\\android\\GameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
-    "file": "C:\\Programming\\android\\GameEngine\\app\\jni\\CMakeLists.txt",
+    "message": "JSON \u0027D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "C:\\Programming\\android\\GameEngine\\app\\jni\\CMakeLists.txt",
+    "file": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   }

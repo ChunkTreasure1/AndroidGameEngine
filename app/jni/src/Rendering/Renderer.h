@@ -23,7 +23,7 @@ public:
     static void DrawQuad(const glm::mat4& tm, const glm::vec4& color);
     static void DrawQuad(const glm::mat4& tm, const std::shared_ptr<Texture2D>& texture, const glm::vec4& color);
     static void DrawQuad(const glm::vec3& pos, const glm::vec2& scale, const glm::vec4& color);
-
+    static void DrawQuad(const glm::vec3& pos, const std::shared_ptr<Texture2D>& texture, const glm::vec4& color);
 
     static void Render();
     static void Clear();

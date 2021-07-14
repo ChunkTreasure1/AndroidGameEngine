@@ -15,6 +15,7 @@ ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     Renderer::Initialize();
 
     m_viewportBuffer = Framebuffer::Create(1280, 720);
+    m_testTexture = Texture2D::Create("Agent.png");
 }
 
 ApplicationLayer::~ApplicationLayer()
@@ -39,25 +40,25 @@ void ApplicationLayer::OnImGuiRender(Timestep ts)
 void ApplicationLayer::OnEvent(Event &e)
 {
     EventDispatcher dispatcher(e);
-    dispatcher.Dispatch<AppRenderEvent>(LP_BIND_EVENT_FN(ApplicationLayer::OnRender));
     dispatcher.Dispatch<AppUpdateEvent>(LP_BIND_EVENT_FN(ApplicationLayer::OnUpdate));
 }
 
 bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
 {
+    /////Update/////
     m_cameraController.Update(e.GetTimestep());
-    return false;
-}
 
-bool ApplicationLayer::OnRender(AppRenderEvent &e)
-{
+    /////Render/////
     Renderer::Clear();
     m_viewportBuffer->Bind();
     Renderer::Clear();
 
     Renderer::Begin(m_cameraController.GetCamera());
 
-    Renderer::DrawQuad({ 0.f, 0.f, 0.f }, { 2.f, 2.f }, { 0.f, 1.f, 0.f, 1.f });
+    //Send render event
+    AppRenderEvent render;
+
+    Renderer::DrawQuad({0.f, 0.f, 0.f}, m_testTexture, {1.f, 1.f, 1.f, 1.f});
 
     Renderer::End();
     m_viewportBuffer->Unbind();

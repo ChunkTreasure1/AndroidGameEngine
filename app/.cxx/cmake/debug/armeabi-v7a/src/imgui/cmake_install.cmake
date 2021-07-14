@@ -1,4 +1,4 @@
-# Install script for directory: C:/Programming/android/GameEngine/app/jni/src/imgui
+# Install script for directory: D:/Programming/AndroidGameEngine/app/jni/src/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

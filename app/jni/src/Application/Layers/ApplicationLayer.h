@@ -6,8 +6,8 @@
 #define TESTPROJECT_APPLICATIONLAYER_H
 
 #include "Layer.h"
-#include "../Rendering/Camera/OrthographicCameraController.h"
-#include "../../Rendering/Framebuffer.h"
+#include <Rendering/Camera/OrthographicCameraController.h>
+#include <Rendering/Framebuffer.h>
 
 #include <imgui.h>
 
@@ -29,14 +29,15 @@ private:
 
 private:
     bool OnUpdate(AppUpdateEvent& e);
-    bool OnRender(AppRenderEvent& e);
 
 private:
-    Renderer* m_pRenderer = nullptr;
     OrthographicCameraController m_cameraController;
 
     std::shared_ptr<Framebuffer> m_viewportBuffer;
     ImVec2 m_lastPerspectiveSize = { 0.f, 0.f };
+
+    /////Testing/////
+    std::shared_ptr<Texture2D> m_testTexture;
 };
 
 

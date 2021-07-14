@@ -1,7 +1,7 @@
-Executable : C:\Users\xXRag\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+Executable : C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-C:\Programming\android\GameEngine\app\.cxx\cmake\debug\armeabi-v7a
+D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a
 SDL2
 hidapi
 main

@@ -57,9 +57,6 @@ void Application::Run()
         Timestep timestep = time - m_lastTimeFrame;
         m_lastTimeFrame = time;
 
-        AppRenderEvent render;
-        OnEvent(render);
-
         AppUpdateEvent update(timestep);
         OnEvent(update);
 

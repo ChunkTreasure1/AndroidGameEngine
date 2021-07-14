@@ -5,11 +5,11 @@
 #ifndef TESTPROJECT_ORTHOGRAPHICCAMERACONTROLLER_H
 #define TESTPROJECT_ORTHOGRAPHICCAMERACONTROLLER_H
 
-#include "../../Application/Timestep.h"
-#include "../../Application/Events/Event.h"
+#include <Application/Timestep.h>
+#include <Application/Events/Event.h>
 
 #include "OrthographicCamera.h"
-#include "../../Application/Events/KeyEvent.h"
+#include <Application/Events/KeyEvent.h>
 #include <glm/glm.hpp>
 
 class OrthographicCameraController

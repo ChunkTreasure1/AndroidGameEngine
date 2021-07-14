@@ -92,48 +92,6 @@ void Renderer::Initialize()
     delete[] pQuadIndices;
     //////////////
 
-    //Vertex shader
-    const char* vertexShaderSource = "#version 310 es\n"
-                                     "\n"
-                                     "layout(location = 0) in vec3 a_position;\n"
-                                     "layout(location = 1) in vec4 a_color;\n"
-                                     "layout(location = 2) in vec2 a_texCoord;\n"
-                                     "layout(location = 3) in float a_texIndex;\n"
-                                     "\n"
-                                     "uniform mat4 u_viewProjection;\n"
-                                     "\n"
-                                     "out vec2 v_texCoord;\n"
-                                     "out vec4 v_color;\n"
-                                     "out float v_texIndex;\n"
-                                     "\n"
-                                     "void main()\n"
-                                     "{\n"
-                                     "    v_texCoord = a_texCoord;\n"
-                                     "    v_color = a_color;\n"
-                                     "    v_texIndex = a_texIndex;\n"
-                                     "\n"
-                                     "    gl_Position = u_viewProjection * vec4(a_position, 1.0f);\n"
-                                     "}";
-
-    //Fragment shader
-    const char* fragmentSource = "#version 310 es\n"
-                                 "#extension GL_EXT_gpu_shader5 : require\n"
-                                 "precision mediump float;\n"
-                                 "layout(location = 0) out vec4 o_color;\n"
-                                 "\n"
-                                 "in vec2 v_texCoord;\n"
-                                 "in vec4 v_color;\n"
-                                 "in float v_texIndex;\n"
-                                 "\n"
-                                 "uniform sampler2D u_textures[5];\n"
-                                 "\n"
-                                 "void main()\n"
-                                 "{\n"
-                                 "    o_color = v_color;\n"
-                                 "}";
-
-    glClearColor(0.1f, 0.1f, 0.1f, 1.f);
-
     /////Texture/////
     s_pData->WhiteTexture = Texture2D::Create(1, 1);
     uint32_t whiteTextureData = 0xffffffff;
@@ -145,12 +103,14 @@ void Renderer::Initialize()
         samplers[i] = i;
     }
 
-    s_pData->QuadShader = Shader::Create(vertexShaderSource, fragmentSource, true);
+    s_pData->QuadShader = Shader::Create("quad_vert.glsl", "quad_frag.glsl");
     s_pData->QuadShader->Bind();
     s_pData->QuadShader->UploadIntArray("u_textures", samplers, 5);
 
     s_pData->TextureSlots[0] = s_pData->WhiteTexture;
     /////////////////
+
+    glClearColor(0.1f, 0.1f, 0.1f, 1.f);
 }
 
 void Renderer::Shutdown()
@@ -330,9 +290,61 @@ void Renderer::DrawQuad(const glm::vec3 &pos, const glm::vec2 &scale, const glm:
     s_pData->QuadIndexCount += 6;
 }
 
+void Renderer::DrawQuad(const glm::vec3 &pos, const std::shared_ptr<Texture2D> &texture, const glm::vec4 &color)
+{
+    if (s_pData->QuadIndexCount >= RendererStorage::MaxIndices)
+    {
+        StartNewBatch();
+    }
+
+    float textureIndex = 0.f;
+    for (uint32_t i = 0; i < s_pData->TextureSlotIndex; ++i)
+    {
+        if (*s_pData->TextureSlots[i].get() == *texture.get())
+        {
+            textureIndex = (float)i;
+            break;
+        }
+    }
+
+    glm::mat4 tm = glm::translate(glm::mat4(1.f), pos);
+
+    if (textureIndex == 0.f)
+    {
+        textureIndex = (float)s_pData->TextureSlotIndex;
+        s_pData->TextureSlots[s_pData->TextureSlotIndex] = texture;
+        s_pData->TextureSlotIndex++;
+    }
+
+    s_pData->QuadVertexBufferPtr->Position = tm * s_pData->QuadVertexPositions[0];
+    s_pData->QuadVertexBufferPtr->Color = color;
+    s_pData->QuadVertexBufferPtr->TexCoord = { 0.f, 0.f };
+    s_pData->QuadVertexBufferPtr->TexIndex = textureIndex;
+    s_pData->QuadVertexBufferPtr++;
+
+    s_pData->QuadVertexBufferPtr->Position = tm * s_pData->QuadVertexPositions[1];
+    s_pData->QuadVertexBufferPtr->Color = color;
+    s_pData->QuadVertexBufferPtr->TexCoord = { 1.f, 0.f };
+    s_pData->QuadVertexBufferPtr->TexIndex = textureIndex;
+    s_pData->QuadVertexBufferPtr++;
+
+    s_pData->QuadVertexBufferPtr->Position = tm * s_pData->QuadVertexPositions[2];
+    s_pData->QuadVertexBufferPtr->Color = color;
+    s_pData->QuadVertexBufferPtr->TexCoord = { 1.f, 1.f };
+    s_pData->QuadVertexBufferPtr->TexIndex = textureIndex;
+    s_pData->QuadVertexBufferPtr++;
+
+    s_pData->QuadVertexBufferPtr->Position = tm * s_pData->QuadVertexPositions[3];
+    s_pData->QuadVertexBufferPtr->Color = color;
+    s_pData->QuadVertexBufferPtr->TexCoord = { 0.f, 1.f };
+    s_pData->QuadVertexBufferPtr->TexIndex = textureIndex;
+    s_pData->QuadVertexBufferPtr++;
+
+    s_pData->QuadIndexCount += 6;
+}
+
 void Renderer::Render()
 {
-
     s_pData->QuadShader->Bind();
     s_pData->QuadVertexArray->Bind();
 

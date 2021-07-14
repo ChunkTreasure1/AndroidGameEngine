@@ -4,6 +4,7 @@ project(MY_APP)
 
 find_library(SDL2 SDL2)
 find_library(log-lib log)
+find_library(android-lib android)
 
 add_library(main SHARED)
 add_subdirectory(glm)
@@ -30,6 +31,8 @@ target_sources(main PRIVATE
             Application/ImGui/ImGuiBuild.cpp
 			Application/Input/Input.cpp
 			Application/Input/Input.h
+			Application/Filesystem/Filesystem.cpp
+			Application/Filesystem/Filesystem.h
 			Core.h
 			stb_image.h
             Rendering/Renderer.cpp
@@ -53,11 +56,17 @@ target_sources(main PRIVATE
 			Rendering/Texture2D/TextureCache.h
 			Rendering/Texture2D/TextureLoader.cpp
 			Rendering/Texture2D/TextureLoader.h
+			Objects/Object.cpp
+			Objects/Object.h
 )
+
+target_include_directories(main PUBLIC
+		./)
 
 target_link_libraries(main
 		SDL2
 		${log-lib}
+		${android-lib}
 		EGL
 		GLESv3
 		glm

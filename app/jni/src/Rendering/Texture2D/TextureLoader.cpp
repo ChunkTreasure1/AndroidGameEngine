@@ -5,10 +5,12 @@
 #include "TextureLoader.h"
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "../../stb_image.h"
+#include <stb_image.h>
 #include <GLES3/gl3.h>
 #include <string>
-#include "../../Core.h"
+#include <android/asset_manager.h>
+#include <Application/Filesystem/Filesystem.h>
+#include <Core.h>
 
 std::tuple<uint32_t, uint32_t, uint32_t> TextureLoader::LoadTexture(const std::string &path)
 {
@@ -26,9 +28,19 @@ std::tuple<uint32_t, uint32_t, uint32_t> TextureLoader::LoadTexture(const std::s
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
+    //Setup file
+    AAsset* pFile = Filesystem::Open(path);
+    uint32_t size = Filesystem::GetLength(pFile);
+
+    stbi_uc* pFileContent = new unsigned char[size];
+
+    Filesystem::Read(pFile, pFileContent, size);
+    Filesystem::Close(pFile);
+
+    //Load file
     int width, height, channels;
     stbi_set_flip_vertically_on_load(1);
-    unsigned char* pData = stbi_load(path.c_str(), &width, &height, &channels, 0);
+    unsigned char* pData = stbi_load_from_memory(pFileContent, size, &width, &height, &channels, 4);
 
     GLenum dataFormat = 0, internalFormat = 0;
     if (channels == 4)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Programming/android/GameEngine/app/jni/src/glm
+# Install script for directory: D:/Programming/AndroidGameEngine/app/jni/src/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Programming/android/GameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/glm/cmake_install.cmake")
+  include("D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/glm/cmake_install.cmake")
 
 endif()
 

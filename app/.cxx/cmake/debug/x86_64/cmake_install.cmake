@@ -1,4 +1,4 @@
-# Install script for directory: C:/Programming/android/GameEngine/app/jni
+# Install script for directory: D:/Programming/AndroidGameEngine/app/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Programming/android/GameEngine/app/.cxx/cmake/debug/x86_64/SDL2/cmake_install.cmake")
-  include("C:/Programming/android/GameEngine/app/.cxx/cmake/debug/x86_64/src/cmake_install.cmake")
+  include("D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/SDL2/cmake_install.cmake")
+  include("D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/src/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Programming/android/GameEngine/app/.cxx/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

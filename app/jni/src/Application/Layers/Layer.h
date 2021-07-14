@@ -5,11 +5,11 @@
 #ifndef TESTPROJECT_LAYER_H
 #define TESTPROJECT_LAYER_H
 
-#include "../Events/Event.h"
-#include "../Timestep.h"
-#include "../../Rendering/Renderer.h"
+#include <Application/Events/Event.h>
+#include <Application/Timestep.h>
+#include <Rendering/Renderer.h>
 
-#include "../Events/ApplicationEvent.h"
+#include <Application/Events/ApplicationEvent.h>
 
 class Layer
 {

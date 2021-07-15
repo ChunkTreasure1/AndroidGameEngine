@@ -4,7 +4,7 @@
 
 #include "Object.h"
 #include <Rendering/Renderer.h>
-#include <glm/glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 Object::Object(const std::string &name)
     : m_name(name)

@@ -1,6 +1,7 @@
 D:\Programming\AndroidGameEngine\app\jni\CMakeLists.txt
 D:\Programming\AndroidGameEngine\app\jni\src\CMakeLists.txt
 D:\Programming\AndroidGameEngine\app\jni\SDL2\CMakeLists.txt
-D:\Programming\AndroidGameEngine\app\jni\src\glm\CMakeLists.txt
-D:\Programming\AndroidGameEngine\app\jni\src\imgui\CMakeLists.txt
-D:\Programming\AndroidGameEngine\app\jni\src\glm\glm\CMakeLists.txt
+D:\Programming\AndroidGameEngine\app\jni\src\vendor\CMakeLists.txt
+D:\Programming\AndroidGameEngine\app\jni\src\vendor\glm\CMakeLists.txt
+D:\Programming\AndroidGameEngine\app\jni\src\vendor\imgui\CMakeLists.txt
+D:\Programming\AndroidGameEngine\app\jni\src\vendor\glm\glm\CMakeLists.txt

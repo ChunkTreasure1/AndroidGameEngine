@@ -39,8 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/cmake_install.cmake")
-  include("D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/imgui/cmake_install.cmake")
+  include("D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/cmake_install.cmake")
 
 endif()
 

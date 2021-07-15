@@ -103,7 +103,7 @@ void Renderer::Initialize()
         samplers[i] = i;
     }
 
-    s_pData->QuadShader = Shader::Create("quad_vert.glsl", "quad_frag.glsl");
+    s_pData->QuadShader = Shader::Create("shaders/quad_vert.glsl", "shaders/quad_frag.glsl");
     s_pData->QuadShader->Bind();
     s_pData->QuadShader->UploadIntArray("u_textures", samplers, 5);
 

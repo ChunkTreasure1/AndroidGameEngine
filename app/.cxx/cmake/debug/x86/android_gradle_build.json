@@ -4,9 +4,10 @@
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\CMakeLists.txt",
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\SDL2\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\glm\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\imgui\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\glm\\glm\\CMakeLists.txt"
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\imgui\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\glm\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
@@ -123,7 +124,7 @@
       "buildType": "debug",
       "abi": "x86",
       "artifactName": "IMGUI",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86\\src\\imgui\\libIMGUI.a"
+      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86\\src\\vendor\\imgui\\libIMGUI.a"
     }
   },
   "toolchains": {},

@@ -23,6 +23,7 @@ public:
 private:
     SDL_Window* m_pWindow;
     SDL_GLContext m_context;
+    std::string m_iniPath = "";
 };
 
 

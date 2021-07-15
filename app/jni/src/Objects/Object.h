@@ -7,7 +7,7 @@
 
 #include <string>
 #include <Application/Events/ApplicationEvent.h>
-#include <glm/glm/glm.hpp>
+#include <glm/glm.hpp>
 #include <Rendering/Texture2D/Texture2D.h>
 
 class Object

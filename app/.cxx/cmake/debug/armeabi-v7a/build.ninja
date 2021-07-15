@@ -2444,147 +2444,161 @@ build src/CMakeFiles/main.dir/Application/main.cpp.o: CXX_COMPILER__main D$:/Pro
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\main.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application
 build src/CMakeFiles/main.dir/Application/Application.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Application.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Application.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application
 build src/CMakeFiles/main.dir/Application/Window.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Window.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Window.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application
 build src/CMakeFiles/main.dir/Application/Layers/Layer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Layers/Layer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Layers\Layer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Layers
 build src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Layers/ApplicationLayer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Layers\ApplicationLayer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Layers
 build src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Layers/ImGuiLayer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Layers\ImGuiLayer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Layers
 build src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Layers\ApplicationLayer\ImGuiRenderer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Layers\ApplicationLayer
 build src/CMakeFiles/main.dir/Application/ImGui/ImGuiBuild.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/ImGui/ImGuiBuild.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\ImGui\ImGuiBuild.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\ImGui
 build src/CMakeFiles/main.dir/Application/Input/Input.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Input/Input.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Input\Input.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Input
 build src/CMakeFiles/main.dir/Application/Filesystem/Filesystem.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Filesystem/Filesystem.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Application\Filesystem\Filesystem.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Filesystem
+build src/CMakeFiles/main.dir/Application/Settings/Language.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Settings/Language.cpp || cmake_object_order_depends_target_main
+  DEFINES = -Dmain_EXPORTS
+  DEP_FILE = src\CMakeFiles\main.dir\Application\Settings\Language.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\CMakeFiles\main.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Settings
+build src/CMakeFiles/main.dir/Application/Settings/Settings.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Application/Settings/Settings.cpp || cmake_object_order_depends_target_main
+  DEFINES = -Dmain_EXPORTS
+  DEP_FILE = src\CMakeFiles\main.dir\Application\Settings\Settings.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\CMakeFiles\main.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Application\Settings
 build src/CMakeFiles/main.dir/Rendering/Renderer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Renderer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Renderer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering
 build src/CMakeFiles/main.dir/Rendering/Framebuffer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Framebuffer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Framebuffer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering
 build src/CMakeFiles/main.dir/Rendering/Buffers/VertexBuffer.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Buffers/VertexBuffer.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Buffers\VertexBuffer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Buffers
 build src/CMakeFiles/main.dir/Rendering/Buffers/VertexArray.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Buffers/VertexArray.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Buffers\VertexArray.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Buffers
 build src/CMakeFiles/main.dir/Rendering/Shaders/Shader.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Shaders/Shader.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Shaders\Shader.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Shaders
 build src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCamera.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Camera/OrthographicCamera.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Camera\OrthographicCamera.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Camera
 build src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Camera/OrthographicCameraController.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Camera\OrthographicCameraController.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Camera
 build src/CMakeFiles/main.dir/Rendering/Texture2D/Texture2D.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Texture2D/Texture2D.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Texture2D\Texture2D.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Texture2D
 build src/CMakeFiles/main.dir/Rendering/Texture2D/TextureCache.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Texture2D/TextureCache.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Texture2D\TextureCache.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Texture2D
 build src/CMakeFiles/main.dir/Rendering/Texture2D/TextureLoader.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Rendering/Texture2D/TextureLoader.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Rendering\Texture2D\TextureLoader.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Rendering\Texture2D
 build src/CMakeFiles/main.dir/Objects/Object.cpp.o: CXX_COMPILER__main D$:/Programming/AndroidGameEngine/app/jni/src/Objects/Object.cpp || cmake_object_order_depends_target_main
   DEFINES = -Dmain_EXPORTS
   DEP_FILE = src\CMakeFiles\main.dir\Objects\Object.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/. -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/rapidjson/include -ID:/Programming/AndroidGameEngine/app/jni/src/. -I/vendor -ID:/Programming/AndroidGameEngine/app/jni/SDL2/include -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/.. -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
   OBJECT_DIR = src\CMakeFiles\main.dir
   OBJECT_FILE_DIR = src\CMakeFiles\main.dir\Objects
 
@@ -2595,10 +2609,10 @@ build src/CMakeFiles/main.dir/Objects/Object.cpp.o: CXX_COMPILER__main D$:/Progr
 #############################################
 # Link the shared library D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libmain.so
 
-build D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so: CXX_SHARED_LIBRARY_LINKER__main src/CMakeFiles/main.dir/Application/main.cpp.o src/CMakeFiles/main.dir/Application/Application.cpp.o src/CMakeFiles/main.dir/Application/Window.cpp.o src/CMakeFiles/main.dir/Application/Layers/Layer.cpp.o src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o src/CMakeFiles/main.dir/Application/ImGui/ImGuiBuild.cpp.o src/CMakeFiles/main.dir/Application/Input/Input.cpp.o src/CMakeFiles/main.dir/Application/Filesystem/Filesystem.cpp.o src/CMakeFiles/main.dir/Rendering/Renderer.cpp.o src/CMakeFiles/main.dir/Rendering/Framebuffer.cpp.o src/CMakeFiles/main.dir/Rendering/Buffers/VertexBuffer.cpp.o src/CMakeFiles/main.dir/Rendering/Buffers/VertexArray.cpp.o src/CMakeFiles/main.dir/Rendering/Shaders/Shader.cpp.o src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCamera.cpp.o src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o src/CMakeFiles/main.dir/Rendering/Texture2D/Texture2D.cpp.o src/CMakeFiles/main.dir/Rendering/Texture2D/TextureCache.cpp.o src/CMakeFiles/main.dir/Rendering/Texture2D/TextureLoader.cpp.o src/CMakeFiles/main.dir/Objects/Object.cpp.o | D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/liblog.so C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/libandroid.so src/imgui/libIMGUI.a || D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so src/imgui/libIMGUI.a
+build D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so: CXX_SHARED_LIBRARY_LINKER__main src/CMakeFiles/main.dir/Application/main.cpp.o src/CMakeFiles/main.dir/Application/Application.cpp.o src/CMakeFiles/main.dir/Application/Window.cpp.o src/CMakeFiles/main.dir/Application/Layers/Layer.cpp.o src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o src/CMakeFiles/main.dir/Application/ImGui/ImGuiBuild.cpp.o src/CMakeFiles/main.dir/Application/Input/Input.cpp.o src/CMakeFiles/main.dir/Application/Filesystem/Filesystem.cpp.o src/CMakeFiles/main.dir/Application/Settings/Language.cpp.o src/CMakeFiles/main.dir/Application/Settings/Settings.cpp.o src/CMakeFiles/main.dir/Rendering/Renderer.cpp.o src/CMakeFiles/main.dir/Rendering/Framebuffer.cpp.o src/CMakeFiles/main.dir/Rendering/Buffers/VertexBuffer.cpp.o src/CMakeFiles/main.dir/Rendering/Buffers/VertexArray.cpp.o src/CMakeFiles/main.dir/Rendering/Shaders/Shader.cpp.o src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCamera.cpp.o src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o src/CMakeFiles/main.dir/Rendering/Texture2D/Texture2D.cpp.o src/CMakeFiles/main.dir/Rendering/Texture2D/TextureCache.cpp.o src/CMakeFiles/main.dir/Rendering/Texture2D/TextureLoader.cpp.o src/CMakeFiles/main.dir/Objects/Object.cpp.o | D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/liblog.so C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/libandroid.so src/vendor/imgui/libIMGUI.a || D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so src/vendor/imgui/libIMGUI.a
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = D:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so -llog -landroid -lEGL -lGLESv3 src/imgui/libIMGUI.a -latomic -lm
+  LINK_LIBRARIES = D:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so -llog -landroid -lEGL -lGLESv3 src/vendor/imgui/libIMGUI.a -latomic -lm
   OBJECT_DIR = src\CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -2640,125 +2654,184 @@ build src/install/strip: phony src/CMakeFiles/install/strip.util
 #############################################
 # Utility command for install/local
 
-build src/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND src/glm/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build src/vendor/CMakeFiles/install/local.util: CUSTOM_COMMAND src/vendor/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
-build src/glm/install/local: phony src/glm/CMakeFiles/install/local.util
+build src/vendor/install/local: phony src/vendor/CMakeFiles/install/local.util
 
 #############################################
 # Utility command for install
 
-build src/glm/CMakeFiles/install.util: CUSTOM_COMMAND src/glm/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
+build src/vendor/CMakeFiles/install.util: CUSTOM_COMMAND src/vendor/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
-build src/glm/install: phony src/glm/CMakeFiles/install.util
+build src/vendor/install: phony src/vendor/CMakeFiles/install.util
 
 #############################################
 # Utility command for edit_cache
 
-build src/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build src/vendor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
-build src/glm/edit_cache: phony src/glm/CMakeFiles/edit_cache.util
+build src/vendor/edit_cache: phony src/vendor/CMakeFiles/edit_cache.util
 
 #############################################
 # Utility command for rebuild_cache
 
-build src/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
+build src/vendor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
-build src/glm/rebuild_cache: phony src/glm/CMakeFiles/rebuild_cache.util
+build src/vendor/rebuild_cache: phony src/vendor/CMakeFiles/rebuild_cache.util
 
 #############################################
 # Utility command for list_install_components
 
-build src/glm/list_install_components: phony
+build src/vendor/list_install_components: phony
 
 #############################################
 # Utility command for install/strip
 
-build src/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/glm/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build src/vendor/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/vendor/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
-build src/glm/install/strip: phony src/glm/CMakeFiles/install/strip.util
+build src/vendor/install/strip: phony src/vendor/CMakeFiles/install/strip.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# D:/Programming/AndroidGameEngine/app/jni/src/glm/CMakeLists.txt
+# D:/Programming/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt
 # =============================================================================
 
-
-#############################################
-# Utility command for install/strip
-
-build src/glm/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/glm/glm/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-build src/glm/glm/install/strip: phony src/glm/glm/CMakeFiles/install/strip.util
 
 #############################################
 # Utility command for install/local
 
-build src/glm/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND src/glm/glm/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build src/vendor/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND src/vendor/glm/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
-build src/glm/glm/install/local: phony src/glm/glm/CMakeFiles/install/local.util
+build src/vendor/glm/install/local: phony src/vendor/glm/CMakeFiles/install/local.util
 
 #############################################
 # Utility command for install
 
-build src/glm/glm/CMakeFiles/install.util: CUSTOM_COMMAND src/glm/glm/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
+build src/vendor/glm/CMakeFiles/install.util: CUSTOM_COMMAND src/vendor/glm/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
-build src/glm/glm/install: phony src/glm/glm/CMakeFiles/install.util
+build src/vendor/glm/install: phony src/vendor/glm/CMakeFiles/install.util
 
 #############################################
 # Utility command for edit_cache
 
-build src/glm/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build src/vendor/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
-build src/glm/glm/edit_cache: phony src/glm/glm/CMakeFiles/edit_cache.util
+build src/vendor/glm/edit_cache: phony src/vendor/glm/CMakeFiles/edit_cache.util
 
 #############################################
 # Utility command for rebuild_cache
 
-build src/glm/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
+build src/vendor/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
-build src/glm/glm/rebuild_cache: phony src/glm/glm/CMakeFiles/rebuild_cache.util
+build src/vendor/glm/rebuild_cache: phony src/vendor/glm/CMakeFiles/rebuild_cache.util
 
 #############################################
 # Utility command for list_install_components
 
-build src/glm/glm/list_install_components: phony
+build src/vendor/glm/list_install_components: phony
+
+#############################################
+# Utility command for install/strip
+
+build src/vendor/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/vendor/glm/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+build src/vendor/glm/install/strip: phony src/vendor/glm/CMakeFiles/install/strip.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# D:/Programming/AndroidGameEngine/app/jni/src/CMakeLists.txt
+# D:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for install/strip
+
+build src/vendor/glm/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/vendor/glm/glm/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+build src/vendor/glm/glm/install/strip: phony src/vendor/glm/glm/CMakeFiles/install/strip.util
+
+#############################################
+# Utility command for install/local
+
+build src/vendor/glm/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND src/vendor/glm/glm/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+build src/vendor/glm/glm/install/local: phony src/vendor/glm/glm/CMakeFiles/install/local.util
+
+#############################################
+# Utility command for install
+
+build src/vendor/glm/glm/CMakeFiles/install.util: CUSTOM_COMMAND src/vendor/glm/glm/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+build src/vendor/glm/glm/install: phony src/vendor/glm/glm/CMakeFiles/install.util
+
+#############################################
+# Utility command for edit_cache
+
+build src/vendor/glm/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+build src/vendor/glm/glm/edit_cache: phony src/vendor/glm/glm/CMakeFiles/edit_cache.util
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/vendor/glm/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\glm\glm && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+build src/vendor/glm/glm/rebuild_cache: phony src/vendor/glm/glm/CMakeFiles/rebuild_cache.util
+
+#############################################
+# Utility command for list_install_components
+
+build src/vendor/glm/glm/list_install_components: phony
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Programming/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt
 # =============================================================================
 
 
 #############################################
 # Utility command for list_install_components
 
-build src/imgui/list_install_components: phony
+build src/vendor/imgui/list_install_components: phony
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target IMGUI
 
@@ -2767,128 +2840,128 @@ build src/imgui/list_install_components: phony
 # Order-only phony target for IMGUI
 
 build cmake_object_order_depends_target_IMGUI: phony
-build src/imgui/CMakeFiles/IMGUI.dir/imgui.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/imgui.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\imgui.cpp.o.d
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/imgui.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\imgui.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir
-build src/imgui/CMakeFiles/IMGUI.dir/imgui_demo.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/imgui_demo.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\imgui_demo.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_demo.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/imgui_demo.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\imgui_demo.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir
-build src/imgui/CMakeFiles/IMGUI.dir/imgui_draw.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/imgui_draw.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\imgui_draw.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_draw.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/imgui_draw.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\imgui_draw.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir
-build src/imgui/CMakeFiles/IMGUI.dir/imgui_tables.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/imgui_tables.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\imgui_tables.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_tables.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/imgui_tables.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\imgui_tables.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir
-build src/imgui/CMakeFiles/IMGUI.dir/imgui_widgets.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\imgui_widgets.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_widgets.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\imgui_widgets.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir
-build src/imgui/CMakeFiles/IMGUI.dir/misc/cpp/imgui_stdlib.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/misc/cpp/imgui_stdlib.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\misc\cpp\imgui_stdlib.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/misc/cpp/imgui_stdlib.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/misc/cpp/imgui_stdlib.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\misc\cpp\imgui_stdlib.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir\misc\cpp
-build src/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_sdl.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/backends/imgui_impl_sdl.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\backends\imgui_impl_sdl.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir\misc\cpp
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_sdl.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends/imgui_impl_sdl.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\backends\imgui_impl_sdl.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir\backends
-build src/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_opengl3.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_IMGUI
-  DEP_FILE = src\imgui\CMakeFiles\IMGUI.dir\backends\imgui_impl_opengl3.cpp.o.d
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir\backends
+build src/vendor/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_opengl3.cpp.o: CXX_COMPILER__IMGUI D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_IMGUI
+  DEP_FILE = src\vendor\imgui\CMakeFiles\IMGUI.dir\backends\imgui_impl_opengl3.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/imgui/backends
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
-  OBJECT_FILE_DIR = src\imgui\CMakeFiles\IMGUI.dir\backends
+  INCLUDES = -IC:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/sources/android/cpufeatures -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui -ID:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/backends
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_FILE_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir\backends
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target IMGUI
 
 
 #############################################
-# Link the static library src\imgui\libIMGUI.a
+# Link the static library src\vendor\imgui\libIMGUI.a
 
-build src/imgui/libIMGUI.a: CXX_STATIC_LIBRARY_LINKER__IMGUI src/imgui/CMakeFiles/IMGUI.dir/imgui.cpp.o src/imgui/CMakeFiles/IMGUI.dir/imgui_demo.cpp.o src/imgui/CMakeFiles/IMGUI.dir/imgui_draw.cpp.o src/imgui/CMakeFiles/IMGUI.dir/imgui_tables.cpp.o src/imgui/CMakeFiles/IMGUI.dir/imgui_widgets.cpp.o src/imgui/CMakeFiles/IMGUI.dir/misc/cpp/imgui_stdlib.cpp.o src/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_sdl.cpp.o src/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_opengl3.cpp.o
+build src/vendor/imgui/libIMGUI.a: CXX_STATIC_LIBRARY_LINKER__IMGUI src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_demo.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_draw.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_tables.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/imgui_widgets.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/misc/cpp/imgui_stdlib.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_sdl.cpp.o src/vendor/imgui/CMakeFiles/IMGUI.dir/backends/imgui_impl_opengl3.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
-  OBJECT_DIR = src\imgui\CMakeFiles\IMGUI.dir
+  OBJECT_DIR = src\vendor\imgui\CMakeFiles\IMGUI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = src\imgui\libIMGUI.a
+  TARGET_FILE = src\vendor\imgui\libIMGUI.a
   TARGET_PDB = IMGUI.a.dbg
 
 #############################################
 # Utility command for install/local
 
-build src/imgui/CMakeFiles/install/local.util: CUSTOM_COMMAND src/imgui/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build src/vendor/imgui/CMakeFiles/install/local.util: CUSTOM_COMMAND src/vendor/imgui/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
-build src/imgui/install/local: phony src/imgui/CMakeFiles/install/local.util
+build src/vendor/imgui/install/local: phony src/vendor/imgui/CMakeFiles/install/local.util
 
 #############################################
 # Utility command for install
 
-build src/imgui/CMakeFiles/install.util: CUSTOM_COMMAND src/imgui/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
+build src/vendor/imgui/CMakeFiles/install.util: CUSTOM_COMMAND src/vendor/imgui/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
-build src/imgui/install: phony src/imgui/CMakeFiles/install.util
+build src/vendor/imgui/install: phony src/vendor/imgui/CMakeFiles/install.util
 
 #############################################
 # Utility command for edit_cache
 
-build src/imgui/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build src/vendor/imgui/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
-build src/imgui/edit_cache: phony src/imgui/CMakeFiles/edit_cache.util
+build src/vendor/imgui/edit_cache: phony src/vendor/imgui/CMakeFiles/edit_cache.util
 
 #############################################
 # Utility command for rebuild_cache
 
-build src/imgui/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
+build src/vendor/imgui/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HD:\Programming\AndroidGameEngine\app\jni -BD:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
-build src/imgui/rebuild_cache: phony src/imgui/CMakeFiles/rebuild_cache.util
+build src/vendor/imgui/rebuild_cache: phony src/vendor/imgui/CMakeFiles/rebuild_cache.util
 
 #############################################
 # Utility command for install/strip
 
-build src/imgui/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/imgui/all
-  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build src/vendor/imgui/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/vendor/imgui/all
+  COMMAND = cmd.exe /C "cd /D D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a\src\vendor\imgui && C:\Users\ivar\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
-build src/imgui/install/strip: phony src/imgui/CMakeFiles/install/strip.util
+build src/vendor/imgui/install/strip: phony src/vendor/imgui/CMakeFiles/install/strip.util
 # =============================================================================
 # Target aliases.
 
-build IMGUI: phony src/imgui/libIMGUI.a
+build IMGUI: phony src/vendor/imgui/libIMGUI.a
 build SDL2: phony D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so
 build SDL2-static: phony SDL2/libSDL2.a
 build SDL2main: phony SDL2/libSDL2main.a
 build cpufeatures: phony libcpufeatures.a
 build hidapi: phony D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so
-build libIMGUI.a: phony src/imgui/libIMGUI.a
+build libIMGUI.a: phony src/vendor/imgui/libIMGUI.a
 build libSDL2.a: phony SDL2/libSDL2.a
 build libSDL2.so: phony D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so
 build libSDL2main.a: phony SDL2/libSDL2main.a
@@ -2911,25 +2984,31 @@ build  SDL2/all: phony SDL2-static SDL2main SDL2 hidapi
 #############################################
 # Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src
 
-build  src/all: phony main src/glm/all src/imgui/all
+build  src/all: phony main src/vendor/all
 # =============================================================================
 
 #############################################
-# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm
+# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor
 
-build  src/glm/all: phony src/glm/glm/all
+build  src/vendor/all: phony src/vendor/glm/all src/vendor/imgui/all
 # =============================================================================
 
 #############################################
-# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/glm/glm
+# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/glm
 
-build  src/glm/glm/all: phony
+build  src/vendor/glm/all: phony src/vendor/glm/glm/all
 # =============================================================================
 
 #############################################
-# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/imgui
+# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/glm/glm
 
-build  src/imgui/all: phony IMGUI
+build  src/vendor/glm/glm/all: phony
+# =============================================================================
+
+#############################################
+# Folder: D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imgui
+
+build  src/vendor/imgui/all: phony IMGUI
 # =============================================================================
 # Built-in targets
 
@@ -2937,7 +3016,7 @@ build  src/imgui/all: phony IMGUI
 #############################################
 # The main all target.
 
-build all: phony libcpufeatures.a SDL2/libSDL2.a SDL2/libSDL2main.a D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so src/imgui/libIMGUI.a
+build all: phony libcpufeatures.a SDL2/libSDL2.a SDL2/libSDL2main.a D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so D$:/Programming/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so src/vendor/imgui/libIMGUI.a
 
 #############################################
 # Make the all target the default.
@@ -2947,13 +3026,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDependentOption.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceRuns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GNUInstallDirs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake D$:/Programming/AndroidGameEngine/app/jni/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/SDL2.spec.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/macros.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/sdlchecks.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake_uninstall.cmake.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/include/SDL_config.h.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2-config.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2.pc.in D$:/Programming/AndroidGameEngine/app/jni/src/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/glm/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/imgui/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDependentOption.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceRuns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GNUInstallDirs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake D$:/Programming/AndroidGameEngine/app/jni/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/SDL2.spec.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/macros.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/sdlchecks.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake_uninstall.cmake.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/include/SDL_config.h.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2-config.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2.pc.in D$:/Programming/AndroidGameEngine/app/jni/src/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDependentOption.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceRuns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GNUInstallDirs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake D$:/Programming/AndroidGameEngine/app/jni/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/SDL2.spec.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/macros.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/sdlchecks.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake_uninstall.cmake.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/include/SDL_config.h.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2-config.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2.pc.in D$:/Programming/AndroidGameEngine/app/jni/src/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/glm/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/imgui/CMakeLists.txt: phony
+build C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDependentOption.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceRuns.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFiles.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GNUInstallDirs.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake C$:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake D$:/Programming/AndroidGameEngine/app/jni/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/SDL2/SDL2.spec.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/macros.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake/sdlchecks.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/cmake_uninstall.cmake.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/include/SDL_config.h.cmake D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2-config.in D$:/Programming/AndroidGameEngine/app/jni/SDL2/sdl2.pc.in D$:/Programming/AndroidGameEngine/app/jni/src/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt D$:/Programming/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt: phony
 
 #############################################
 # Clean all the built files.

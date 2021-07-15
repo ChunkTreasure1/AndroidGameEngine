@@ -4,9 +4,10 @@
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\CMakeLists.txt",
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\SDL2\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\glm\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\imgui\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\glm\\glm\\CMakeLists.txt"
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\imgui\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\glm\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
@@ -100,18 +101,7 @@
       "buildType": "debug",
       "abi": "x86_64",
       "artifactName": "IMGUI",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86_64\\src\\imgui\\libIMGUI.a"
-    },
-    "uninstall-Debug-x86_64": {
-      "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
-        "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86_64",
-        "uninstall"
-      ],
-      "buildType": "debug",
-      "abi": "x86_64",
-      "artifactName": "uninstall"
+      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86_64\\src\\vendor\\imgui\\libIMGUI.a"
     },
     "cpufeatures-Debug-x86_64": {
       "buildCommandComponents": [
@@ -124,6 +114,17 @@
       "abi": "x86_64",
       "artifactName": "cpufeatures",
       "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86_64\\libcpufeatures.a"
+    },
+    "uninstall-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86_64",
+        "uninstall"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "uninstall"
     }
   },
   "toolchains": {},

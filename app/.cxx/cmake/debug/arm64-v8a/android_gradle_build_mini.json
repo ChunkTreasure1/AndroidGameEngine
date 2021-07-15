@@ -3,9 +3,10 @@
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\CMakeLists.txt",
     "D:\\Programming\\AndroidGameEngine\\app\\jni\\SDL2\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\glm\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\imgui\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\glm\\glm\\CMakeLists.txt"
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\imgui\\CMakeLists.txt",
+    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\glm\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
@@ -71,18 +72,6 @@
       "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\SDL2\\libSDL2main.a",
       "runtimeFiles": []
     },
-    "cpufeatures-Debug-arm64-v8a": {
-      "artifactName": "cpufeatures",
-      "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
-        "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
-        "cpufeatures"
-      ],
-      "abi": "arm64-v8a",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\libcpufeatures.a",
-      "runtimeFiles": []
-    },
     "SDL2-static-Debug-arm64-v8a": {
       "artifactName": "SDL2-static",
       "buildCommandComponents": [
@@ -93,6 +82,18 @@
       ],
       "abi": "arm64-v8a",
       "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\SDL2\\libSDL2.a",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-arm64-v8a": {
+      "artifactName": "cpufeatures",
+      "buildCommandComponents": [
+        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+        "cpufeatures"
+      ],
+      "abi": "arm64-v8a",
+      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\libcpufeatures.a",
       "runtimeFiles": []
     },
     "main-Debug-arm64-v8a": {
@@ -118,7 +119,7 @@
         "IMGUI"
       ],
       "abi": "arm64-v8a",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\src\\imgui\\libIMGUI.a",
+      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\arm64-v8a\\src\\vendor\\imgui\\libIMGUI.a",
       "runtimeFiles": []
     }
   }

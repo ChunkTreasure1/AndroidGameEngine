@@ -24,8 +24,10 @@ public:
     virtual void OnImGuiRender(Timestep ts) override;
 
 private:
+    /////ImGui/////
     void CreateDockspace();
     void RenderViewport();
+    void RenderSettings();
 
 private:
     bool OnUpdate(AppUpdateEvent& e);
@@ -35,6 +37,9 @@ private:
 
     std::shared_ptr<Framebuffer> m_viewportBuffer;
     ImVec2 m_lastPerspectiveSize = { 0.f, 0.f };
+
+    /////Windows/////
+    bool m_settingsOpen = true;
 
     /////Testing/////
     std::shared_ptr<Texture2D> m_testTexture;

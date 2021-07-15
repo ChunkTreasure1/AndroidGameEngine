@@ -3,6 +3,8 @@
 //
 
 #include <Application/Layers/ApplicationLayer.h>
+#include <Application/Settings/Language.h>
+#include <Application/Settings/Settings.h>
 
 void ApplicationLayer::CreateDockspace()
 {
@@ -47,6 +49,24 @@ void ApplicationLayer::CreateDockspace()
             ImGui::DockSpace(dockspaceId, ImVec2(0.f, 0.f), dockspaceFlags);
         }
 
+        if (ImGui::BeginMenuBar())
+        {
+            if (ImGui::BeginMenu(Language::GetSymbol("file")))
+            {
+                ImGui::MenuItem(Language::GetSymbol("settings"), NULL, &m_settingsOpen);
+
+                ImGui::EndMenu();
+            }
+
+            if (ImGui::BeginMenu(Language::GetSymbol("tools")))
+            {
+
+                ImGui::EndMenu();
+            }
+
+            ImGui::EndMenuBar();
+        }
+
         ImGui::End();
     }
 }
@@ -54,7 +74,9 @@ void ApplicationLayer::CreateDockspace()
 void ApplicationLayer::RenderViewport()
 {
     ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0, 0));
-    ImGui::Begin("Perspective");
+
+    std::string name = Language::GetSymbol("viewport"); name += "###viewport";
+    ImGui::Begin(name.c_str());
     {
         ImVec2 perspectivePanelSize = ImGui::GetContentRegionAvail();
         if (m_lastPerspectiveSize.x != perspectivePanelSize.x && m_lastPerspectiveSize.y != perspectivePanelSize.y)
@@ -70,4 +92,67 @@ void ApplicationLayer::RenderViewport()
     }
     ImGui::End();
     ImGui::PopStyleVar();
+}
+
+void ApplicationLayer::RenderSettings()
+{
+    if (!m_settingsOpen)
+        return;
+
+    std::string name = Language::GetSymbol("settings"); name += "###settings";
+    ImGui::Begin(name.c_str(), &m_settingsOpen);
+    {
+        /////Theme/////
+        {
+            static int themeCurrSelected = -1;
+            static int themeLastSelected = -1;
+            const char* themeItems[] = { Language::GetSymbol("theme_dark"), Language::GetSymbol("theme_light")};
+
+            ImGui::Text("%s", Language::GetSymbol("theme"));
+            ImGui::SameLine();
+            ImGui::Combo("##themeCombo", &themeCurrSelected, themeItems, 2);
+
+            if (themeCurrSelected != themeLastSelected)
+            {
+                if (themeCurrSelected == 0)
+                {
+                    Settings::SetTheme("dark");
+                }
+                else if (themeCurrSelected == 1)
+                {
+                    Settings::SetTheme("light");
+                }
+
+                themeLastSelected = themeCurrSelected;
+            }
+        }
+        ///////////////
+
+        /////Language/////
+        {
+            static int langCurrSelected = 1;
+            static int langLastSelected = 1;
+            const char* langItems[] = { "English", "Svenska" };
+
+            ImGui::Text("%s", Language::GetSymbol("language"));
+            ImGui::SameLine();
+            ImGui::Combo("##langCombo", &langCurrSelected, langItems, 2);
+
+            if (langLastSelected != langCurrSelected)
+            {
+                if (langCurrSelected == 0)
+                {
+                    Language::LoadLanguage("en");
+                }
+                else if (langCurrSelected == 1)
+                {
+                    Language::LoadLanguage("sv");
+                }
+
+                langLastSelected = langCurrSelected;
+            }
+        }
+        //////////////////
+    }
+    ImGui::End();
 }

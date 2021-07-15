@@ -602,10 +602,10 @@ android-lib:FILEPATH=C:/Users/ivar/AppData/Local/Android/Sdk/ndk/21.4.7075529/to
 cpufeatures_LIB_DEPENDS:STATIC=general;dl;
 
 //Value Computed by CMake
-glm_BINARY_DIR:STATIC=D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/src/glm
+glm_BINARY_DIR:STATIC=D:/Programming/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/src/vendor/glm
 
 //Value Computed by CMake
-glm_SOURCE_DIR:STATIC=D:/Programming/AndroidGameEngine/app/jni/src/glm
+glm_SOURCE_DIR:STATIC=D:/Programming/AndroidGameEngine/app/jni/src/vendor/glm
 
 //Dependencies for the target
 hidapi_LIB_DEPENDS:STATIC=general;log;
@@ -741,7 +741,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

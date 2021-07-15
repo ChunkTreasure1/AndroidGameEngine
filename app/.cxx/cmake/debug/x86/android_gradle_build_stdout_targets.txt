@@ -1,11 +1,3 @@
 ninja: Entering directory `D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\x86'
-[1/10] Building CXX object src/CMakeFiles/main.dir/Application/Filesystem/Filesystem.cpp.o
-[2/10] Building CXX object src/CMakeFiles/main.dir/Application/Layers/Layer.cpp.o
-[3/10] Building CXX object src/CMakeFiles/main.dir/Application/main.cpp.o
-[4/10] Building CXX object src/CMakeFiles/main.dir/Rendering/Renderer.cpp.o
-[5/10] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o
-[6/10] Building CXX object src/CMakeFiles/main.dir/Application/Application.cpp.o
-[7/10] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o
-[8/10] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o
-[9/10] Building CXX object src/CMakeFiles/main.dir/Objects/Object.cpp.o
-[10/10] Linking CXX shared library D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\x86\libmain.so
+[1/2] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o
+[2/2] Linking CXX shared library D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\x86\libmain.so

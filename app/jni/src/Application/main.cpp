@@ -8,6 +8,7 @@
 #include <jni.h>
 #include <android/asset_manager.h>
 #include <android/asset_manager_jni.h>
+#include <Application/Settings/Settings.h>
 
 #include "../Core.h"
 #include "Filesystem/Filesystem.h"
@@ -28,4 +29,15 @@ Java_com_engine_test_GameActivity_Load(JNIEnv *env, jclass clazz, jobject mgr)
 {
     AAssetManager* pManager = AAssetManager_fromJava(env, mgr);
     Filesystem::SetAssetManager(pManager);
+}
+
+extern "C"
+JNIEXPORT void JNICALL
+Java_com_engine_test_GameActivity_SetFilesFolder(JNIEnv *env, jclass clazz, jstring str)
+{
+    const char* p = env->GetStringUTFChars(str, 0);
+    std::string path = p;
+    Settings::SetFilesPath(path);
+
+    env->ReleaseStringUTFChars(str, p);
 }

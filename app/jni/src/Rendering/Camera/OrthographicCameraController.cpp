@@ -34,6 +34,8 @@ void OrthographicCameraController::OnEvent(Event &e)
 bool OrthographicCameraController::OnKeyPressed(KeyPressedEvent &e)
 {
     bool t = false;
+
+    return false;
 }
 
 void OrthographicCameraController::SetAspectRatio(float ratio)

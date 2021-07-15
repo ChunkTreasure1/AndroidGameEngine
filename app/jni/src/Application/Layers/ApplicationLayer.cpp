@@ -4,7 +4,8 @@
 
 #include "ApplicationLayer.h"
 
-#include "../Events/Event.h"
+#include "Application/Events/Event.h"
+#include "Application/Settings/Language.h"
 #include <SDL.h>
 
 #include <imgui.h>
@@ -12,6 +13,7 @@
 ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     : m_cameraController((float)width / height, false)
 {
+    Language::Initialize();
     Renderer::Initialize();
 
     m_viewportBuffer = Framebuffer::Create(1280, 720);
@@ -35,6 +37,7 @@ void ApplicationLayer::OnImGuiRender(Timestep ts)
 
     ImGui::ShowDemoWindow();
     RenderViewport();
+    RenderSettings();
 }
 
 void ApplicationLayer::OnEvent(Event &e)

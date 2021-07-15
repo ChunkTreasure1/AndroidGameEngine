@@ -7,8 +7,7 @@ find_library(log-lib log)
 find_library(android-lib android)
 
 add_library(main SHARED)
-add_subdirectory(glm)
-add_subdirectory(imgui)
+add_subdirectory(vendor)
 
 target_sources(main PRIVATE             
 	    	Application/main.cpp
@@ -33,6 +32,10 @@ target_sources(main PRIVATE
 			Application/Input/Input.h
 			Application/Filesystem/Filesystem.cpp
 			Application/Filesystem/Filesystem.h
+			Application/Settings/Language.cpp
+			Application/Settings/Language.h
+			Application/Settings/Settings.h
+			Application/Settings/Settings.cpp
 			Core.h
 			stb_image.h
             Rendering/Renderer.cpp
@@ -61,7 +64,8 @@ target_sources(main PRIVATE
 )
 
 target_include_directories(main PUBLIC
-		./)
+		./
+		/vendor/)
 
 target_link_libraries(main
 		SDL2

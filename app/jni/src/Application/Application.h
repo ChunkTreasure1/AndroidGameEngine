@@ -39,7 +39,7 @@ private:
 
     ImGuiLayer* m_pImGuiLayer;
     bool m_running = true;
-    float m_lastTimeFrame = 0.f;
+    double m_lastTimeFrame = 0.f;
 };
 
 

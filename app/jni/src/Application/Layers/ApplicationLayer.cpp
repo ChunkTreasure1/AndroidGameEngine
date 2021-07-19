@@ -16,12 +16,14 @@ ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     Language::Initialize();
     Renderer::Initialize();
 
+    m_pObjects.resize(10);
     m_viewportBuffer = Framebuffer::Create(1280, 720);
     m_testTexture = Texture2D::Create("Agent.png");
 }
 
 ApplicationLayer::~ApplicationLayer()
 {
+    m_pObjects.clear();
     Renderer::Shutdown();
 }
 
@@ -35,9 +37,11 @@ void ApplicationLayer::OnImGuiRender(Timestep ts)
 {
     CreateDockspace();
 
-    ImGui::ShowDemoWindow();
+    //ImGui::ShowDemoWindow();
     RenderViewport();
     RenderSettings();
+    RenderObjectsPanel();
+    RenderBaseTools();
 }
 
 void ApplicationLayer::OnEvent(Event &e)
@@ -50,6 +54,10 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
 {
     /////Update/////
     m_cameraController.Update(e.GetTimestep());
+    for (auto& obj : m_pObjects)
+    {
+        obj->OnEvent(e);
+    }
 
     /////Render/////
     Renderer::Clear();
@@ -60,6 +68,10 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
 
     //Send render event
     AppRenderEvent render;
+    for (auto& obj : m_pObjects)
+    {
+        obj->OnEvent(render);
+    }
 
     Renderer::DrawQuad({0.f, 0.f, 0.f}, m_testTexture, {1.f, 1.f, 1.f, 1.f});
 

@@ -11,15 +11,16 @@
 #include "Events/MouseEvent.h"
 
 #include "Layers/ApplicationLayer.h"
-#include <time.h>
+#include <ctime>
+#include <Core.h>
 
 Application* Application::s_pInstance = nullptr;
 
-static float now_ms(void) {
-
-    struct timespec res;
-    clock_gettime(CLOCK_REALTIME, &res);
-    return 1000.0 * res.tv_sec + (float) res.tv_nsec / 1e6;
+static double currentTimeInMilliseconds()
+{
+    struct timeval tv{};
+    gettimeofday(&tv, nullptr);
+    return ((tv.tv_sec * 1000.0) + (tv.tv_usec / 1000.0)) * 0.001;
 }
 
 Application::Application()
@@ -53,21 +54,21 @@ void Application::Run()
 {
     while (m_running)
     {
-        float time = now_ms();
-        Timestep timestep = time - m_lastTimeFrame;
+        double time = currentTimeInMilliseconds();
+        Timestep ts = time - m_lastTimeFrame;
         m_lastTimeFrame = time;
 
-        AppUpdateEvent update(timestep);
+        AppUpdateEvent update(ts);
         OnEvent(update);
 
         m_pImGuiLayer->Begin();
         for (Layer* pLayer : m_layers)
         {
-            pLayer->OnImGuiRender(timestep);
+            pLayer->OnImGuiRender(ts);
         }
         m_pImGuiLayer->End();
 
-        m_pWindow->Update(timestep);
+        m_pWindow->Update(ts);
         PollEvents();
     }
 }

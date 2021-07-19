@@ -6,5 +6,8 @@
   "theme" : "Color theme",
   "theme_dark" : "Dark",
   "theme_light" : "Light",
-  "language" : "Language"
+  "language" : "Language",
+  "baseTools" : "Base Tools",
+  "objectsPanel" : "Objects Panel",
+  "addObject" : "Add Object"
 }

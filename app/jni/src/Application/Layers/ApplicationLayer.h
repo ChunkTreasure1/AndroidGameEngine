@@ -10,6 +10,8 @@
 #include <Rendering/Framebuffer.h>
 
 #include <imgui.h>
+#include <Objects/Object.h>
+#include <vector>
 
 class ApplicationLayer : public Layer
 {
@@ -28,6 +30,8 @@ private:
     void CreateDockspace();
     void RenderViewport();
     void RenderSettings();
+    void RenderBaseTools();
+    void RenderObjectsPanel();
 
 private:
     bool OnUpdate(AppUpdateEvent& e);
@@ -39,7 +43,12 @@ private:
     ImVec2 m_lastPerspectiveSize = { 0.f, 0.f };
 
     /////Windows/////
-    bool m_settingsOpen = true;
+    bool m_settingsOpen = false;
+    bool m_baseToolsOpen = true;
+    bool m_objectsPanelOpen = true;
+
+    /////Objects/////
+    std::vector<std::shared_ptr<Object>> m_pObjects;
 
     /////Testing/////
     std::shared_ptr<Texture2D> m_testTexture;

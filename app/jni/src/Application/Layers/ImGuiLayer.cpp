@@ -4,14 +4,16 @@
 
 #include "ImGuiLayer.h"
 
-#include <imgui.h>
 #include <backends/imgui_impl_sdl.h>
 #include <backends/imgui_impl_opengl3.h>
 
 #include <Application/Application.h>
 #include <Application/Settings/Settings.h>
+#include <android/asset_manager.h>
+#include <Application/Filesystem/Filesystem.h>
 
 ImGuiLayer::ImGuiLayer()
+    : m_pFont(nullptr)
 {}
 
 ImGuiLayer::~ImGuiLayer()
@@ -26,9 +28,24 @@ void ImGuiLayer::OnAttach()
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
     io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;
+    io.ConfigWindowsMoveFromTitleBarOnly = true;
 
-    m_iniPath = Settings::GetFilePath() + "/imgui.ini";
+    m_iniPath = Settings::GetFilePath() + "/imgui1.ini";
     io.IniFilename = m_iniPath.c_str();
+
+    //Load font
+    AAsset* pFile = Filesystem::Open("fonts/OpenSans-Regular.ttf");
+    uint32_t size = Filesystem::GetLength(pFile);
+
+    std::vector<char> data;
+    data.resize(size);
+
+    Filesystem::Read(pFile, static_cast<void*>(data.data()), size);
+    Filesystem::Close(pFile);
+
+    ImFontConfig conf;
+    conf.FontDataOwnedByAtlas = false;
+    m_pFont = io.Fonts->AddFontFromMemoryTTF(data.data(), size, 16.f, &conf);
 
     //Set the style
     Settings::SetTheme("dark");

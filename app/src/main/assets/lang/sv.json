@@ -6,5 +6,8 @@
   "theme" : "Färgtema",
   "theme_dark" : "Mörkt",
   "theme_light" : "Ljust",
-  "language" : "Språk"
+  "language" : "Språk",
+  "basetools" : "Basverktyg",
+  "objectsPanel" : "Objekt lista",
+  "addObject" : "Lägg till objekt"
 }

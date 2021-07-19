@@ -5,6 +5,7 @@
 #include <Application/Layers/ApplicationLayer.h>
 #include <Application/Settings/Language.h>
 #include <Application/Settings/Settings.h>
+#include <Application/Application.h>
 
 void ApplicationLayer::CreateDockspace()
 {
@@ -60,7 +61,8 @@ void ApplicationLayer::CreateDockspace()
 
             if (ImGui::BeginMenu(Language::GetSymbol("tools")))
             {
-
+                ImGui::MenuItem(Language::GetSymbol("basetools"), NULL, &m_baseToolsOpen);
+                ImGui::MenuItem(Language::GetSymbol("objectsPanel"), NULL, &m_objectsPanelOpen);
                 ImGui::EndMenu();
             }
 
@@ -153,6 +155,47 @@ void ApplicationLayer::RenderSettings()
             }
         }
         //////////////////
+
+        ImVec2 windowSize = ImGui::GetWindowSize();
+        ImVec2 windowPos = ImGui::GetWindowPos();
+        ImVec2 appSize = ImVec2(Application::Get().GetWindow()->GetWidth(), Application::Get().GetWindow()->GetHeight());
+
+        if (windowPos.x + windowSize.x > appSize.x)
+        {
+            ImGui::SetWindowPos(ImVec2(appSize.x - windowPos.x - windowSize.x, windowPos.y));
+        }
+    }
+    ImGui::End();
+}
+
+void ApplicationLayer::RenderBaseTools()
+{
+    if (!m_baseToolsOpen)
+    {
+        return;
+    }
+
+    std::string name = Language::GetSymbol("basetools"); name += "###baseTools";
+    ImGui::Begin(name.c_str(), &m_baseToolsOpen);
+    {
+        if (ImGui::Button(Language::GetSymbol("addObject")))
+        {
+            auto obj = std::make_shared<Object>("");
+            m_pObjects.push_back(obj);
+        }
+    }
+    ImGui::End();
+}
+
+void ApplicationLayer::RenderObjectsPanel()
+{
+    if (!m_objectsPanelOpen)
+        return;
+
+    std::string name = Language::GetSymbol("objectsPanel"); name += "###objectsPanel";
+    ImGui::Begin(name.c_str(), &m_objectsPanelOpen);
+    {
+
     }
     ImGui::End();
 }

@@ -1,49 +1,49 @@
 {
   "stringTable": {},
   "buildFiles": [
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\SDL2\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\imgui\\CMakeLists.txt",
-    "D:\\Programming\\AndroidGameEngine\\app\\jni\\src\\vendor\\glm\\glm\\CMakeLists.txt"
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
       "-C",
-      "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+      "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
     "-C",
-    "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
     "main-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "main"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "main",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libmain.so",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so",
       "runtimeFiles": [
-        "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libSDL2.so"
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so"
       ]
     },
     "uninstall-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "uninstall"
       ],
       "buildType": "debug",
@@ -52,79 +52,79 @@
     },
     "cpufeatures-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "cpufeatures"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "cpufeatures",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\libcpufeatures.a"
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/libcpufeatures.a"
     },
     "hidapi-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "hidapi"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "hidapi",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhidapi.so",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so",
       "runtimeFiles": []
     },
     "IMGUI-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "IMGUI"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "IMGUI",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\src\\vendor\\imgui\\libIMGUI.a"
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imgui/libIMGUI.a"
     },
     "SDL2-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "SDL2"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "SDL2",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libSDL2.so",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so",
       "runtimeFiles": [
-        "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhidapi.so"
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhidapi.so"
       ]
     },
     "SDL2-static-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "SDL2-static"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "SDL2-static",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\SDL2\\libSDL2.a"
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2.a"
     },
     "SDL2main-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
         "SDL2main"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "SDL2main",
-      "output": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\SDL2\\libSDL2main.a"
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2main.a"
     }
   },
   "toolchains": {},

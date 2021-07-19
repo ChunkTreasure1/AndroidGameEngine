@@ -30,9 +30,6 @@ public:
     void SetPosition(const glm::vec3& pos) { m_cameraPosition = pos; }
 
 private:
-    bool OnKeyPressed(KeyPressedEvent& e);
-
-private:
     float m_aspectRatio = 0.f;
     float m_zoomLevel = 6.f;
     OrthographicCamera m_camera;

@@ -6,6 +6,7 @@
 #define TESTPROJECT_IMGUILAYER_H
 
 #include <SDL_video.h>
+#include <vendor/imgui/imgui.h>
 #include "Layer.h"
 
 class ImGuiLayer : public Layer
@@ -24,6 +25,7 @@ private:
     SDL_Window* m_pWindow;
     SDL_GLContext m_context;
     std::string m_iniPath = "";
+    ImFont* m_pFont;
 };
 
 

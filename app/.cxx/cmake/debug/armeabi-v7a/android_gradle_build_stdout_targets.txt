@@ -1,4 +1,7 @@
 ninja: Entering directory `/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a'
-[1/3] Building CXX object src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o
-[2/3] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o
-[3/3] Linking CXX shared library /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so
+[1/6] Building CXX object src/CMakeFiles/main.dir/Application/main.cpp.o
+[2/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o
+[3/6] Building CXX object src/CMakeFiles/main.dir/Application/Application.cpp.o
+[4/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o
+[5/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o
+[6/6] Linking CXX shared library /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so

@@ -9,6 +9,7 @@
 #include <SDL.h>
 
 #include <imgui.h>
+#include <vendor/imnodes/imnodes.h>
 
 ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     : m_cameraController((float)width / height, false)
@@ -16,14 +17,22 @@ ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     Language::Initialize();
     Renderer::Initialize();
 
-    m_pObjects.resize(10);
     m_viewportBuffer = Framebuffer::Create(1280, 720);
     m_testTexture = Texture2D::Create("Agent.png");
+
+    m_list.push_back(new Object("Object0"));
 }
 
 ApplicationLayer::~ApplicationLayer()
 {
-    m_pObjects.clear();
+    for (int i = 0; i < m_list.size(); ++i)
+    {
+        delete m_list[i];
+        m_list[i] = nullptr;
+    }
+
+    m_list.clear();
+
     Renderer::Shutdown();
 }
 
@@ -42,6 +51,7 @@ void ApplicationLayer::OnImGuiRender(Timestep ts)
     RenderSettings();
     RenderObjectsPanel();
     RenderBaseTools();
+    RenderObjectProperties();
 }
 
 void ApplicationLayer::OnEvent(Event &e)
@@ -54,9 +64,9 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
 {
     /////Update/////
     m_cameraController.Update(e.GetTimestep());
-    for (auto& obj : m_pObjects)
+    for (int i = 0; i < m_list.size(); ++i)
     {
-        obj->OnEvent(e);
+        m_list[i]->OnEvent(e);
     }
 
     /////Render/////
@@ -65,15 +75,15 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
     Renderer::Clear();
 
     Renderer::Begin(m_cameraController.GetCamera());
-
+    
     //Send render event
-    AppRenderEvent render;
-    for (auto& obj : m_pObjects)
+    AppRenderEvent render(e.GetTimestep());
+    for (int i = 0; i < m_list.size(); ++i)
     {
-        obj->OnEvent(render);
+        m_list[i]->OnEvent(render);
     }
 
-    Renderer::DrawQuad({0.f, 0.f, 0.f}, m_testTexture, {1.f, 1.f, 1.f, 1.f});
+    //Renderer::DrawQuad({0.f, 0.f, 0.f}, m_testTexture, {1.f, 1.f, 1.f, 1.f});
 
     Renderer::End();
     m_viewportBuffer->Unbind();

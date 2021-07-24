@@ -6,7 +6,8 @@
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt",
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt",
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt",
-    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt"
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
@@ -120,6 +121,18 @@
       ],
       "abi": "armeabi-v7a",
       "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/SDL2/libSDL2main.a",
+      "runtimeFiles": []
+    },
+    "IMNODES-Debug-armeabi-v7a": {
+      "artifactName": "IMNODES",
+      "buildCommandComponents": [
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a",
+        "IMNODES"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/libIMNODES.a",
       "runtimeFiles": []
     }
   }

@@ -7,7 +7,8 @@
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt",
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt",
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt",
-    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt"
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
@@ -62,6 +63,18 @@
       "buildType": "debug",
       "abi": "x86",
       "artifactName": "uninstall"
+    },
+    "IMNODES-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
+        "IMNODES"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "IMNODES",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imnodes/libIMNODES.a"
     },
     "SDL2-static-Debug-x86": {
       "buildCommandComponents": [

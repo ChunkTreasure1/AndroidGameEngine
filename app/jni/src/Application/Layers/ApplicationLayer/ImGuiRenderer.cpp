@@ -6,6 +6,8 @@
 #include <Application/Settings/Language.h>
 #include <Application/Settings/Settings.h>
 #include <Application/Application.h>
+#include <misc/cpp/imgui_stdlib.h>
+#include <glm/gtc/type_ptr.hpp>
 
 void ApplicationLayer::CreateDockspace()
 {
@@ -180,8 +182,8 @@ void ApplicationLayer::RenderBaseTools()
     {
         if (ImGui::Button(Language::GetSymbol("addObject")))
         {
-            auto obj = std::make_shared<Object>("");
-            m_pObjects.push_back(obj);
+            Object* obj = new Object("Object" + std::to_string(m_list.size()));
+            m_list.push_back(obj);
         }
     }
     ImGui::End();
@@ -195,7 +197,68 @@ void ApplicationLayer::RenderObjectsPanel()
     std::string name = Language::GetSymbol("objectsPanel"); name += "###objectsPanel";
     ImGui::Begin(name.c_str(), &m_objectsPanelOpen);
     {
+        for (int i = 0; i < m_list.size(); ++i)
+        {
+            ImGuiTreeNodeFlags nodeFlags = ImGuiTreeNodeFlags_Leaf | ImGuiTreeNodeFlags_NoTreePushOnOpen;
+            ImGui::TreeNodeEx((void*)(intptr_t)i, nodeFlags, "%s", m_list[i]->GetName().c_str());
 
+            if (ImGui::IsItemClicked())
+            {
+                m_pSelectedObject = m_list[i];
+            }
+        }
+    }
+    ImGui::End();
+}
+
+void ApplicationLayer::RenderObjectProperties()
+{
+    if (!m_objectPropertiesOpen)
+        return;
+
+    std::string name = Language::GetSymbol("objectProperties"); name += "###objectProperties";
+    ImGui::Begin(name.c_str(), &m_objectPropertiesOpen);
+    {
+        if (m_pSelectedObject != nullptr)
+        {
+            std::string objName = m_pSelectedObject->GetName();
+            ImGui::InputText(Language::GetSymbol("inputName") ,&objName);
+            m_pSelectedObject->SetName(objName);
+
+            if (ImGui::CollapsingHeader(Language::GetSymbol("transform")))
+            {
+                glm::vec2 pos = m_pSelectedObject->GetPosition();
+                float f[2] = { pos.x, pos.y };
+
+                ImGui::DragFloat2(Language::GetSymbol("position"), f);
+                m_pSelectedObject->SetPosition(glm::make_vec2(f));
+
+                float rot = m_pSelectedObject->GetRotation();
+                ImGui::DragFloat(Language::GetSymbol("rotation"), &rot);
+                m_pSelectedObject->SetRotation(rot);
+
+                glm::vec2 scale = m_pSelectedObject->GetScale();
+                float s[2] = { scale.x, scale.y };
+                ImGui::DragFloat2(Language::GetSymbol("scale"), s);
+                m_pSelectedObject->SetScale(glm::make_vec2(s));
+            }
+
+            if (ImGui::CollapsingHeader(Language::GetSymbol("settings")))
+            {
+                glm::vec4 color = m_pSelectedObject->GetColor();
+                float c[4] = { color.x, color.y, color.z, color.w };
+                ImGui::ColorEdit4(Language::GetSymbol("color"), c);
+                m_pSelectedObject->SetColor(glm::make_vec4(c));
+
+                bool sprite = m_pSelectedObject->GetIsSprite();
+                ImGui::Checkbox(Language::GetSymbol("isSprite"), &sprite);
+                m_pSelectedObject->SetIsSprite(sprite);
+            }
+        }
+        else
+        {
+            ImGui::Text("%s", Language::GetSymbol("selectObjectText"));
+        }
     }
     ImGui::End();
 }

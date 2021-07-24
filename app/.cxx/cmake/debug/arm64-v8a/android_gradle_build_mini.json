@@ -6,7 +6,8 @@
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt",
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt",
     "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt",
-    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt"
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt",
+    "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
@@ -60,6 +61,18 @@
       "abi": "arm64-v8a",
       "runtimeFiles": []
     },
+    "IMNODES-Debug-arm64-v8a": {
+      "artifactName": "IMNODES",
+      "buildCommandComponents": [
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a",
+        "IMNODES"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/src/vendor/imnodes/libIMNODES.a",
+      "runtimeFiles": []
+    },
     "SDL2main-Debug-arm64-v8a": {
       "artifactName": "SDL2main",
       "buildCommandComponents": [
@@ -70,18 +83,6 @@
       ],
       "abi": "arm64-v8a",
       "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/SDL2/libSDL2main.a",
-      "runtimeFiles": []
-    },
-    "SDL2-static-Debug-arm64-v8a": {
-      "artifactName": "SDL2-static",
-      "buildCommandComponents": [
-        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
-        "-C",
-        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a",
-        "SDL2-static"
-      ],
-      "abi": "arm64-v8a",
-      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/SDL2/libSDL2.a",
       "runtimeFiles": []
     },
     "cpufeatures-Debug-arm64-v8a": {
@@ -96,16 +97,16 @@
       "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/libcpufeatures.a",
       "runtimeFiles": []
     },
-    "IMGUI-Debug-arm64-v8a": {
-      "artifactName": "IMGUI",
+    "SDL2-static-Debug-arm64-v8a": {
+      "artifactName": "SDL2-static",
       "buildCommandComponents": [
         "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
         "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a",
-        "IMGUI"
+        "SDL2-static"
       ],
       "abi": "arm64-v8a",
-      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/src/vendor/imgui/libIMGUI.a",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/SDL2/libSDL2.a",
       "runtimeFiles": []
     },
     "main-Debug-arm64-v8a": {
@@ -121,6 +122,18 @@
       "runtimeFiles": [
         "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSDL2.so"
       ]
+    },
+    "IMGUI-Debug-arm64-v8a": {
+      "artifactName": "IMGUI",
+      "buildCommandComponents": [
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a",
+        "IMGUI"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/arm64-v8a/src/vendor/imgui/libIMGUI.a",
+      "runtimeFiles": []
     }
   }
 }

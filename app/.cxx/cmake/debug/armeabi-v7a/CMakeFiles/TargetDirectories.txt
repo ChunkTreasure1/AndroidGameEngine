@@ -48,3 +48,10 @@
 /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imgui/CMakeFiles/rebuild_cache.dir
 /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imgui/CMakeFiles/edit_cache.dir
 /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imgui/CMakeFiles/IMGUI.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/install/strip.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/install/local.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/install.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/list_install_components.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/rebuild_cache.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/edit_cache.dir
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a/src/vendor/imnodes/CMakeFiles/IMNODES.dir

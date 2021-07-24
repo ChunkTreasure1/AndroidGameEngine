@@ -8,23 +8,26 @@
 
 Object::Object(const std::string &name)
     : m_name(name)
-{}
+{
+    m_texture = Renderer::GetWhiteTexture();
+    UpdateTransform();
+}
 
 Object::~Object()
 {}
 
 void Object::OnEvent(Event &e)
-        {
-            EventDispatcher dispatcher(e);
-            dispatcher.Dispatch<AppRenderEvent>(LP_BIND_EVENT_FN(Object::OnRenderEvent));
-            dispatcher.Dispatch<AppUpdateEvent>(LP_BIND_EVENT_FN(Object::OnUpdateEvent));
-        }
+{
+    EventDispatcher dispatcher(e);
+    dispatcher.Dispatch<AppRenderEvent>(LP_BIND_EVENT_FN(Object::OnRenderEvent));
+    dispatcher.Dispatch<AppUpdateEvent>(LP_BIND_EVENT_FN(Object::OnUpdateEvent));
+}
 
-        bool Object::OnRenderEvent(AppRenderEvent &e)
-        {
-            if (m_isSprite)
-            {
-                Renderer::DrawQuad(m_transform, m_texture, m_color);
+bool Object::OnRenderEvent(AppRenderEvent &e)
+{
+    if (m_isSprite && m_texture != nullptr)
+    {
+        Renderer::DrawQuad(m_transform, m_texture, m_color);
     }
 
     return false;
@@ -32,8 +35,6 @@ void Object::OnEvent(Event &e)
 
 bool Object::OnUpdateEvent(AppUpdateEvent &e)
 {
-    
-
     return false;
 }
 
@@ -41,5 +42,5 @@ void Object::UpdateTransform()
 {
     m_transform = glm::translate(glm::mat4(1.f), { m_position.x, m_position.y, 0.f })
             * glm::scale(glm::mat4(1.f), { m_scale.x, m_scale. y, 1.f })
-            * glm::rotate(glm::mat4(1.f), m_rotation, { 0.f, 0.f, 1.f });
+            * glm::rotate(glm::mat4(1.f), glm::radians(m_rotation), { 0.f, 0.f, 1.f });
 }

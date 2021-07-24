@@ -28,6 +28,8 @@ public:
     static void Render();
     static void Clear();
 
+    static std::shared_ptr<Texture2D> GetWhiteTexture();
+
 private:
     static void StartNewBatch();
     static void ResetBatchData();

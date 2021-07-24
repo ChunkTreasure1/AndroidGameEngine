@@ -71,10 +71,17 @@ private:
 class AppRenderEvent : public Event
 {
 public:
-    AppRenderEvent() {}
+    AppRenderEvent(Timestep ts)
+        : m_timestep(ts)
+    {}
+
+    inline Timestep GetTimestep() { return m_timestep; }
 
     EVENT_CLASS_TYPE(AppRender);
     EVENT_CLASS_CATEGORY(EventCategoryApplication);
+
+private:
+    Timestep m_timestep;
 };
 
 #endif //TESTPROJECT_APPLICATIONEVENT_H

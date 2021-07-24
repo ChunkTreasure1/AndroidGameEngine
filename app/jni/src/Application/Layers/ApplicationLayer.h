@@ -11,6 +11,7 @@
 
 #include <imgui.h>
 #include <Objects/Object.h>
+#include <list>
 #include <vector>
 
 class ApplicationLayer : public Layer
@@ -32,6 +33,7 @@ private:
     void RenderSettings();
     void RenderBaseTools();
     void RenderObjectsPanel();
+    void RenderObjectProperties();
 
 private:
     bool OnUpdate(AppUpdateEvent& e);
@@ -46,9 +48,11 @@ private:
     bool m_settingsOpen = false;
     bool m_baseToolsOpen = true;
     bool m_objectsPanelOpen = true;
+    bool m_objectPropertiesOpen = true;
 
     /////Objects/////
-    std::vector<std::shared_ptr<Object>> m_pObjects;
+    std::vector<Object*> m_list;
+    Object* m_pSelectedObject = nullptr;
 
     /////Testing/////
     std::shared_ptr<Texture2D> m_testTexture;

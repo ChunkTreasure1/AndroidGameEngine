@@ -238,3 +238,9 @@
 5	661	1626728516	src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o	40c679d7ed4e1de6
 5	856	1626728516	src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o	da0b63aaade46486
 856	1114	1626728516	/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/arm64-v8a/libmain.so	2959f73bc1cb36b
+7	905	1627126057	src/CMakeFiles/main.dir/Application/main.cpp.o	fd7ccb3106d841b5
+7	956	1627126057	src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o	a9912ae40c4e1424
+7	968	1627126057	src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o	6de5f11dfb5a7f35
+6	1025	1627126057	src/CMakeFiles/main.dir/Application/Application.cpp.o	7a4dd119b2e7944f
+7	1052	1627126057	src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o	da0b63aaade46486
+1052	1587	1627126058	/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/arm64-v8a/libmain.so	2959f73bc1cb36b

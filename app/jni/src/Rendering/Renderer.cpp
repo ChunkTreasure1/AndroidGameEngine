@@ -46,9 +46,15 @@ struct RendererStorage
 
 static RendererStorage* s_pData;
 
+std::shared_ptr<Texture2D> Renderer::GetWhiteTexture()
+{
+    return s_pData->WhiteTexture;
+}
+
 void Renderer::Initialize()
 {
     s_pData = new RendererStorage();
+
 
     /////Quad/////
     s_pData->QuadVertexArray = VertexArray::Create();

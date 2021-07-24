@@ -9,5 +9,14 @@
   "language" : "Språk",
   "basetools" : "Basverktyg",
   "objectsPanel" : "Objekt lista",
-  "addObject" : "Lägg till objekt"
+  "addObject" : "Lägg till objekt",
+  "objectProperties" : "Objektinställningar",
+  "selectObjectText" : "Välj ett objekt för att kunna se dess inställningar!",
+  "inputName" : "Namn",
+  "transform" : "Omvandlingsfaktorer",
+  "position" : "Position",
+  "rotation" : "Rotation",
+  "scale" : "Skala",
+  "color" : "Färg",
+  "isSprite" : "Är Sprite"
 }

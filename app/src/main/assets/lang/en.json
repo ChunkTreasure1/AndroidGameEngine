@@ -9,5 +9,14 @@
   "language" : "Language",
   "baseTools" : "Base Tools",
   "objectsPanel" : "Objects Panel",
-  "addObject" : "Add Object"
+  "addObject" : "Add Object",
+  "objectProperties" : "Object Properties",
+  "selectObjectText" : "Please select and object to view it's properties!",
+  "inputName" : "Name",
+  "transform" : "Transform",
+  "position" : "Position",
+  "rotation" : "Rotation",
+  "scale" : "Scale",
+  "color" : "Color",
+  "isSprite" : "Is Sprite"
 }

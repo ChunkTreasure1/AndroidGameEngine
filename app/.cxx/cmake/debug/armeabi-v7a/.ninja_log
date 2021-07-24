@@ -237,3 +237,9 @@
 5	665	1626728515	src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o	615577e00a67a47c
 12	896	1626728515	src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o	67d24572bf20dce6
 896	1037	1626728515	/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so	e444eb8c63e79e60
+9	912	1627126056	src/CMakeFiles/main.dir/Application/main.cpp.o	a75f848912d25371
+9	927	1627126056	src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o	b1f32c021802dd88
+8	1037	1627126056	src/CMakeFiles/main.dir/Application/Application.cpp.o	812fdd64d2327909
+8	1065	1627126056	src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o	67d24572bf20dce6
+8	1078	1627126056	src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o	3b28d9d0b562ff66
+1078	1409	1627126056	/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so	e444eb8c63e79e60

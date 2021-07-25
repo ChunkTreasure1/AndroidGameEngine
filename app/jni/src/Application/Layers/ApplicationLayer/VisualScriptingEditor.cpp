@@ -6,23 +6,26 @@
 
 #include <imgui.h>
 #include <Application/Settings/Language.h>
+#include <Application/Events/Event.h>
+#include <Core.h>
+#include <vendor/imnodes/imnodes.h>
+
+VisualScriptingEditor::VisualScriptingEditor()
+        : m_isOpen(true)
+{
+
+}
 
 VisualScriptingEditor::~VisualScriptingEditor()
 {
 
 }
 
-VisualScriptingEditor::VisualScriptingEditor()
-    : m_isOpen(true)
-{
-
-}
-
 void VisualScriptingEditor::OnEvent(Event &e)
 {
-    EventDispatcher dispatcher;
-    dispatcher.Dispatch<AppUpdateEvent>(LP_BIND_EVENT_FUNC(VisualScriptingEditor::OnUpdate));
-    dispatcher.Dispatch<ImGuiUpdateEvent>(LP_BIND_EVENT_FUNC(VisualScriptingEditor::OnImGuiUpdate));
+    EventDispatcher dispatcher(e);
+    dispatcher.Dispatch<AppUpdateEvent>(LP_BIND_EVENT_FN(VisualScriptingEditor::OnUpdate));
+    dispatcher.Dispatch<ImGuiUpdateEvent>(LP_BIND_EVENT_FN(VisualScriptingEditor::OnImGuiUpdate));
 }
 
 bool VisualScriptingEditor::OnUpdate(AppUpdateEvent& e)
@@ -42,7 +45,7 @@ bool VisualScriptingEditor::OnImGuiUpdate(ImGuiUpdateEvent& e)
     ImGui::Begin(name.c_str(), &m_isOpen);
     ImGui::PopStyleVar();
     {
-        ImGuiIO& io ImGui::GetIO();
+        ImGuiIO& io = ImGui::GetIO();
         if (io.ConfigFlags & ImGuiConfigFlags_DockingEnable)
         {
             ImGuiID dockspaceId = ImGui::GetID(name.c_str());
@@ -51,5 +54,18 @@ bool VisualScriptingEditor::OnImGuiUpdate(ImGuiUpdateEvent& e)
     }
     ImGui::End();
 
+    UpdateNodeWindow();
+
     return false;
+}
+
+void VisualScriptingEditor::UpdateNodeWindow()
+{
+    std::string name = Language::GetSymbol("visualScriptingCode"); name += "###visualScriptingCode";
+    ImGui::Begin(name.c_str(), &m_isOpen);
+    {
+        ImNodes::BeginNodeEditor();
+        ImNodes::EndNodeEditor();
+    }
+    ImGui::End();
 }

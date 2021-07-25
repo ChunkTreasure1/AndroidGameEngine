@@ -5,7 +5,7 @@
 #ifndef TESTPROJECT_VISUALSCRIPTINGEDITOR_H
 #define TESTPROJECT_VISUALSCRIPTINGEDITOR_H
 
-
+#include "../../Events/ApplicationEvent.h"
 
 class VisualScriptingEditor
 {
@@ -18,6 +18,8 @@ public:
 private:
     bool OnImGuiUpdate(ImGuiUpdateEvent& e);
     bool OnUpdate(AppUpdateEvent& e);
+
+    void UpdateNodeWindow();
 
 private:
     bool m_isOpen;

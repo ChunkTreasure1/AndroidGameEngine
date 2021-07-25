@@ -20,17 +20,17 @@ ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     m_viewportBuffer = Framebuffer::Create(1280, 720);
     m_testTexture = Texture2D::Create("Agent.png");
 
-    m_pVisualScriptingEditor = new VisualScriptingEditor();
+    m_pVisualScriptingWindow = new VisualScriptingEditor();
 
     m_list.push_back(new Object("Object0"));
 }
 
 ApplicationLayer::~ApplicationLayer()
 {
-    for (int i = 0; i < m_list.size(); ++i)
+    for (auto & i : m_list)
     {
-        delete m_list[i];
-        m_list[i] = nullptr;
+        delete i;
+        i = nullptr;
     }
 
     m_list.clear();
@@ -71,9 +71,9 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
 {
     /////Update/////
     m_cameraController.Update(e.GetTimestep());
-    for (int i = 0; i < m_list.size(); ++i)
+    for (auto & i : m_list)
     {
-        m_list[i]->OnEvent(e);
+        i->OnEvent(e);
     }
 
     /////Render/////
@@ -85,9 +85,9 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
     
     //Send render event
     AppRenderEvent render(e.GetTimestep());
-    for (int i = 0; i < m_list.size(); ++i)
+    for (auto & i : m_list)
     {
-        m_list[i]->OnEvent(render);
+        i->OnEvent(render);
     }
 
     //Renderer::DrawQuad({0.f, 0.f, 0.f}, m_testTexture, {1.f, 1.f, 1.f, 1.f});

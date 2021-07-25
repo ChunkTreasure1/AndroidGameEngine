@@ -1,1 +1,1 @@
-C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\x86
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86

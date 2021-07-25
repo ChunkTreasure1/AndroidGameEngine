@@ -18,5 +18,7 @@
   "rotation" : "Rotation",
   "scale" : "Skala",
   "color" : "Färg",
-  "isSprite" : "Är Sprite"
+  "isSprite" : "Är Sprite",
+  "visualScripting" : "Visuell Skriptning",
+  "visualScriptingCode" : "Kod"
 }

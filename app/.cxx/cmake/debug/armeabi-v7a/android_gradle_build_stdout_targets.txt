@@ -1,7 +1,30 @@
-ninja: Entering directory `/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/armeabi-v7a'
-[1/6] Building CXX object src/CMakeFiles/main.dir/Application/main.cpp.o
-[2/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o
-[3/6] Building CXX object src/CMakeFiles/main.dir/Application/Application.cpp.o
-[4/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o
-[5/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o
-[6/6] Linking CXX shared library /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so
+ninja: Entering directory `D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\armeabi-v7a'
+[1/29] Building CXX object src/CMakeFiles/main.dir/Application/Window.cpp.o
+[2/29] Building CXX object src/CMakeFiles/main.dir/Application/Layers/Layer.cpp.o
+[3/29] Building CXX object src/CMakeFiles/main.dir/Application/main.cpp.o
+[4/29] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ImGuiLayer.cpp.o
+[5/29] Building CXX object src/CMakeFiles/main.dir/Application/Settings/Settings.cpp.o
+[6/29] Building CXX object src/CMakeFiles/main.dir/Application/Application.cpp.o
+[7/29] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o
+[8/29] Building CXX object src/CMakeFiles/main.dir/Application/ImGui/ImGuiBuild.cpp.o
+[9/29] Building CXX object src/CMakeFiles/main.dir/Application/Input/Input.cpp.o
+[10/29] Building CXX object src/CMakeFiles/main.dir/Application/Filesystem/Filesystem.cpp.o
+[11/29] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp.o
+[12/29] Building CXX object src/CMakeFiles/main.dir/Application/Settings/Language.cpp.o
+[13/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Buffers/VertexArray.cpp.o
+[14/29] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o
+[15/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCamera.cpp.o
+[16/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Framebuffer.cpp.o
+[17/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Texture2D/Texture2D.cpp.o
+[18/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Shaders/Shader.cpp.o
+[19/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Buffers/VertexBuffer.cpp.o
+[20/29] Building CXX object src/CMakeFiles/main.dir/VisualScripting/Node.cpp.o
+[21/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Texture2D/TextureCache.cpp.o
+[22/29] Building CXX object src/CMakeFiles/main.dir/VisualScripting/CodeGraph.cpp.o
+[23/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Camera/OrthographicCameraController.cpp.o
+[24/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Renderer.cpp.o
+[25/29] Building CXX object src/CMakeFiles/main.dir/Objects/Object.cpp.o
+[26/29] Building CXX object src/vendor/imnodes/CMakeFiles/IMNODES.dir/imnodes.cpp.o
+[27/29] Linking CXX static library src\vendor\imnodes\libIMNODES.a
+[28/29] Building CXX object src/CMakeFiles/main.dir/Rendering/Texture2D/TextureLoader.cpp.o
+[29/29] Linking CXX shared library D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libmain.so

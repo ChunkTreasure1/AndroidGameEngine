@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
-  "cxxBuildFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
+  "originalCxxBuildFolder": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86",
+  "cxxBuildFolder": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86",
   "abiPlatformVersion": 24,
   "cmake": {
-    "cmakeWrappingBaseFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cxx/debug/x86",
-    "cmakeArtifactsBaseFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
+    "cmakeWrappingBaseFolder": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cxx\\debug\\x86",
+    "cmakeArtifactsBaseFolder": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,13 +19,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
-      "cmakeToolchain": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
-      "cmakeExecutable": "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+      "buildRoot": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86",
+      "cmakeToolchain": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/prefab/x86/prefab"
+          "value": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -33,7 +33,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake"
+          "value": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,7 +41,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529"
+          "value": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -53,7 +53,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529"
+          "value": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -61,15 +61,15 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+          "value": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -89,7 +89,7 @@
         }
       ]
     },
-    "cmakeServerLogFile": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/cmake_server_log.txt"
+    "cmakeServerLogFile": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt"
   },
   "variant": {
     "buildSystemArgumentList": [
@@ -99,8 +99,8 @@
     "cFlagsList": [],
     "cppFlagsList": [],
     "variantName": "debug",
-    "objFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj",
-    "soFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates\\cmake\\debug\\lib",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
@@ -112,15 +112,15 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx",
+      "cxxFolder": "D:\\Programming\\AndroidGameEngine\\app\\.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates",
+      "intermediatesFolder": "D:\\Programming\\AndroidGameEngine\\app\\build\\intermediates",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app",
-      "moduleBuildFile": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build.gradle",
-      "makeFile": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+      "moduleRootFolder": "D:\\Programming\\AndroidGameEngine\\app",
+      "moduleBuildFile": "D:\\Programming\\AndroidGameEngine\\app\\build.gradle",
+      "makeFile": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529",
+      "ndkFolder": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529",
       "ndkVersion": "21.4.7075529",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -183,31 +183,31 @@
           "default": true
         }
       ],
-      "originalCmakeToolchainFile": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
-      "cmakeToolchainFile": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+      "originalCmakeToolchainFile": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
       "cmake": {
         "isValidCmakeAvailable": true,
-        "cmakeExe": "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+        "cmakeExe": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "ninjaExe": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
         "isPreferCmakeFileApiEnabled": true
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine",
-        "cxxFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/.cxx",
-        "compilerSettingsCacheFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/.cxx",
-        "sdkFolder": "/home/chunktreasure/Android/Sdk",
+        "rootBuildGradleFolder": "D:\\Programming\\AndroidGameEngine",
+        "cxxFolder": "D:\\Programming\\AndroidGameEngine\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\Programming\\AndroidGameEngine\\.cxx",
+        "sdkFolder": "C:\\Users\\ivar\\AppData\\Local\\Android\\Sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
@@ -216,10 +216,10 @@
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/prefab"
+    "prefabDirectory": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/prefab/x86"
+  "prefabFolder": "D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\prefab\\x86"
 }

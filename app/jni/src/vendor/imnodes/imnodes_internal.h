@@ -1,8 +1,8 @@
 #pragma once
 
-#include <imgui.h>
+#include "../imgui/imgui.h"
 #define IMGUI_DEFINE_MATH_OPERATORS
-#include <imgui_internal.h>
+#include "../imgui/imgui_internal.h"
 
 #include <assert.h>
 #include <limits.h>

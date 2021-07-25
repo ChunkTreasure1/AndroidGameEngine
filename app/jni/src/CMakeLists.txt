@@ -63,6 +63,10 @@ target_sources(main PRIVATE
 			Rendering/Texture2D/TextureLoader.h
 			Objects/Object.cpp
 			Objects/Object.h
+			VisualScripting/Node.cpp
+			VisualScripting/Node.h
+			VisualScripting/CodeGraph.cpp
+			VisualScripting/CodeGraph.h
 )
 
 target_include_directories(main PUBLIC
@@ -76,6 +80,7 @@ target_link_libraries(main
 		EGL
 		GLESv3
 		glm
-		IMGUI)
+		IMGUI
+		IMNODES)
 
 

@@ -64,8 +64,8 @@ void VisualScriptingEditor::UpdateNodeWindow()
     std::string name = Language::GetSymbol("visualScriptingCode"); name += "###visualScriptingCode";
     ImGui::Begin(name.c_str(), &m_isOpen);
     {
-        ImNodes::BeginNodeEditor();
-        ImNodes::EndNodeEditor();
+/*        ImNodes::BeginNodeEditor();
+        ImNodes::EndNodeEditor();*/
     }
     ImGui::End();
 }

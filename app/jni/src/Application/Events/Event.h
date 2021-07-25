@@ -17,7 +17,7 @@ enum class EventType
         AppTick, AppUpdate, AppRender,
         KeyPressed, KeyReleased, KeyTyped,
         MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled,
-        EntityCollisionEvent, EntityStoppedCollisionEvent
+        EntityCollisionEvent, EntityStoppedCollisionEvent, ImGuiUpdate
     };
 
     enum EventCategory

@@ -20,6 +20,8 @@ ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     m_viewportBuffer = Framebuffer::Create(1280, 720);
     m_testTexture = Texture2D::Create("Agent.png");
 
+    m_pVisualScriptingEditor = new VisualScriptingEditor();
+
     m_list.push_back(new Object("Object0"));
 }
 
@@ -52,12 +54,17 @@ void ApplicationLayer::OnImGuiRender(Timestep ts)
     RenderObjectsPanel();
     RenderBaseTools();
     RenderObjectProperties();
+
+    ImGuiUpdateEvent e;
+    OnEvent(e);
 }
 
 void ApplicationLayer::OnEvent(Event &e)
 {
     EventDispatcher dispatcher(e);
     dispatcher.Dispatch<AppUpdateEvent>(LP_BIND_EVENT_FN(ApplicationLayer::OnUpdate));
+
+    m_pVisualScriptingWindow->OnEvent(e);
 }
 
 bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)

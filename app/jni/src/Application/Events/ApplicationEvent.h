@@ -84,4 +84,14 @@ private:
     Timestep m_timestep;
 };
 
+class ImGuiUpdateEvent : public Event
+{
+public:
+    ImGuiUpdateEvent()
+    {}
+
+    EVENT_CLASS_TYPE(ImGuiUpdate);
+    EVENT_CLASS_CATEGORY(EventCategoryApplication);
+};
+
 #endif //TESTPROJECT_APPLICATIONEVENT_H

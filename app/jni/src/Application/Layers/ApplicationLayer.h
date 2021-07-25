@@ -13,6 +13,7 @@
 #include <Objects/Object.h>
 #include <list>
 #include <vector>
+#include "ApplicationLayer/VisualScriptingEditor.h"
 
 class ApplicationLayer : public Layer
 {
@@ -49,6 +50,7 @@ private:
     bool m_baseToolsOpen = true;
     bool m_objectsPanelOpen = true;
     bool m_objectPropertiesOpen = true;
+    VisualScriptingEditor* m_pVisualScriptingWindow = nullptr;
 
     /////Objects/////
     std::vector<Object*> m_list;

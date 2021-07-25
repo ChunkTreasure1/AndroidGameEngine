@@ -1,8 +1,8 @@
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/CMakeLists.txt
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\src\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\SDL2\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\src\vendor\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\src\vendor\glm\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\src\vendor\imgui\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\src\vendor\glm\glm\CMakeLists.txt
+C:\Users\Emilia\Documents\GitHub\AndroidGameEngine\app\jni\src\vendor\imnodes\CMakeLists.txt

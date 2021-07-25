@@ -28,6 +28,11 @@ void VisualScriptingEditor::OnEvent(Event &e)
     dispatcher.Dispatch<ImGuiUpdateEvent>(LP_BIND_EVENT_FN(VisualScriptingEditor::OnImGuiUpdate));
 }
 
+void VisualScriptingEditor::OpenGraph(std::shared_ptr<CodeGraph> &graph)
+{
+    m_currentlyOpenGraph = graph;
+}
+
 bool VisualScriptingEditor::OnUpdate(AppUpdateEvent& e)
 {
     return false;
@@ -64,8 +69,10 @@ void VisualScriptingEditor::UpdateNodeWindow()
     std::string name = Language::GetSymbol("visualScriptingCode"); name += "###visualScriptingCode";
     ImGui::Begin(name.c_str(), &m_isOpen);
     {
-/*        ImNodes::BeginNodeEditor();
-        ImNodes::EndNodeEditor();*/
+        ImNodes::BeginNodeEditor();
+
+
+        ImNodes::EndNodeEditor();
     }
     ImGui::End();
 }

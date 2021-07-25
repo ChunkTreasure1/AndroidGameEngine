@@ -20,5 +20,7 @@
   "color" : "Färg",
   "isSprite" : "Är Sprite",
   "visualScripting" : "Visuell Skriptning",
-  "visualScriptingCode" : "Kod"
+  "visualScriptingCode" : "Kod",
+  "visualScriptingCreate" : "Skapa graf",
+  "visualScriptingOpen" : "Öppna graf"
 }

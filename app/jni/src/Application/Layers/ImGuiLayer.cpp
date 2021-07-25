@@ -11,6 +11,7 @@
 #include <Application/Settings/Settings.h>
 #include <android/asset_manager.h>
 #include <Application/Filesystem/Filesystem.h>
+#include <vendor/imnodes/imnodes.h>
 
 ImGuiLayer::ImGuiLayer()
     : m_pFont(nullptr)
@@ -23,6 +24,7 @@ void ImGuiLayer::OnAttach()
 {
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
+    ImNodes::CreateContext();
 
     ImGuiIO& io = ImGui::GetIO(); (void)io;
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
@@ -80,6 +82,7 @@ void ImGuiLayer::OnDetach()
 {
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplSDL2_Shutdown();
+    ImNodes::DestroyContext();
     ImGui::DestroyContext();
 }
 

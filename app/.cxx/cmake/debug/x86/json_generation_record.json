@@ -2,21 +2,1918 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 24 min SDK version: x86",
-    "file": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
     "tag": "debug|x86",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027D:\\Programming\\AndroidGameEngine\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json\u0027 was up-to-date",
-    "file": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
+    "message": "rebuilding JSON /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/android_gradle_build.json due to:",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/CMakeLists.txt",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86\u0027 but regenerating project",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/home/chunktreasure/Android/Sdk/ndk/22.1.7171670\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/home/chunktreasure/Android/Sdk/ndk/22.1.7171670\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_APP_PLATFORM\u003dandroid-25\n-DANDROID_STL\u003dc++_static\n-B/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni\",\n  \"buildDirectory\": \"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/prefab/x86/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/home/chunktreasure/Android/Sdk/ndk/22.1.7171670\",\n    \"-DANDROID_PLATFORM\\u003dandroid-24\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/chunktreasure/Android/Sdk/ndk/22.1.7171670\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d24\",\n    \"-DANDROID_APP_PLATFORM\\u003dandroid-25\",\n    \"-DANDROID_STL\\u003dc++_static\"\n  ]\n}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\u0027s built-in compiler identification.\\nCall Stack (most recent call first):\\n  /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  CMakeLists.txt:3 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake:449 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt:3 (project)\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":225,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) \",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) ",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"SDL2 was configured with the following options:\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "SDL2 was configured with the following options:",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Platform: Android-1\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Platform: Android-1",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"64-bit:   FALSE\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "64-bit:   FALSE",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Compiler: /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Compiler: /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Subsystems:\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Subsystems:",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Atomic:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Atomic:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Audio:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Audio:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Video:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Video:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Render:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Render:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Events:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Events:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Joystick:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Joystick:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Haptic:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Haptic:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Power:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Power:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Threads:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Threads:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Timers:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Timers:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  File:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  File:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Loadso:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Loadso:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  CPUinfo:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  CPUinfo:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Filesystem:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Filesystem:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Dlopen:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Dlopen:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Sensor:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Sensor:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  Locale:\\tON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  Locale:\tON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Options:\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Options:",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  3DNOW                  (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  3DNOW                  (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ALSA                   (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ALSA                   (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ALSA_SHARED            (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ALSA_SHARED            (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ALTIVEC                (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ALTIVEC                (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ARMNEON                (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ARMNEON                (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ARMSIMD                (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ARMSIMD                (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ARTS                   (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ARTS                   (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ARTS_SHARED            (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ARTS_SHARED            (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ASSEMBLY               (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ASSEMBLY               (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ASSERTIONS             (Wanted: auto): auto\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ASSERTIONS             (Wanted: auto): auto",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  CLOCK_GETTIME          (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  CLOCK_GETTIME          (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  DIRECTFB_SHARED        (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  DIRECTFB_SHARED        (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  DIRECTX                (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  DIRECTX                (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  DISKAUDIO              (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  DISKAUDIO              (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  DUMMYAUDIO             (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  DUMMYAUDIO             (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ESD                    (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ESD                    (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  ESD_SHARED             (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  ESD_SHARED             (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  FUSIONSOUND            (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  FUSIONSOUND            (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  FUSIONSOUND_SHARED     (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  FUSIONSOUND_SHARED     (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  GCC_ATOMICS            (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  GCC_ATOMICS            (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  HIDAPI                 (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  HIDAPI                 (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  JACK                   (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  JACK                   (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  JACK_SHARED            (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  JACK_SHARED            (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  JOYSTICK_VIRTUAL       (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  JOYSTICK_VIRTUAL       (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  KMSDRM_SHARED          (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  KMSDRM_SHARED          (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  LIBC                   (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  LIBC                   (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  LIBSAMPLERATE          (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  LIBSAMPLERATE          (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  LIBSAMPLERATE_SHARED   (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  LIBSAMPLERATE_SHARED   (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  MMX                    (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  MMX                    (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  NAS                    (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  NAS                    (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  NAS_SHARED             (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  NAS_SHARED             (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  OSS                    (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  OSS                    (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  PTHREADS               (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  PTHREADS               (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  PTHREADS_SEM           (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  PTHREADS_SEM           (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  PULSEAUDIO             (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  PULSEAUDIO             (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  PULSEAUDIO_SHARED      (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  PULSEAUDIO_SHARED      (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  RENDER_D3D             (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  RENDER_D3D             (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  RENDER_METAL           (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  RENDER_METAL           (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  RPATH                  (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  RPATH                  (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SDL_DLOPEN             (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SDL_DLOPEN             (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SDL_STATIC_PIC         (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SDL_STATIC_PIC         (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SDL_TEST               (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SDL_TEST               (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SNDIO                  (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SNDIO                  (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SNDIO_SHARED           (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SNDIO_SHARED           (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SSE                    (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SSE                    (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SSE2                   (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SSE2                   (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SSE3                   (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SSE3                   (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  SSEMATH                (Wanted: OFF): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  SSEMATH                (Wanted: OFF): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_COCOA            (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_COCOA            (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_DIRECTFB         (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_DIRECTFB         (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_DUMMY            (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_DUMMY            (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_KMSDRM           (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_KMSDRM           (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_METAL            (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_METAL            (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_OFFSCREEN        (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_OFFSCREEN        (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_OPENGL           (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_OPENGL           (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_OPENGLES         (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_OPENGLES         (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_RPI              (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_RPI              (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_VIVANTE          (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_VIVANTE          (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_VULKAN           (Wanted: ON): ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_VULKAN           (Wanted: ON): ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_WAYLAND          (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_WAYLAND          (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11              (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11              (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XCURSOR      (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XCURSOR      (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XINERAMA     (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XINERAMA     (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XINPUT       (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XINPUT       (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XRANDR       (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XRANDR       (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XSCRNSAVER   (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XSCRNSAVER   (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XSHAPE       (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XSHAPE       (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  VIDEO_X11_XVM          (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  VIDEO_X11_XVM          (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  WASAPI                 (Wanted: OFF): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  WASAPI                 (Wanted: OFF): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  WAYLAND_SHARED         (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  WAYLAND_SHARED         (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"  X11_SHARED             (Wanted: ON): OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  X11_SHARED             (Wanted: ON): OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" CFLAGS:        -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\"\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " CFLAGS:        -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\"  \"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\"",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" EXTRA_CFLAGS:  -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall \",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " EXTRA_CFLAGS:  -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall ",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" EXTRA_LDFLAGS: -Wl,--no-undefined\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " EXTRA_LDFLAGS: -Wl,--no-undefined",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" EXTRA_LIBS:    m;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libdl.so;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libandroid.so;hidapi;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libGLESv1_CM.so;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libGLESv2.so\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " EXTRA_LIBS:    m;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libdl.so;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libandroid.so;hidapi;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libGLESv1_CM.so;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libGLESv2.so",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" Build Shared Library: ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " Build Shared Library: ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" Build Static Library: ON\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " Build Static Library: ON",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\" Build Static Library with Position Independent Code: OFF\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": " Build Static Library with Position Independent Code: OFF",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"If something was not detected, although the libraries\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "If something was not detected, although the libraries",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"were installed, then make sure you have set the\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "were installed, then make sure you have set the",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CFLAGS and LDFLAGS environment variables correctly.\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "CFLAGS and LDFLAGS environment variables correctly.",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":337,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"You have called ADD_LIBRARY for library main without any source files. This typically indicates a problem with your CMakeLists.txt file\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "WARN",
+    "message": "You have called ADD_LIBRARY for library main without any source files. This typically indicates a problem with your CMakeLists.txt file",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":450,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":562,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":674,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":787,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"You have called ADD_LIBRARY for library IMGUI without any source files. This typically indicates a problem with your CMakeLists.txt file\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "WARN",
+    "message": "You have called ADD_LIBRARY for library IMGUI without any source files. This typically indicates a problem with your CMakeLists.txt file",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":900,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"You have called ADD_LIBRARY for library IMNODES without any source files. This typically indicates a problem with your CMakeLists.txt file\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "WARN",
+    "message": "You have called ADD_LIBRARY for library IMNODES without any source files. This typically indicates a problem with your CMakeLists.txt file",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":912,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":924,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":937,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":950,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":962,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":974,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":987,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":125,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":250,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":375,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":500,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":625,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":750,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":875,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFiles.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceRuns.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckTypeSize.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckStructHasMember.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDependentOption.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPkgConfig.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/GNUInstallDirs.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake\",\"../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../../Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake\",\"../../../../Android/Sdk/ndk/22.1.7171670/build/cmake/platforms.cmake\",\"../../../../Android/Sdk/ndk/22.1.7171670/build/cmake/compiler_id.cmake\",\"SDL2/CMakeLists.txt\",\"SDL2/cmake/macros.cmake\",\"SDL2/cmake/sdlchecks.cmake\",\"SDL2/include/SDL_config.h.cmake\",\"SDL2/sdl2.pc.in\",\"SDL2/sdl2-config.in\",\"SDL2/sdl2-config.in\",\"SDL2/SDL2.spec.in\",\"SDL2/cmake_uninstall.cmake.in\",\"src/CMakeLists.txt\",\"src/vendor/CMakeLists.txt\",\"src/vendor/glm/CMakeLists.txt\",\"src/vendor/glm/glm/CMakeLists.txt\",\"src/vendor/imgui/CMakeLists.txt\",\"src/vendor/imnodes/CMakeLists.txt\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni\",\"type\":\"reply\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86\",\"name\":\"GAME\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni\",\"targets\":[{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/libcpufeatures.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info  -fPIC  \",\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"../../../../Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures/cpu-features.c\"]}],\"fullName\":\"libcpufeatures.a\",\"linkerLanguage\":\"C\",\"name\":\"cpufeatures\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/libSDL2main.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/android/SDL_android_main.c\"]}],\"fullName\":\"libSDL2main.a\",\"linkerLanguage\":\"C\",\"name\":\"SDL2main\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libSDL2.so\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC   -marm\",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"SDL2_EXPORTS\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/atomic/SDL_spinlock.c\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"SDL2_EXPORTS\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/SDL.c\",\"src/SDL_assert.c\",\"src/SDL_dataqueue.c\",\"src/SDL_error.c\",\"src/SDL_hints.c\",\"src/SDL_log.c\",\"src/atomic/SDL_atomic.c\",\"src/audio/SDL_audio.c\",\"src/audio/SDL_audiocvt.c\",\"src/audio/SDL_audiodev.c\",\"src/audio/SDL_audiotypecvt.c\",\"src/audio/SDL_mixer.c\",\"src/audio/SDL_wave.c\",\"src/cpuinfo/SDL_cpuinfo.c\",\"src/dynapi/SDL_dynapi.c\",\"src/events/SDL_clipboardevents.c\",\"src/events/SDL_displayevents.c\",\"src/events/SDL_dropevents.c\",\"src/events/SDL_events.c\",\"src/events/SDL_gesture.c\",\"src/events/SDL_keyboard.c\",\"src/events/SDL_mouse.c\",\"src/events/SDL_quit.c\",\"src/events/SDL_touch.c\",\"src/events/SDL_windowevents.c\",\"src/file/SDL_rwops.c\",\"src/haptic/SDL_haptic.c\",\"src/libm/e_atan2.c\",\"src/libm/e_exp.c\",\"src/libm/e_fmod.c\",\"src/libm/e_log.c\",\"src/libm/e_log10.c\",\"src/libm/e_pow.c\",\"src/libm/e_rem_pio2.c\",\"src/libm/e_sqrt.c\",\"src/libm/k_cos.c\",\"src/libm/k_rem_pio2.c\",\"src/libm/k_sin.c\",\"src/libm/k_tan.c\",\"src/libm/s_atan.c\",\"src/libm/s_copysign.c\",\"src/libm/s_cos.c\",\"src/libm/s_fabs.c\",\"src/libm/s_floor.c\",\"src/libm/s_scalbn.c\",\"src/libm/s_sin.c\",\"src/libm/s_tan.c\",\"src/locale/SDL_locale.c\",\"src/misc/SDL_url.c\",\"src/power/SDL_power.c\",\"src/render/SDL_d3dmath.c\",\"src/render/SDL_render.c\",\"src/render/SDL_yuv_sw.c\",\"src/render/direct3d/SDL_render_d3d.c\",\"src/render/direct3d/SDL_shaders_d3d.c\",\"src/render/direct3d11/SDL_render_d3d11.c\",\"src/render/direct3d11/SDL_shaders_d3d11.c\",\"src/render/opengl/SDL_render_gl.c\",\"src/render/opengl/SDL_shaders_gl.c\",\"src/render/opengles/SDL_render_gles.c\",\"src/render/opengles2/SDL_render_gles2.c\",\"src/render/opengles2/SDL_shaders_gles2.c\",\"src/render/psp/SDL_render_psp.c\",\"src/render/software/SDL_blendfillrect.c\",\"src/render/software/SDL_blendline.c\",\"src/render/software/SDL_blendpoint.c\",\"src/render/software/SDL_drawline.c\",\"src/render/software/SDL_drawpoint.c\",\"src/render/software/SDL_render_sw.c\",\"src/render/software/SDL_rotate.c\",\"src/sensor/SDL_sensor.c\",\"src/stdlib/SDL_crc32.c\",\"src/stdlib/SDL_getenv.c\",\"src/stdlib/SDL_iconv.c\",\"src/stdlib/SDL_malloc.c\",\"src/stdlib/SDL_qsort.c\",\"src/stdlib/SDL_stdlib.c\",\"src/stdlib/SDL_string.c\",\"src/stdlib/SDL_strtokr.c\",\"src/thread/SDL_thread.c\",\"src/timer/SDL_timer.c\",\"src/video/SDL_RLEaccel.c\",\"src/video/SDL_blit.c\",\"src/video/SDL_blit_0.c\",\"src/video/SDL_blit_1.c\",\"src/video/SDL_blit_A.c\",\"src/video/SDL_blit_N.c\",\"src/video/SDL_blit_auto.c\",\"src/video/SDL_blit_copy.c\",\"src/video/SDL_blit_slow.c\",\"src/video/SDL_bmp.c\",\"src/video/SDL_clipboard.c\",\"src/video/SDL_egl.c\",\"src/video/SDL_fillrect.c\",\"src/video/SDL_pixels.c\",\"src/video/SDL_rect.c\",\"src/video/SDL_shape.c\",\"src/video/SDL_stretch.c\",\"src/video/SDL_surface.c\",\"src/video/SDL_video.c\",\"src/video/SDL_vulkan_utils.c\",\"src/video/SDL_yuv.c\",\"src/video/yuv2rgb/yuv_rgb.c\",\"src/joystick/SDL_gamecontroller.c\",\"src/joystick/SDL_joystick.c\",\"src/audio/dummy/SDL_dummyaudio.c\",\"src/audio/disk/SDL_diskaudio.c\",\"src/loadso/dlopen/SDL_sysloadso.c\",\"src/joystick/virtual/SDL_virtualjoystick.c\",\"src/video/dummy/SDL_nullevents.c\",\"src/video/dummy/SDL_nullframebuffer.c\",\"src/video/dummy/SDL_nullvideo.c\",\"src/core/android/SDL_android.c\",\"../../../../../Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures/cpu-features.c\",\"src/misc/android/SDL_sysurl.c\",\"src/audio/android/SDL_androidaudio.c\",\"src/filesystem/android/SDL_sysfilesystem.c\",\"src/haptic/android/SDL_syshaptic.c\",\"src/joystick/hidapi/SDL_hidapi_gamecube.c\",\"src/joystick/hidapi/SDL_hidapi_ps4.c\",\"src/joystick/hidapi/SDL_hidapi_ps5.c\",\"src/joystick/hidapi/SDL_hidapi_rumble.c\",\"src/joystick/hidapi/SDL_hidapi_steam.c\",\"src/joystick/hidapi/SDL_hidapi_switch.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360w.c\",\"src/joystick/hidapi/SDL_hidapi_xboxone.c\",\"src/joystick/hidapi/SDL_hidapijoystick.c\",\"src/joystick/android/SDL_sysjoystick.c\",\"src/joystick/steam/SDL_steamcontroller.c\",\"src/power/android/SDL_syspower.c\",\"src/locale/android/SDL_syslocale.c\",\"src/timer/unix/SDL_systimer.c\",\"src/sensor/android/SDL_androidsensor.c\",\"src/video/android/SDL_androidclipboard.c\",\"src/video/android/SDL_androidevents.c\",\"src/video/android/SDL_androidgl.c\",\"src/video/android/SDL_androidkeyboard.c\",\"src/video/android/SDL_androidmessagebox.c\",\"src/video/android/SDL_androidmouse.c\",\"src/video/android/SDL_androidtouch.c\",\"src/video/android/SDL_androidvideo.c\",\"src/video/android/SDL_androidvulkan.c\",\"src/video/android/SDL_androidwindow.c\",\"src/thread/pthread/SDL_systhread.c\",\"src/thread/pthread/SDL_sysmutex.c\",\"src/thread/pthread/SDL_syscond.c\",\"src/thread/pthread/SDL_systls.c\",\"src/thread/pthread/SDL_syssem.c\"]}],\"fullName\":\"libSDL2.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-lm -ldl -llog -landroid /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libhidapi.so -lGLESv1_CM -lGLESv2 -Wl,--no-undefined -llog -latomic -lm\",\"linkerLanguage\":\"C\",\"name\":\"SDL2\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/libSDL2.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info    -marm\",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/atomic/SDL_spinlock.c\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info   \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/SDL.c\",\"src/SDL_assert.c\",\"src/SDL_dataqueue.c\",\"src/SDL_error.c\",\"src/SDL_hints.c\",\"src/SDL_log.c\",\"src/atomic/SDL_atomic.c\",\"src/audio/SDL_audio.c\",\"src/audio/SDL_audiocvt.c\",\"src/audio/SDL_audiodev.c\",\"src/audio/SDL_audiotypecvt.c\",\"src/audio/SDL_mixer.c\",\"src/audio/SDL_wave.c\",\"src/cpuinfo/SDL_cpuinfo.c\",\"src/dynapi/SDL_dynapi.c\",\"src/events/SDL_clipboardevents.c\",\"src/events/SDL_displayevents.c\",\"src/events/SDL_dropevents.c\",\"src/events/SDL_events.c\",\"src/events/SDL_gesture.c\",\"src/events/SDL_keyboard.c\",\"src/events/SDL_mouse.c\",\"src/events/SDL_quit.c\",\"src/events/SDL_touch.c\",\"src/events/SDL_windowevents.c\",\"src/file/SDL_rwops.c\",\"src/haptic/SDL_haptic.c\",\"src/libm/e_atan2.c\",\"src/libm/e_exp.c\",\"src/libm/e_fmod.c\",\"src/libm/e_log.c\",\"src/libm/e_log10.c\",\"src/libm/e_pow.c\",\"src/libm/e_rem_pio2.c\",\"src/libm/e_sqrt.c\",\"src/libm/k_cos.c\",\"src/libm/k_rem_pio2.c\",\"src/libm/k_sin.c\",\"src/libm/k_tan.c\",\"src/libm/s_atan.c\",\"src/libm/s_copysign.c\",\"src/libm/s_cos.c\",\"src/libm/s_fabs.c\",\"src/libm/s_floor.c\",\"src/libm/s_scalbn.c\",\"src/libm/s_sin.c\",\"src/libm/s_tan.c\",\"src/locale/SDL_locale.c\",\"src/misc/SDL_url.c\",\"src/power/SDL_power.c\",\"src/render/SDL_d3dmath.c\",\"src/render/SDL_render.c\",\"src/render/SDL_yuv_sw.c\",\"src/render/direct3d/SDL_render_d3d.c\",\"src/render/direct3d/SDL_shaders_d3d.c\",\"src/render/direct3d11/SDL_render_d3d11.c\",\"src/render/direct3d11/SDL_shaders_d3d11.c\",\"src/render/opengl/SDL_render_gl.c\",\"src/render/opengl/SDL_shaders_gl.c\",\"src/render/opengles/SDL_render_gles.c\",\"src/render/opengles2/SDL_render_gles2.c\",\"src/render/opengles2/SDL_shaders_gles2.c\",\"src/render/psp/SDL_render_psp.c\",\"src/render/software/SDL_blendfillrect.c\",\"src/render/software/SDL_blendline.c\",\"src/render/software/SDL_blendpoint.c\",\"src/render/software/SDL_drawline.c\",\"src/render/software/SDL_drawpoint.c\",\"src/render/software/SDL_render_sw.c\",\"src/render/software/SDL_rotate.c\",\"src/sensor/SDL_sensor.c\",\"src/stdlib/SDL_crc32.c\",\"src/stdlib/SDL_getenv.c\",\"src/stdlib/SDL_iconv.c\",\"src/stdlib/SDL_malloc.c\",\"src/stdlib/SDL_qsort.c\",\"src/stdlib/SDL_stdlib.c\",\"src/stdlib/SDL_string.c\",\"src/stdlib/SDL_strtokr.c\",\"src/thread/SDL_thread.c\",\"src/timer/SDL_timer.c\",\"src/video/SDL_RLEaccel.c\",\"src/video/SDL_blit.c\",\"src/video/SDL_blit_0.c\",\"src/video/SDL_blit_1.c\",\"src/video/SDL_blit_A.c\",\"src/video/SDL_blit_N.c\",\"src/video/SDL_blit_auto.c\",\"src/video/SDL_blit_copy.c\",\"src/video/SDL_blit_slow.c\",\"src/video/SDL_bmp.c\",\"src/video/SDL_clipboard.c\",\"src/video/SDL_egl.c\",\"src/video/SDL_fillrect.c\",\"src/video/SDL_pixels.c\",\"src/video/SDL_rect.c\",\"src/video/SDL_shape.c\",\"src/video/SDL_stretch.c\",\"src/video/SDL_surface.c\",\"src/video/SDL_video.c\",\"src/video/SDL_vulkan_utils.c\",\"src/video/SDL_yuv.c\",\"src/video/yuv2rgb/yuv_rgb.c\",\"src/joystick/SDL_gamecontroller.c\",\"src/joystick/SDL_joystick.c\",\"src/audio/dummy/SDL_dummyaudio.c\",\"src/audio/disk/SDL_diskaudio.c\",\"src/loadso/dlopen/SDL_sysloadso.c\",\"src/joystick/virtual/SDL_virtualjoystick.c\",\"src/video/dummy/SDL_nullevents.c\",\"src/video/dummy/SDL_nullframebuffer.c\",\"src/video/dummy/SDL_nullvideo.c\",\"src/core/android/SDL_android.c\",\"../../../../../Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures/cpu-features.c\",\"src/misc/android/SDL_sysurl.c\",\"src/audio/android/SDL_androidaudio.c\",\"src/filesystem/android/SDL_sysfilesystem.c\",\"src/haptic/android/SDL_syshaptic.c\",\"src/joystick/hidapi/SDL_hidapi_gamecube.c\",\"src/joystick/hidapi/SDL_hidapi_ps4.c\",\"src/joystick/hidapi/SDL_hidapi_ps5.c\",\"src/joystick/hidapi/SDL_hidapi_rumble.c\",\"src/joystick/hidapi/SDL_hidapi_steam.c\",\"src/joystick/hidapi/SDL_hidapi_switch.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360w.c\",\"src/joystick/hidapi/SDL_hidapi_xboxone.c\",\"src/joystick/hidapi/SDL_hidapijoystick.c\",\"src/joystick/android/SDL_sysjoystick.c\",\"src/joystick/steam/SDL_steamcontroller.c\",\"src/power/android/SDL_syspower.c\",\"src/locale/android/SDL_syslocale.c\",\"src/timer/unix/SDL_systimer.c\",\"src/sensor/android/SDL_androidsensor.c\",\"src/video/android/SDL_androidclipboard.c\",\"src/video/android/SDL_androidevents.c\",\"src/video/android/SDL_androidgl.c\",\"src/video/android/SDL_androidkeyboard.c\",\"src/video/android/SDL_androidmessagebox.c\",\"src/video/android/SDL_androidmouse.c\",\"src/video/android/SDL_androidtouch.c\",\"src/video/android/SDL_androidvideo.c\",\"src/video/android/SDL_androidvulkan.c\",\"src/video/android/SDL_androidwindow.c\",\"src/thread/pthread/SDL_systhread.c\",\"src/thread/pthread/SDL_sysmutex.c\",\"src/thread/pthread/SDL_syscond.c\",\"src/thread/pthread/SDL_systls.c\",\"src/thread/pthread/SDL_syssem.c\"]}],\"fullName\":\"libSDL2.a\",\"linkerLanguage\":\"C\",\"name\":\"SDL2-static\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../.cxx/cmake/debug/x86/SDL2/CMakeFiles/uninstall\",\"../../.cxx/cmake/debug/x86/SDL2/CMakeFiles/uninstall.rule\"]}],\"fullName\":\"uninstall\",\"name\":\"uninstall\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"type\":\"UTILITY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libhidapi.so\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\",\"hidapi_EXPORTS\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/hidapi/android/hid.cpp\"]}],\"fullName\":\"libhidapi.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"hidapi\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libmain.so\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"Application/Application.h\",\"Application/Window.h\",\"Application/Timestep.h\",\"Application/Events/Event.h\",\"Application/Events/ApplicationEvent.h\",\"Application/Events/KeyEvent.h\",\"Application/Events/MouseEvent.h\",\"Application/Layers/Layer.h\",\"Application/Layers/ApplicationLayer.h\",\"Application/Layers/ImGuiLayer.h\",\"Application/Layers/ApplicationLayer/VisualScriptingEditor.h\",\"Application/Input/Input.h\",\"Application/Filesystem/Filesystem.h\",\"Application/Settings/Language.h\",\"Application/Settings/Settings.h\",\"Core.h\",\"stb_image.h\",\"Rendering/Renderer.h\",\"Rendering/Framebuffer.h\",\"Rendering/Buffers/VertexBuffer.h\",\"Rendering/Buffers/VertexArray.h\",\"Rendering/Buffers/BufferLayout.h\",\"Rendering/Shaders/Shader.h\",\"Rendering/Camera/OrthographicCamera.h\",\"Rendering/Camera/OrthographicCameraController.h\",\"Rendering/Texture2D/Texture2D.h\",\"Rendering/Texture2D/TextureCache.h\",\"Rendering/Texture2D/TextureLoader.h\",\"Objects/Object.h\",\"VisualScripting/Node.h\",\"VisualScripting/CodeGraph.h\",\"VisualScripting/Nodes/VariableNode.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"main_EXPORTS\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/rapidjson/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/.\"},{\"path\":\"/vendor\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/..\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/backends\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/../imnodes\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"Application/main.cpp\",\"Application/Application.cpp\",\"Application/Window.cpp\",\"Application/Layers/Layer.cpp\",\"Application/Layers/ApplicationLayer.cpp\",\"Application/Layers/ImGuiLayer.cpp\",\"Application/Layers/ApplicationLayer/ImGuiRenderer.cpp\",\"Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp\",\"Application/ImGui/ImGuiBuild.cpp\",\"Application/Input/Input.cpp\",\"Application/Filesystem/Filesystem.cpp\",\"Application/Settings/Language.cpp\",\"Application/Settings/Settings.cpp\",\"Rendering/Renderer.cpp\",\"Rendering/Framebuffer.cpp\",\"Rendering/Buffers/VertexBuffer.cpp\",\"Rendering/Buffers/VertexArray.cpp\",\"Rendering/Shaders/Shader.cpp\",\"Rendering/Camera/OrthographicCamera.cpp\",\"Rendering/Camera/OrthographicCameraController.cpp\",\"Rendering/Texture2D/Texture2D.cpp\",\"Rendering/Texture2D/TextureCache.cpp\",\"Rendering/Texture2D/TextureLoader.cpp\",\"Objects/Object.cpp\",\"VisualScripting/Node.cpp\",\"VisualScripting/CodeGraph.cpp\",\"VisualScripting/Nodes/VariableNode.cpp\"]}],\"fullName\":\"libmain.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libSDL2.so /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libandroid.so -lEGL -lGLESv3 vendor/imgui/libIMGUI.a vendor/imnodes/libIMNODES.a -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"main\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/glm/glm\",\"name\":\"glm\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm\",\"type\":\"INTERFACE_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imgui/libIMGUI.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imgui\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/backends\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"imgui.cpp\",\"imgui_demo.cpp\",\"imgui_draw.cpp\",\"imgui_tables.cpp\",\"imgui_widgets.cpp\",\"misc/cpp/imgui_stdlib.cpp\",\"backends/imgui_impl_sdl.cpp\",\"backends/imgui_impl_opengl3.cpp\"]}],\"fullName\":\"libIMGUI.a\",\"linkerLanguage\":\"CXX\",\"name\":\"IMGUI\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imnodes/libIMNODES.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imnodes\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"imnodes.h\",\"imnodes_internal.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/../imnodes\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"imnodes.cpp\"]}],\"fullName\":\"libIMNODES.a\",\"linkerLanguage\":\"CXX\",\"name\":\"IMNODES\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"}]},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src\",\"name\":\"MY_APP\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src\",\"targets\":[{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libmain.so\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"Application/Application.h\",\"Application/Window.h\",\"Application/Timestep.h\",\"Application/Events/Event.h\",\"Application/Events/ApplicationEvent.h\",\"Application/Events/KeyEvent.h\",\"Application/Events/MouseEvent.h\",\"Application/Layers/Layer.h\",\"Application/Layers/ApplicationLayer.h\",\"Application/Layers/ImGuiLayer.h\",\"Application/Layers/ApplicationLayer/VisualScriptingEditor.h\",\"Application/Input/Input.h\",\"Application/Filesystem/Filesystem.h\",\"Application/Settings/Language.h\",\"Application/Settings/Settings.h\",\"Core.h\",\"stb_image.h\",\"Rendering/Renderer.h\",\"Rendering/Framebuffer.h\",\"Rendering/Buffers/VertexBuffer.h\",\"Rendering/Buffers/VertexArray.h\",\"Rendering/Buffers/BufferLayout.h\",\"Rendering/Shaders/Shader.h\",\"Rendering/Camera/OrthographicCamera.h\",\"Rendering/Camera/OrthographicCameraController.h\",\"Rendering/Texture2D/Texture2D.h\",\"Rendering/Texture2D/TextureCache.h\",\"Rendering/Texture2D/TextureLoader.h\",\"Objects/Object.h\",\"VisualScripting/Node.h\",\"VisualScripting/CodeGraph.h\",\"VisualScripting/Nodes/VariableNode.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"main_EXPORTS\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/rapidjson/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/.\"},{\"path\":\"/vendor\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm/..\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/backends\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/../imnodes\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"Application/main.cpp\",\"Application/Application.cpp\",\"Application/Window.cpp\",\"Application/Layers/Layer.cpp\",\"Application/Layers/ApplicationLayer.cpp\",\"Application/Layers/ImGuiLayer.cpp\",\"Application/Layers/ApplicationLayer/ImGuiRenderer.cpp\",\"Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp\",\"Application/ImGui/ImGuiBuild.cpp\",\"Application/Input/Input.cpp\",\"Application/Filesystem/Filesystem.cpp\",\"Application/Settings/Language.cpp\",\"Application/Settings/Settings.cpp\",\"Rendering/Renderer.cpp\",\"Rendering/Framebuffer.cpp\",\"Rendering/Buffers/VertexBuffer.cpp\",\"Rendering/Buffers/VertexArray.cpp\",\"Rendering/Shaders/Shader.cpp\",\"Rendering/Camera/OrthographicCamera.cpp\",\"Rendering/Camera/OrthographicCameraController.cpp\",\"Rendering/Texture2D/Texture2D.cpp\",\"Rendering/Texture2D/TextureCache.cpp\",\"Rendering/Texture2D/TextureLoader.cpp\",\"Objects/Object.cpp\",\"VisualScripting/Node.cpp\",\"VisualScripting/CodeGraph.cpp\",\"VisualScripting/Nodes/VariableNode.cpp\"]}],\"fullName\":\"libmain.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libSDL2.so /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/liblog.so /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/24/libandroid.so -lEGL -lGLESv3 vendor/imgui/libIMGUI.a vendor/imnodes/libIMNODES.a -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"main\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/glm/glm\",\"name\":\"glm\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm\",\"type\":\"INTERFACE_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imgui/libIMGUI.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imgui\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/../imgui\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui/backends\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"imgui.cpp\",\"imgui_demo.cpp\",\"imgui_draw.cpp\",\"imgui_tables.cpp\",\"imgui_widgets.cpp\",\"misc/cpp/imgui_stdlib.cpp\",\"backends/imgui_impl_sdl.cpp\",\"backends/imgui_impl_opengl3.cpp\"]}],\"fullName\":\"libIMGUI.a\",\"linkerLanguage\":\"CXX\",\"name\":\"IMGUI\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imgui\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imnodes/libIMNODES.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imnodes\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"imnodes.h\",\"imnodes_internal.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes/../imnodes\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"imnodes.cpp\"]}],\"fullName\":\"libIMNODES.a\",\"linkerLanguage\":\"CXX\",\"name\":\"IMNODES\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/imnodes\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"}]},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"name\":\"SDL2\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"targets\":[{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/libSDL2main.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/main/android/SDL_android_main.c\"]}],\"fullName\":\"libSDL2main.a\",\"linkerLanguage\":\"C\",\"name\":\"SDL2main\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libSDL2.so\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC   -marm\",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"SDL2_EXPORTS\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/atomic/SDL_spinlock.c\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"SDL2_EXPORTS\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/SDL.c\",\"src/SDL_assert.c\",\"src/SDL_dataqueue.c\",\"src/SDL_error.c\",\"src/SDL_hints.c\",\"src/SDL_log.c\",\"src/atomic/SDL_atomic.c\",\"src/audio/SDL_audio.c\",\"src/audio/SDL_audiocvt.c\",\"src/audio/SDL_audiodev.c\",\"src/audio/SDL_audiotypecvt.c\",\"src/audio/SDL_mixer.c\",\"src/audio/SDL_wave.c\",\"src/cpuinfo/SDL_cpuinfo.c\",\"src/dynapi/SDL_dynapi.c\",\"src/events/SDL_clipboardevents.c\",\"src/events/SDL_displayevents.c\",\"src/events/SDL_dropevents.c\",\"src/events/SDL_events.c\",\"src/events/SDL_gesture.c\",\"src/events/SDL_keyboard.c\",\"src/events/SDL_mouse.c\",\"src/events/SDL_quit.c\",\"src/events/SDL_touch.c\",\"src/events/SDL_windowevents.c\",\"src/file/SDL_rwops.c\",\"src/haptic/SDL_haptic.c\",\"src/libm/e_atan2.c\",\"src/libm/e_exp.c\",\"src/libm/e_fmod.c\",\"src/libm/e_log.c\",\"src/libm/e_log10.c\",\"src/libm/e_pow.c\",\"src/libm/e_rem_pio2.c\",\"src/libm/e_sqrt.c\",\"src/libm/k_cos.c\",\"src/libm/k_rem_pio2.c\",\"src/libm/k_sin.c\",\"src/libm/k_tan.c\",\"src/libm/s_atan.c\",\"src/libm/s_copysign.c\",\"src/libm/s_cos.c\",\"src/libm/s_fabs.c\",\"src/libm/s_floor.c\",\"src/libm/s_scalbn.c\",\"src/libm/s_sin.c\",\"src/libm/s_tan.c\",\"src/locale/SDL_locale.c\",\"src/misc/SDL_url.c\",\"src/power/SDL_power.c\",\"src/render/SDL_d3dmath.c\",\"src/render/SDL_render.c\",\"src/render/SDL_yuv_sw.c\",\"src/render/direct3d/SDL_render_d3d.c\",\"src/render/direct3d/SDL_shaders_d3d.c\",\"src/render/direct3d11/SDL_render_d3d11.c\",\"src/render/direct3d11/SDL_shaders_d3d11.c\",\"src/render/opengl/SDL_render_gl.c\",\"src/render/opengl/SDL_shaders_gl.c\",\"src/render/opengles/SDL_render_gles.c\",\"src/render/opengles2/SDL_render_gles2.c\",\"src/render/opengles2/SDL_shaders_gles2.c\",\"src/render/psp/SDL_render_psp.c\",\"src/render/software/SDL_blendfillrect.c\",\"src/render/software/SDL_blendline.c\",\"src/render/software/SDL_blendpoint.c\",\"src/render/software/SDL_drawline.c\",\"src/render/software/SDL_drawpoint.c\",\"src/render/software/SDL_render_sw.c\",\"src/render/software/SDL_rotate.c\",\"src/sensor/SDL_sensor.c\",\"src/stdlib/SDL_crc32.c\",\"src/stdlib/SDL_getenv.c\",\"src/stdlib/SDL_iconv.c\",\"src/stdlib/SDL_malloc.c\",\"src/stdlib/SDL_qsort.c\",\"src/stdlib/SDL_stdlib.c\",\"src/stdlib/SDL_string.c\",\"src/stdlib/SDL_strtokr.c\",\"src/thread/SDL_thread.c\",\"src/timer/SDL_timer.c\",\"src/video/SDL_RLEaccel.c\",\"src/video/SDL_blit.c\",\"src/video/SDL_blit_0.c\",\"src/video/SDL_blit_1.c\",\"src/video/SDL_blit_A.c\",\"src/video/SDL_blit_N.c\",\"src/video/SDL_blit_auto.c\",\"src/video/SDL_blit_copy.c\",\"src/video/SDL_blit_slow.c\",\"src/video/SDL_bmp.c\",\"src/video/SDL_clipboard.c\",\"src/video/SDL_egl.c\",\"src/video/SDL_fillrect.c\",\"src/video/SDL_pixels.c\",\"src/video/SDL_rect.c\",\"src/video/SDL_shape.c\",\"src/video/SDL_stretch.c\",\"src/video/SDL_surface.c\",\"src/video/SDL_video.c\",\"src/video/SDL_vulkan_utils.c\",\"src/video/SDL_yuv.c\",\"src/video/yuv2rgb/yuv_rgb.c\",\"src/joystick/SDL_gamecontroller.c\",\"src/joystick/SDL_joystick.c\",\"src/audio/dummy/SDL_dummyaudio.c\",\"src/audio/disk/SDL_diskaudio.c\",\"src/loadso/dlopen/SDL_sysloadso.c\",\"src/joystick/virtual/SDL_virtualjoystick.c\",\"src/video/dummy/SDL_nullevents.c\",\"src/video/dummy/SDL_nullframebuffer.c\",\"src/video/dummy/SDL_nullvideo.c\",\"src/core/android/SDL_android.c\",\"../../../../../Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures/cpu-features.c\",\"src/misc/android/SDL_sysurl.c\",\"src/audio/android/SDL_androidaudio.c\",\"src/filesystem/android/SDL_sysfilesystem.c\",\"src/haptic/android/SDL_syshaptic.c\",\"src/joystick/hidapi/SDL_hidapi_gamecube.c\",\"src/joystick/hidapi/SDL_hidapi_ps4.c\",\"src/joystick/hidapi/SDL_hidapi_ps5.c\",\"src/joystick/hidapi/SDL_hidapi_rumble.c\",\"src/joystick/hidapi/SDL_hidapi_steam.c\",\"src/joystick/hidapi/SDL_hidapi_switch.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360w.c\",\"src/joystick/hidapi/SDL_hidapi_xboxone.c\",\"src/joystick/hidapi/SDL_hidapijoystick.c\",\"src/joystick/android/SDL_sysjoystick.c\",\"src/joystick/steam/SDL_steamcontroller.c\",\"src/power/android/SDL_syspower.c\",\"src/locale/android/SDL_syslocale.c\",\"src/timer/unix/SDL_systimer.c\",\"src/sensor/android/SDL_androidsensor.c\",\"src/video/android/SDL_androidclipboard.c\",\"src/video/android/SDL_androidevents.c\",\"src/video/android/SDL_androidgl.c\",\"src/video/android/SDL_androidkeyboard.c\",\"src/video/android/SDL_androidmessagebox.c\",\"src/video/android/SDL_androidmouse.c\",\"src/video/android/SDL_androidtouch.c\",\"src/video/android/SDL_androidvideo.c\",\"src/video/android/SDL_androidvulkan.c\",\"src/video/android/SDL_androidwindow.c\",\"src/thread/pthread/SDL_systhread.c\",\"src/thread/pthread/SDL_sysmutex.c\",\"src/thread/pthread/SDL_syscond.c\",\"src/thread/pthread/SDL_systls.c\",\"src/thread/pthread/SDL_syssem.c\"]}],\"fullName\":\"libSDL2.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-lm -ldl -llog -landroid /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libhidapi.so -lGLESv1_CM -lGLESv2 -Wl,--no-undefined -llog -latomic -lm\",\"linkerLanguage\":\"C\",\"name\":\"SDL2\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/libSDL2.a\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info    -marm\",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/atomic/SDL_spinlock.c\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security  -idirafter \\\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/video/khronos\\\"  \\\"-I/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/src/hidapi/hidapi\\\" -msse -m3dnow -mmmx -Wshadow -fvisibility\u003dhidden -Wdeclaration-after-statement -Werror\u003ddeclaration-after-statement -fno-strict-aliasing -Wall  -O0 -fno-limit-debug-info   \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"src/SDL.c\",\"src/SDL_assert.c\",\"src/SDL_dataqueue.c\",\"src/SDL_error.c\",\"src/SDL_hints.c\",\"src/SDL_log.c\",\"src/atomic/SDL_atomic.c\",\"src/audio/SDL_audio.c\",\"src/audio/SDL_audiocvt.c\",\"src/audio/SDL_audiodev.c\",\"src/audio/SDL_audiotypecvt.c\",\"src/audio/SDL_mixer.c\",\"src/audio/SDL_wave.c\",\"src/cpuinfo/SDL_cpuinfo.c\",\"src/dynapi/SDL_dynapi.c\",\"src/events/SDL_clipboardevents.c\",\"src/events/SDL_displayevents.c\",\"src/events/SDL_dropevents.c\",\"src/events/SDL_events.c\",\"src/events/SDL_gesture.c\",\"src/events/SDL_keyboard.c\",\"src/events/SDL_mouse.c\",\"src/events/SDL_quit.c\",\"src/events/SDL_touch.c\",\"src/events/SDL_windowevents.c\",\"src/file/SDL_rwops.c\",\"src/haptic/SDL_haptic.c\",\"src/libm/e_atan2.c\",\"src/libm/e_exp.c\",\"src/libm/e_fmod.c\",\"src/libm/e_log.c\",\"src/libm/e_log10.c\",\"src/libm/e_pow.c\",\"src/libm/e_rem_pio2.c\",\"src/libm/e_sqrt.c\",\"src/libm/k_cos.c\",\"src/libm/k_rem_pio2.c\",\"src/libm/k_sin.c\",\"src/libm/k_tan.c\",\"src/libm/s_atan.c\",\"src/libm/s_copysign.c\",\"src/libm/s_cos.c\",\"src/libm/s_fabs.c\",\"src/libm/s_floor.c\",\"src/libm/s_scalbn.c\",\"src/libm/s_sin.c\",\"src/libm/s_tan.c\",\"src/locale/SDL_locale.c\",\"src/misc/SDL_url.c\",\"src/power/SDL_power.c\",\"src/render/SDL_d3dmath.c\",\"src/render/SDL_render.c\",\"src/render/SDL_yuv_sw.c\",\"src/render/direct3d/SDL_render_d3d.c\",\"src/render/direct3d/SDL_shaders_d3d.c\",\"src/render/direct3d11/SDL_render_d3d11.c\",\"src/render/direct3d11/SDL_shaders_d3d11.c\",\"src/render/opengl/SDL_render_gl.c\",\"src/render/opengl/SDL_shaders_gl.c\",\"src/render/opengles/SDL_render_gles.c\",\"src/render/opengles2/SDL_render_gles2.c\",\"src/render/opengles2/SDL_shaders_gles2.c\",\"src/render/psp/SDL_render_psp.c\",\"src/render/software/SDL_blendfillrect.c\",\"src/render/software/SDL_blendline.c\",\"src/render/software/SDL_blendpoint.c\",\"src/render/software/SDL_drawline.c\",\"src/render/software/SDL_drawpoint.c\",\"src/render/software/SDL_render_sw.c\",\"src/render/software/SDL_rotate.c\",\"src/sensor/SDL_sensor.c\",\"src/stdlib/SDL_crc32.c\",\"src/stdlib/SDL_getenv.c\",\"src/stdlib/SDL_iconv.c\",\"src/stdlib/SDL_malloc.c\",\"src/stdlib/SDL_qsort.c\",\"src/stdlib/SDL_stdlib.c\",\"src/stdlib/SDL_string.c\",\"src/stdlib/SDL_strtokr.c\",\"src/thread/SDL_thread.c\",\"src/timer/SDL_timer.c\",\"src/video/SDL_RLEaccel.c\",\"src/video/SDL_blit.c\",\"src/video/SDL_blit_0.c\",\"src/video/SDL_blit_1.c\",\"src/video/SDL_blit_A.c\",\"src/video/SDL_blit_N.c\",\"src/video/SDL_blit_auto.c\",\"src/video/SDL_blit_copy.c\",\"src/video/SDL_blit_slow.c\",\"src/video/SDL_bmp.c\",\"src/video/SDL_clipboard.c\",\"src/video/SDL_egl.c\",\"src/video/SDL_fillrect.c\",\"src/video/SDL_pixels.c\",\"src/video/SDL_rect.c\",\"src/video/SDL_shape.c\",\"src/video/SDL_stretch.c\",\"src/video/SDL_surface.c\",\"src/video/SDL_video.c\",\"src/video/SDL_vulkan_utils.c\",\"src/video/SDL_yuv.c\",\"src/video/yuv2rgb/yuv_rgb.c\",\"src/joystick/SDL_gamecontroller.c\",\"src/joystick/SDL_joystick.c\",\"src/audio/dummy/SDL_dummyaudio.c\",\"src/audio/disk/SDL_diskaudio.c\",\"src/loadso/dlopen/SDL_sysloadso.c\",\"src/joystick/virtual/SDL_virtualjoystick.c\",\"src/video/dummy/SDL_nullevents.c\",\"src/video/dummy/SDL_nullframebuffer.c\",\"src/video/dummy/SDL_nullvideo.c\",\"src/core/android/SDL_android.c\",\"../../../../../Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures/cpu-features.c\",\"src/misc/android/SDL_sysurl.c\",\"src/audio/android/SDL_androidaudio.c\",\"src/filesystem/android/SDL_sysfilesystem.c\",\"src/haptic/android/SDL_syshaptic.c\",\"src/joystick/hidapi/SDL_hidapi_gamecube.c\",\"src/joystick/hidapi/SDL_hidapi_ps4.c\",\"src/joystick/hidapi/SDL_hidapi_ps5.c\",\"src/joystick/hidapi/SDL_hidapi_rumble.c\",\"src/joystick/hidapi/SDL_hidapi_steam.c\",\"src/joystick/hidapi/SDL_hidapi_switch.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360.c\",\"src/joystick/hidapi/SDL_hidapi_xbox360w.c\",\"src/joystick/hidapi/SDL_hidapi_xboxone.c\",\"src/joystick/hidapi/SDL_hidapijoystick.c\",\"src/joystick/android/SDL_sysjoystick.c\",\"src/joystick/steam/SDL_steamcontroller.c\",\"src/power/android/SDL_syspower.c\",\"src/locale/android/SDL_syslocale.c\",\"src/timer/unix/SDL_systimer.c\",\"src/sensor/android/SDL_androidsensor.c\",\"src/video/android/SDL_androidclipboard.c\",\"src/video/android/SDL_androidevents.c\",\"src/video/android/SDL_androidgl.c\",\"src/video/android/SDL_androidkeyboard.c\",\"src/video/android/SDL_androidmessagebox.c\",\"src/video/android/SDL_androidmouse.c\",\"src/video/android/SDL_androidtouch.c\",\"src/video/android/SDL_androidvideo.c\",\"src/video/android/SDL_androidvulkan.c\",\"src/video/android/SDL_androidwindow.c\",\"src/thread/pthread/SDL_systhread.c\",\"src/thread/pthread/SDL_sysmutex.c\",\"src/thread/pthread/SDL_syscond.c\",\"src/thread/pthread/SDL_systls.c\",\"src/thread/pthread/SDL_syssem.c\"]}],\"fullName\":\"libSDL2.a\",\"linkerLanguage\":\"C\",\"name\":\"SDL2-static\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../.cxx/cmake/debug/x86/SDL2/CMakeFiles/uninstall\",\"../../.cxx/cmake/debug/x86/SDL2/CMakeFiles/uninstall.rule\"]}],\"fullName\":\"uninstall\",\"name\":\"uninstall\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"type\":\"UTILITY\"},{\"artifacts\":[\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libhidapi.so\"],\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"GL_GLEXT_PROTOTYPES\",\"USING_GENERATED_CONFIG_H\",\"hidapi_EXPORTS\"],\"includePath\":[{\"path\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/sources/android/cpufeatures\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/include\"},{\"path\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/hidapi/android/hid.cpp\"]}],\"fullName\":\"libhidapi.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"hidapi\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2\",\"sysroot\":\"/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]},{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/glm\",\"name\":\"glm\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm\",\"targets\":[{\"buildDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/glm/glm\",\"name\":\"glm\",\"sourceDirectory\":\"/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/vendor/glm/glm\",\"type\":\"INTERFACE_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/build_command.txt",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
     "tag": "debug|x86",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "D:\\Programming\\AndroidGameEngine\\app\\jni\\CMakeLists.txt",
+    "file": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
     "tag": "debug|x86",
     "diagnosticCode": "UNKNOWN"
   }

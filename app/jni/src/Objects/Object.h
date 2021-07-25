@@ -9,6 +9,7 @@
 #include <Application/Events/ApplicationEvent.h>
 #include <glm/glm.hpp>
 #include <Rendering/Texture2D/Texture2D.h>
+#include <VisualScripting/CodeGraph.h>
 
 class Object
 {
@@ -25,6 +26,7 @@ public:
     void SetName(const std::string& name) { m_name = name; }
     void SetColor(const glm::vec4& col) { m_color = col; }
     void SetIsSprite(bool state) { m_isSprite = state; }
+    void SetCodeGraph(std::shared_ptr<CodeGraph> graph) { m_codeGraph = graph; }
 
     //Getting
     inline const glm::vec2& GetPosition() const { return m_position; }
@@ -34,6 +36,7 @@ public:
     inline const std::string& GetName() const { return m_name; }
     inline const glm::vec4& GetColor() const { return m_color; }
     inline const bool GetIsSprite() const { return m_isSprite; }
+    inline std::shared_ptr<CodeGraph>& GetCodeGraph() { return m_codeGraph; }
 
 private:
     bool OnRenderEvent(AppRenderEvent& e);
@@ -52,8 +55,8 @@ private:
 
     float m_rotation = 0.f;
 
-
     std::shared_ptr<Texture2D> m_texture = nullptr;
+    std::shared_ptr<CodeGraph> m_codeGraph = nullptr;
 };
 
 

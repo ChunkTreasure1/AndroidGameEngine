@@ -1,1 +1,1 @@
-D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\x86_64
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86_64

@@ -20,5 +20,7 @@
   "color" : "Color",
   "isSprite" : "Is Sprite",
   "visualScripting" : "Visual Scripting",
-  "visualScriptingCode" : "Code"
+  "visualScriptingCode" : "Code",
+  "visualScriptingCreate" : "Create graph",
+  "visualScriptingOpen" : "Open graph"
 }

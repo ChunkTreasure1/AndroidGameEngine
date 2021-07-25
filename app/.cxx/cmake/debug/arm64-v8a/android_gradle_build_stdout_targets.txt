@@ -1,3 +1,0 @@
-ninja: Entering directory `D:\Programming\AndroidGameEngine\app\.cxx\cmake\debug\arm64-v8a'
-[1/2] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp.o
-[2/2] Linking CXX shared library D:\Programming\AndroidGameEngine\app\build\intermediates\cmake\debug\obj\arm64-v8a\libmain.so

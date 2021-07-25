@@ -254,6 +254,24 @@ void ApplicationLayer::RenderObjectProperties()
                 ImGui::Checkbox(Language::GetSymbol("isSprite"), &sprite);
                 m_pSelectedObject->SetIsSprite(sprite);
             }
+
+            if (ImGui::CollapsingHeader(Language::GetSymbol("visualScriptingCode")))
+            {
+                if (m_pSelectedObject->GetCodeGraph() == nullptr)
+                {
+                    if (ImGui::Button(Language::GetSymbol("visualScriptingCreate")))
+                    {
+                        m_pSelectedObject->SetCodeGraph(std::make_shared<CodeGraph>());
+                    }
+                }
+                else
+                {
+                    if (ImGui::Button(Language::GetSymbol("visualScriptingOpen")))
+                    {
+                        m_pVisualScriptingWindow->OpenGraph(m_pSelectedObject->GetCodeGraph());
+                    }
+                }
+            }
         }
         else
         {

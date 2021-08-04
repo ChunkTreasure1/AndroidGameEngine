@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.4.88-12139-g1a1688a172e4")
+set(CMAKE_HOST_SYSTEM "Linux-5.4.67-09356-gf3ed4c0c4a31")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.4.88-12139-g1a1688a172e4")
+set(CMAKE_HOST_SYSTEM_VERSION "5.4.67-09356-gf3ed4c0c4a31")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake")
+include("/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake")
 
 set(CMAKE_SYSTEM "Android-1")
 set(CMAKE_SYSTEM_NAME "Android")

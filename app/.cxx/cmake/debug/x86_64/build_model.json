@@ -20,9 +20,13 @@
         "ndk"
       ],
       "buildRoot": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64",
-      "cmakeToolchain": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+      "cmakeToolchain": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-std\u003dc++17"
+        },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
           "value": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/prefab/x86_64/prefab"
@@ -33,7 +37,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake"
+          "value": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,7 +45,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670"
+          "value": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -53,7 +57,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670"
+          "value": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -97,7 +101,9 @@
       "-DANDROID_STL\u003dc++_static"
     ],
     "cFlagsList": [],
-    "cppFlagsList": [],
+    "cppFlagsList": [
+      "-std\u003dc++17"
+    ],
     "variantName": "debug",
     "objFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj",
     "soFolder": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/lib",
@@ -120,8 +126,8 @@
       "moduleBuildFile": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build.gradle",
       "makeFile": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670",
-      "ndkVersion": "22.1.7171670",
+      "ndkFolder": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529",
+      "ndkVersion": "21.4.7075529",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -183,8 +189,8 @@
           "default": true
         }
       ],
-      "originalCmakeToolchainFile": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
-      "cmakeToolchainFile": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake",
+      "originalCmakeToolchainFile": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
       "cmake": {
         "isValidCmakeAvailable": true,
         "cmakeExe": "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
@@ -194,10 +200,10 @@
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},

@@ -9,18 +9,61 @@
 #include <string>
 #include <vendor/glm/glm/glm.hpp>
 #include <vector>
+#include "Link.h"
+#include <any>
+#include <Application/Events/Event.h>
 
-enum class AttributeType
+enum class PropertyType
 {
-    Condition = 0,
-    Variable
+    Integer, //int32_t
+    Decimal, //float
+    Bool, //bool
+    Text //string
 };
 
-struct Attribute
+struct Variable
 {
+    std::any data;
+    PropertyType type;
+    std::string name;
+};
+
+class Attribute
+{
+public:
+    Attribute() {}
+    virtual ~Attribute() {}
+
+public:
     std::string name;
     uint32_t id;
-    AttributeType type;
+    std::vector<std::shared_ptr<Link>> links;
+
+    PropertyType type;
+    std::any data;
+    bool linkable = true;
+};
+
+struct InputAttribute : public Attribute
+{
+    using Func = std::function<void()>;
+
+    InputAttribute(const std::string& n, bool linkable)
+    {
+        name = n;
+        linkable = linkable;
+    }
+
+    Func function = NULL;
+};
+
+struct OutputAttribute : public Attribute
+{
+    OutputAttribute(const std::string& n, bool linkable)
+    {
+        name = n;
+        linkable = linkable;
+    }
 };
 
 struct Node
@@ -30,11 +73,112 @@ public:
     Node(std::shared_ptr<Node>& node);
 
 
+public:
+    virtual void OnEvent(Event& e) {}
 
+public:
+    template<typename T>
+    InputAttribute InputAttributeConfig(const std::string& name, PropertyType type, bool linkable = true)
+    {
+        InputAttribute attr(name, linkable);
+        attr.data = T();
+        attr.type = type;
+
+        return attr;
+    }
+
+    template<typename T>
+    InputAttribute InputAttributeConfig(const std::string& name, PropertyType type, InputAttribute::Func f, bool linkable = true)
+    {
+        InputAttribute attr(name, linkable);
+        attr.data = T();
+        attr.type = type;
+        attr.function = f;
+
+        return attr;
+    }
+
+    InputAttribute InputAttributeConfig_Void(const std::string& name, PropertyType type, bool linkable = true)
+    {
+        InputAttribute attr(name, linkable);
+        attr.type = type;
+
+        return attr;
+    }
+
+    InputAttribute InputAttributeConfig_Void(const std::string& name, PropertyType type, InputAttribute::Func f, bool linkable = true)
+    {
+        InputAttribute attr(name, linkable);
+        attr.type = type;
+        attr.function = f;
+
+        return attr;
+    }
+
+    template<typename T>
+    OutputAttribute OutputAttributeConfig(const std::string& name, PropertyType type, bool linkable = true)
+    {
+        OutputAttribute attr(name, linkable);
+        attr.type = type;
+        attr.data = T();
+
+        return attr;
+    }
+
+    OutputAttribute OutputAttributeConfig_Void(const std::string& name, PropertyType type, bool linkable = true)
+    {
+        OutputAttribute attr(name, linkable);
+        attr.type = type;
+
+        return attr;
+    }
+
+    template<typename T>
+    void ActivateOutput(uint32_t index, T data)
+    {
+        if (outputAttributes[index].links.size() > 0)
+        {
+            for (auto& link : outputAttributes[index].links)
+            {
+                link->pInput->data = data;
+                if (link->pInput->function != NULL)
+                {
+                    link->pInput->function();
+                }
+            }
+        }
+    }
+
+    template<typename T>
+    void ActivateOutput(uint32_t index)
+    {
+        if (outputAttributes[index].links.size() > 0)
+        {
+            for (auto& link : outputAttributes[index].links)
+            {
+                if (link->pInput->function != NULL)
+                {
+                    link->pInput->function();
+                }
+            }
+        }
+    }
+
+    template<typename T>
+    T& GetInput(uint32_t index)
+    {
+        return std::any_cast<T&>(inputAttributes[index].data);
+    }
+
+public:
+    std::string name;
     std::string code;
     uint32_t id;
     glm::vec2 position;
-    std::vector<Attribute> attributes;
+
+    std::vector<std::shared_ptr<Link>> links;
+    std::vector<InputAttribute> inputAttributes;
+    std::vector<OutputAttribute> outputAttributes;
 };
 
 

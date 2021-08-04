@@ -65,6 +65,7 @@ void ApplicationLayer::CreateDockspace()
             {
                 ImGui::MenuItem(Language::GetSymbol("basetools"), NULL, &m_baseToolsOpen);
                 ImGui::MenuItem(Language::GetSymbol("objectsPanel"), NULL, &m_objectsPanelOpen);
+                ImGui::MenuItem(Language::GetSymbol("visualScripting"), NULL, &m_pVisualScriptingWindow->GetIsOpen());
                 ImGui::EndMenu();
             }
 

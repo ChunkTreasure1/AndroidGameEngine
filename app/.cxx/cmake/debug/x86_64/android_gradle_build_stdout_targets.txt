@@ -1,11 +1,2 @@
 ninja: Entering directory `/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64'
-[1/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp.o
-[2/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer.cpp.o
-[3/6] Building CXX object src/CMakeFiles/main.dir/Application/Application.cpp.o
-[4/6] Building CXX object src/CMakeFiles/main.dir/Objects/Object.cpp.o
-[5/6] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp.o
-/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/Application/Layers/ApplicationLayer/ImGuiRenderer.cpp:95:22: warning: cast to 'void *' from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-void-pointer-cast]
-        ImGui::Image((void*)(uint32_t)texId, ImVec2 { perspectivePanelSize.x, perspectivePanelSize.y }, ImVec2{0, 1}, ImVec2{1, 0});
-                     ^~~~~~~~~~~~~~~~~~~~~~
-1 warning generated.
-[6/6] Linking CXX shared library /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86_64/libmain.so
+ninja: no work to do.

@@ -67,8 +67,7 @@ target_sources(main PRIVATE
 			VisualScripting/Node.h
 			VisualScripting/CodeGraph.cpp
 			VisualScripting/CodeGraph.h
-			VisualScripting/Nodes/VariableNode.cpp
-			VisualScripting/Nodes/VariableNode.h
+            VisualScripting/Link.h
 )
 
 target_include_directories(main PUBLIC

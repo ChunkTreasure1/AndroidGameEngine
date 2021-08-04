@@ -22,5 +22,14 @@
   "visualScripting" : "Visuell Skriptning",
   "visualScriptingCode" : "Kod",
   "visualScriptingCreate" : "Skapa graf",
-  "visualScriptingOpen" : "Öppna graf"
+  "visualScriptingOpen" : "Öppna graf",
+  "visualScriptingTools" : "Verktyg",
+  "visualScriptingCreateVariable" : "Skapa Variabel",
+  "vs_type" : "Typ",
+  "vs_value": "Värde",
+  "vs_create" : "Skapa",
+  "t_integer" : "Tal",
+  "t_decimal" : "Decimaltal",
+  "t_bool" : "Boolean",
+  "t_text" : "Text"
 }

@@ -22,5 +22,14 @@
   "visualScripting" : "Visual Scripting",
   "visualScriptingCode" : "Code",
   "visualScriptingCreate" : "Create graph",
-  "visualScriptingOpen" : "Open graph"
+  "visualScriptingOpen" : "Open graph",
+  "visualScriptingTools" : "Tools",
+  "visualScriptingCreateVariable": "Create Variable",
+  "vs_type" : "Type",
+  "vs_value" : "Value",
+  "vs_create" : "Create",
+  "t_integer" : "Integer",
+  "t_decimal" : "Decimal",
+  "t_bool" : "Boolean",
+  "t_text" : "Text"
 }

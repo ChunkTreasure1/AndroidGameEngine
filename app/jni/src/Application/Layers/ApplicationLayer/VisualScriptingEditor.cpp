@@ -12,6 +12,8 @@
 #include <misc/cpp/imgui_stdlib.h>
 #include <unordered_map>
 #include <VisualScripting/NodeRegistry.h>
+#include <Application/Input/Input.h>
+#include <SDL.h>
 
 VisualScriptingEditor::VisualScriptingEditor()
         : m_isOpen(true)
@@ -43,6 +45,62 @@ void VisualScriptingEditor::OpenGraph(std::shared_ptr<CodeGraph> &graph)
 
 bool VisualScriptingEditor::OnUpdate(AppUpdateEvent& e)
 {
+    if (m_nodeToCreate != nullptr)
+    {
+        if (m_currentlyOpenGraph == nullptr)
+        {
+            m_nodeToCreate = nullptr;
+        }
+        else
+        {
+            static int frameCount = 0;
+            ImNodes::SetNodeScreenSpacePos(m_nodeToCreate->id, ImGui::GetMousePos());
+
+            if (Input::IsMouseButtonPressed(SDL_BUTTON_LMASK) && frameCount > 10)
+            {
+                m_currentlyOpenGraph->GetSpecification().nodes.push_back(m_nodeToCreate);
+                frameCount = 0;
+                m_nodeToCreate = nullptr;
+            }
+
+            if (Input::IsMouseButtonPressed(SDL_BUTTON_RMASK))
+            {
+                m_nodeToCreate = nullptr;
+            }
+
+            frameCount++;
+        }
+    }
+
+    if (Input::IsKeyPressed(SDL_SCANCODE_DELETE))
+    {
+        const int numSelectedNodes = ImNodes::NumSelectedNodes();
+        if (numSelectedNodes > 0)
+        {
+            std::vector<int> selectedNodes;
+            selectedNodes.resize(numSelectedNodes);
+
+            ImNodes::GetSelectedNodes(selectedNodes.data());
+
+            for (auto& node : selectedNodes)
+            {
+                RemoveNode(node);
+            }
+        }
+
+        const int numSelectedLinks = ImNodes::NumSelectedLinks();
+        if (numSelectedLinks > 0)
+        {
+            std::vector<int> selectedLinks;
+            selectedLinks.resize(numSelectedLinks);
+
+            ImNodes::GetSelectedLinks(selectedLinks.data());
+            for (auto& link : selectedLinks)
+            {
+                RemoveLink(link);
+            }
+        }
+    }
 
     return false;
 }
@@ -70,6 +128,7 @@ bool VisualScriptingEditor::OnImGuiUpdate(ImGuiUpdateEvent& e)
 
     UpdateNodeWindow();
     UpdateToolsWindow();
+    UpdateTextCodeWindow();
     UpdateVariableList();
     UpdateNodeList();
 
@@ -86,6 +145,26 @@ void VisualScriptingEditor::UpdateToolsWindow()
             ImGui::OpenPopup("CreateVariable");
         }
         UpdateCreateVariable();
+    }
+    ImGui::End();
+}
+
+void VisualScriptingEditor::UpdateTextCodeWindow()
+{
+    ImGui::Begin("TextCode");
+    {
+        if (m_currentlyOpenGraph)
+        {
+            auto startNodes = NodeRegistry::s_startNodes();
+            if (startNodes.size() > 0)
+            {
+                auto code = startNodes[0]->CreateCode();
+                for (auto line : code)
+                {
+                    ImGui::Text("%s", line.second.c_str());
+                }
+            }
+        }
     }
     ImGui::End();
 }
@@ -251,12 +330,31 @@ void VisualScriptingEditor::UpdateNodeList()
                 for (auto& p : key.second)
                 {
                     ImGui::TreeNodeEx((void*)i, nodeFlags, "%s", p.first.c_str());
+                    if (ImGui::IsItemClicked() && m_currentlyOpenGraph)
+                    {
+                        std::shared_ptr<Node> n = p.second();
+                        n->id = m_currentlyOpenGraph->GetCurrentId()++;
+
+                        for (int i = 0; i < n->inputAttributes.size(); ++i)
+                        {
+                            n->inputAttributes[i].id = m_currentlyOpenGraph->GetCurrentId()++;
+                        }
+
+                        for (int i = 0; i < n->outputAttributes.size(); ++i)
+                        {
+                            n->outputAttributes[i].id = m_currentlyOpenGraph->GetCurrentId()++;
+                        }
+
+                        m_nodeToCreate = n;
+                    }
                     i++;
                 }
 
                 ImGui::TreePop();
             }
         }
+
+        ImGui::TreePop();
     }
     ImGui::End();
 }
@@ -293,6 +391,11 @@ void VisualScriptingEditor::UpdateNodeWindow()
             for (auto& node : m_currentlyOpenGraph->GetSpecification().nodes)
             {
                 DrawNode(node);
+            }
+
+            if (m_nodeToCreate)
+            {
+                DrawNode(m_nodeToCreate);
             }
 
             for (auto& link : m_currentlyOpenGraph->GetSpecification().links)
@@ -391,6 +494,22 @@ void VisualScriptingEditor::UpdateNodeWindow()
 
                         m_currentlyOpenGraph->GetSpecification().links.push_back(link);
                     }
+                }
+            }
+        }
+
+        //Check for selected nodes
+        const int numSelectedNodes = ImNodes::NumSelectedNodes();
+        if (numSelectedNodes == 1)
+        {
+            int selNode = 0;
+            ImNodes::GetSelectedNodes(&selNode);
+
+            for (auto& node : m_currentlyOpenGraph->GetSpecification().nodes)
+            {
+                if (node->id == selNode)
+                {
+                    m_selectedNode = node;
                 }
             }
         }

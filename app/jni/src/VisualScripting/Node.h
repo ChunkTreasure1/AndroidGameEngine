@@ -12,6 +12,7 @@
 #include "Link.h"
 #include <any>
 #include <Application/Events/Event.h>
+#include <map>
 
 enum class PropertyType
 {
@@ -45,6 +46,8 @@ public:
     bool linkable = true;
 };
 
+struct Node;
+
 struct InputAttribute : public Attribute
 {
     using Func = std::function<void()>;
@@ -56,6 +59,7 @@ struct InputAttribute : public Attribute
     }
 
     Func function = NULL;
+    Node* pNode = nullptr;
 };
 
 struct OutputAttribute : public Attribute
@@ -77,42 +81,47 @@ public:
 public:
     virtual void OnEvent(Event& e) {}
     virtual void DrawContent() = 0;
+    virtual std::map<uint32_t, std::string> CreateCode() = 0;
 
 public:
     template<typename T>
-    InputAttribute InputAttributeConfig(const std::string& name, PropertyType type, bool linkable = true)
+    InputAttribute InputAttributeConfig(const std::string& name, PropertyType type, Node* pNode, bool linkable = true)
     {
         InputAttribute attr(name, linkable);
         attr.data = T();
         attr.type = type;
+        attr.pNode = pNode;
 
         return attr;
     }
 
     template<typename T>
-    InputAttribute InputAttributeConfig(const std::string& name, PropertyType type, InputAttribute::Func f, bool linkable = true)
+    InputAttribute InputAttributeConfig(const std::string& name, PropertyType type, InputAttribute::Func f, Node* pNode, bool linkable = true)
     {
         InputAttribute attr(name, linkable);
         attr.data = T();
         attr.type = type;
         attr.function = f;
+        attr.pNode = pNode;
 
         return attr;
     }
 
-    InputAttribute InputAttributeConfig_Void(const std::string& name, PropertyType type, bool linkable = true)
+    InputAttribute InputAttributeConfig_Void(const std::string& name, PropertyType type, Node* pNode, bool linkable = true)
     {
         InputAttribute attr(name, linkable);
         attr.type = type;
+        attr.pNode = pNode;
 
         return attr;
     }
 
-    InputAttribute InputAttributeConfig_Void(const std::string& name, PropertyType type, InputAttribute::Func f, bool linkable = true)
+    InputAttribute InputAttributeConfig_Void(const std::string& name, PropertyType type, InputAttribute::Func f, Node* pNode, bool linkable = true)
     {
         InputAttribute attr(name, linkable);
         attr.type = type;
         attr.function = f;
+        attr.pNode = pNode;
 
         return attr;
     }
@@ -174,10 +183,10 @@ public:
 
 public:
     std::string name;
-    std::string code;
     uint32_t id;
     glm::vec2 position;
 
+    std::map<uint32_t, std::string> code;
     std::vector<std::shared_ptr<Link>> links;
     std::vector<InputAttribute> inputAttributes;
     std::vector<OutputAttribute> outputAttributes;

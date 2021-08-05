@@ -26,6 +26,7 @@ private:
     void UpdateToolsWindow();
     void UpdateVariableList();
     void UpdateNodeList();
+    void UpdateTextCodeWindow();
 
     //Pop-ups
     void UpdateCreateVariable();
@@ -43,6 +44,11 @@ private:
     bool m_isOpen;
     std::shared_ptr<CodeGraph> m_currentlyOpenGraph;
     std::shared_ptr<Variable> m_variableToCreate = nullptr;
+
+    std::shared_ptr<Node> m_nodeToCreate = nullptr;
+
+    //Selection
+    std::shared_ptr<Node> m_selectedNode = nullptr;
 };
 
 

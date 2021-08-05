@@ -73,18 +73,6 @@
       "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/src/vendor/imnodes/libIMNODES.a",
       "runtimeFiles": []
     },
-    "SDL2-static-Debug-x86": {
-      "artifactName": "SDL2-static",
-      "buildCommandComponents": [
-        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
-        "-C",
-        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
-        "SDL2-static"
-      ],
-      "abi": "x86",
-      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/libSDL2.a",
-      "runtimeFiles": []
-    },
     "main-Debug-x86": {
       "artifactName": "main",
       "buildCommandComponents": [
@@ -98,6 +86,18 @@
       "runtimeFiles": [
         "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86/libSDL2.so"
       ]
+    },
+    "SDL2-static-Debug-x86": {
+      "artifactName": "SDL2-static",
+      "buildCommandComponents": [
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86",
+        "SDL2-static"
+      ],
+      "abi": "x86",
+      "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86/SDL2/libSDL2.a",
+      "runtimeFiles": []
     },
     "SDL2main-Debug-x86": {
       "artifactName": "SDL2main",

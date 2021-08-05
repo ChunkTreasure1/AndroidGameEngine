@@ -5,7 +5,7 @@
 #include "Node.h"
 
 Node::Node()
-    : name("")
+    : name(""), position(0.f)
 {}
 
 Node::Node(std::shared_ptr<Node> &node)

@@ -33,16 +33,16 @@ ANDROID_ABI:UNINITIALIZED=x86_64
 ANDROID_APP_PLATFORM:UNINITIALIZED=android-25
 
 //Path to a library.
-ANDROID_DL_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libdl.so
+ANDROID_DL_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libdl.so
 
 //Path to a library.
-ANDROID_LIBRARY_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so
+ANDROID_LIBRARY_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so
 
 //Path to a library.
-ANDROID_LOG_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so
+ANDROID_LOG_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so
 
 //No help, variable specified on the command line.
-ANDROID_NDK:UNINITIALIZED=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529
+ANDROID_NDK:UNINITIALIZED=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670
 
 //No help, variable specified on the command line.
 ANDROID_PLATFORM:UNINITIALIZED=android-24
@@ -78,10 +78,10 @@ CLOCK_GETTIME:BOOL=OFF
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=x86_64
 
 //No help, variable specified on the command line.
-CMAKE_ANDROID_NDK:UNINITIALIZED=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529
+CMAKE_ANDROID_NDK:UNINITIALIZED=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670
 
 //Archiver
-CMAKE_AR:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar
+CMAKE_AR:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar
 
 //Flags used by the compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -222,7 +222,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86_64
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ld
+CMAKE_LINKER:FILEPATH=CMAKE_LINKER-NOTFOUND
 
 //No help, variable specified on the command line.
 CMAKE_MAKE_PROGRAM:UNINITIALIZED=/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
@@ -243,19 +243,19 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-nm
+CMAKE_NM:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-objcopy
+CMAKE_OBJCOPY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-objdump
+CMAKE_OBJDUMP:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=GAME
 
 //Ranlib
-CMAKE_RANLIB:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ranlib
+CMAKE_RANLIB:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib
 
 //No help, variable specified on the command line.
 CMAKE_RUNTIME_OUTPUT_DIRECTORY:UNINITIALIZED=/home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86_64
@@ -297,8 +297,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Path to a program.
-CMAKE_STRIP:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-strip
+//Strip
+CMAKE_STRIP:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip
 
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
@@ -306,8 +306,8 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=24
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -394,10 +394,10 @@ NAS_SHARED:BOOL=ON
 OSS:BOOL=ON
 
 //Path to a library.
-OpenGLES1_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv1_CM.so
+OpenGLES1_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv1_CM.so
 
 //Path to a library.
-OpenGLES2_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv2.so
+OpenGLES2_LIBRARY:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv2.so
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
@@ -427,13 +427,13 @@ RPATH:BOOL=ON
 SDL2:FILEPATH=SDL2-NOTFOUND
 
 //Dependencies for the target
-SDL2-static_LIB_DEPENDS:STATIC=general;m;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libdl.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so;general;hidapi;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv1_CM.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv2.so;general;-Wl,--no-undefined;
+SDL2-static_LIB_DEPENDS:STATIC=general;m;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libdl.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so;general;hidapi;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv1_CM.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv2.so;general;-Wl,--no-undefined;
 
 //Value Computed by CMake
 SDL2_BINARY_DIR:STATIC=/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/SDL2
 
 //Dependencies for the target
-SDL2_LIB_DEPENDS:STATIC=general;m;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libdl.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so;general;hidapi;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv1_CM.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv2.so;general;-Wl,--no-undefined;
+SDL2_LIB_DEPENDS:STATIC=general;m;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libdl.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so;general;hidapi;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv1_CM.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libGLESv2.so;general;-Wl,--no-undefined;
 
 //Value Computed by CMake
 SDL2_SOURCE_DIR:STATIC=/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/SDL2
@@ -599,7 +599,7 @@ WAYLAND_SHARED:BOOL=ON
 X11_SHARED:BOOL=ON
 
 //Path to a library.
-android-lib:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so
+android-lib:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so
 
 //Dependencies for the target
 cpufeatures_LIB_DEPENDS:STATIC=general;dl;
@@ -614,10 +614,10 @@ glm_SOURCE_DIR:STATIC=/home/chunktreasure/StudioProjects/AndroidGameEngine/app/j
 hidapi_LIB_DEPENDS:STATIC=general;log;
 
 //Path to a library.
-log-lib:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so
+log-lib:FILEPATH=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so
 
 //Dependencies for the target
-main_LIB_DEPENDS:STATIC=general;SDL2;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so;general;/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so;general;EGL;general;GLESv3;general;IMGUI;general;IMNODES;
+main_LIB_DEPENDS:STATIC=general;SDL2;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so;general;/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/libandroid.so;general;EGL;general;GLESv3;general;IMGUI;general;IMNODES;
 
 
 ########################

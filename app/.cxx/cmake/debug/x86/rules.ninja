@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__cpufeatures
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -33,7 +33,7 @@ rule C_COMPILER__cpufeatures
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__cpufeatures
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -44,7 +44,7 @@ rule C_STATIC_LIBRARY_LINKER__cpufeatures
 rule C_COMPILER__SDL2main
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -52,7 +52,7 @@ rule C_COMPILER__SDL2main
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__SDL2main
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -63,7 +63,7 @@ rule C_STATIC_LIBRARY_LINKER__SDL2main
 rule C_COMPILER__SDL2
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -71,7 +71,7 @@ rule C_COMPILER__SDL2
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__SDL2
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -82,7 +82,7 @@ rule C_SHARED_LIBRARY_LINKER__SDL2
 rule C_COMPILER__SDL2-static
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -90,7 +90,7 @@ rule C_COMPILER__SDL2-static
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__SDL2-static
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -101,7 +101,7 @@ rule C_STATIC_LIBRARY_LINKER__SDL2-static
 rule CXX_COMPILER__hidapi
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -109,7 +109,7 @@ rule CXX_COMPILER__hidapi
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__hidapi
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -120,7 +120,7 @@ rule CXX_SHARED_LIBRARY_LINKER__hidapi
 rule CXX_COMPILER__main
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -128,7 +128,7 @@ rule CXX_COMPILER__main
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__main
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -139,7 +139,7 @@ rule CXX_SHARED_LIBRARY_LINKER__main
 rule CXX_COMPILER__IMGUI
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -147,7 +147,7 @@ rule CXX_COMPILER__IMGUI
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__IMGUI
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
 
@@ -158,7 +158,7 @@ rule CXX_STATIC_LIBRARY_LINKER__IMGUI
 rule CXX_COMPILER__IMNODES
   depfile = $DEP_FILE
   deps = gcc
-  command = /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -166,7 +166,7 @@ rule CXX_COMPILER__IMNODES
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__IMNODES
-  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ranlib $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove $TARGET_FILE && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/chunktreasure/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
 

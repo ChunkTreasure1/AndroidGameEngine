@@ -10,6 +10,8 @@
 #include <Core.h>
 #include <vendor/imnodes/imnodes.h>
 #include <misc/cpp/imgui_stdlib.h>
+#include <unordered_map>
+#include <VisualScripting/NodeRegistry.h>
 
 VisualScriptingEditor::VisualScriptingEditor()
         : m_isOpen(true)
@@ -68,6 +70,8 @@ bool VisualScriptingEditor::OnImGuiUpdate(ImGuiUpdateEvent& e)
 
     UpdateNodeWindow();
     UpdateToolsWindow();
+    UpdateVariableList();
+    UpdateNodeList();
 
     return false;
 }
@@ -95,106 +99,31 @@ void VisualScriptingEditor::UpdateCreateVariable()
             m_variableToCreate = std::make_shared<Variable>();
         }
 
+        static bool canCreate = true;
+
         //Name
         ImGui::Text("%s", Language::GetSymbol("inputName"));
         ImGui::SameLine();
         ImGui::InputText("", &m_variableToCreate->name);
 
-        //Type
+        //Check if name already exists
+        for (auto& var : m_currentlyOpenGraph->GetSpecification().variables)
         {
-            static int typeCurrSel = -1;
-            static int typeLastSel = -1;
-            const char* types[] =
-                    {
-                        Language::GetSymbol("t_integer"),
-                        Language::GetSymbol("t_decimal"),
-                        Language::GetSymbol("t_bool"),
-                        Language::GetSymbol("t_text")
-                    };
-
-            ImGui::Text("%s", Language::GetSymbol("vs_type"));
-            ImGui::SameLine();
-            ImGui::Combo("##typeCombo", &typeCurrSel, types, 4);
-
-            if (typeCurrSel != typeLastSel || !m_variableToCreate->data.has_value())
+            if (var->name == m_variableToCreate->name)
             {
-                switch (typeCurrSel)
-                {
-                    case 0:
-                        m_variableToCreate->type = PropertyType::Integer;
-                        m_variableToCreate->data = 0;
-                        break;
-
-                    case 1:
-                        m_variableToCreate->type = PropertyType::Decimal;
-                        m_variableToCreate->data = 0.f;
-                        break;
-
-                    case 2:
-                        m_variableToCreate->type = PropertyType::Bool;
-                        m_variableToCreate->data = false;
-                        break;
-
-                    case 3:
-                        m_variableToCreate->type = PropertyType::Text;
-                        m_variableToCreate->data = "";
-                        break;
-                }
-
-                typeLastSel = typeCurrSel;
+                canCreate = false;
+                ImGui::TextColored(ImVec4 { 1.f, 0.f, 0.f, 1.f }, "%s", Language::GetSymbol("vs_nameExists"));
             }
             else
             {
-                switch (typeCurrSel)
-                {
-                    case 0:
-                    {
-                        ImGui::Text("%s", Language::GetSymbol("vs_value"));
-                        ImGui::SameLine();
-
-                        int i = std::any_cast<int>(m_variableToCreate->data);
-                        ImGui::InputInt("##vsInputInt", &i);
-                        m_variableToCreate->data = i;
-                        break;
-                    }
-
-                    case 1:
-                    {
-                        ImGui::Text("%s", Language::GetSymbol("vs_value"));
-                        ImGui::SameLine();
-
-                        float i = std::any_cast<float>(m_variableToCreate->data);
-                        ImGui::InputFloat("##vsInputFloat", &i);
-                        m_variableToCreate->data = i;
-                        break;
-                    }
-
-                    case 2:
-                    {
-                        ImGui::Text("%s", Language::GetSymbol("vs_value"));
-                        ImGui::SameLine();
-
-                        bool i = std::any_cast<bool>(m_variableToCreate->data);
-                        ImGui::Checkbox("##vsInputBool", &i);
-                        m_variableToCreate->data = i;
-                        break;
-                    }
-
-                    case 3:
-                    {
-                        ImGui::Text("%s", Language::GetSymbol("value"));
-                        ImGui::SameLine();
-
-                        std::string i = std::any_cast<std::string>(m_variableToCreate->data);
-                        ImGui::InputText("##vsInputText", &i);
-                        m_variableToCreate->data = i;
-                        break;
-                    }
-                }
+                canCreate = true;
             }
         }
 
-        if (ImGui::Button(Language::GetSymbol("vs_create")))
+        //Type
+        ShowTypeSelect(m_variableToCreate);
+
+        if (ImGui::Button(Language::GetSymbol("vs_create")) && canCreate)
         {
             m_currentlyOpenGraph->GetSpecification().variables.push_back(std::move(m_variableToCreate));
             m_variableToCreate = nullptr;
@@ -204,6 +133,151 @@ void VisualScriptingEditor::UpdateCreateVariable()
 
         ImGui::EndPopup();
     }
+}
+
+void VisualScriptingEditor::ShowTypeSelect(std::shared_ptr<Variable> &var)
+{
+    static int typeCurrSel = -1;
+    static int typeLastSel = -1;
+    const char* types[] =
+            {
+                    Language::GetSymbol("t_integer"),
+                    Language::GetSymbol("t_decimal"),
+                    Language::GetSymbol("t_bool"),
+                    Language::GetSymbol("t_text")
+            };
+
+    ImGui::Text("%s", Language::GetSymbol("vs_type"));
+    ImGui::SameLine();
+    ImGui::Combo("##typeCombo", &typeCurrSel, types, 4);
+
+    if (typeCurrSel != typeLastSel || !var->data.has_value())
+    {
+        switch (typeCurrSel)
+        {
+            case 0:
+                var->type = PropertyType::Integer;
+                var->data = 0;
+                break;
+
+            case 1:
+                var->type = PropertyType::Decimal;
+                var->data = 0.f;
+                break;
+
+            case 2:
+                var->type = PropertyType::Bool;
+                var->data = false;
+                break;
+
+            case 3:
+                var->type = PropertyType::Text;
+                var->data = "";
+                break;
+        }
+
+        typeLastSel = typeCurrSel;
+    }
+    else
+    {
+        switch (typeCurrSel)
+        {
+            case 0:
+            {
+                ImGui::Text("%s", Language::GetSymbol("vs_value"));
+                ImGui::SameLine();
+
+                int i = std::any_cast<int>(var->data);
+                ImGui::InputInt("##vsInputInt", &i);
+                var->data = i;
+                break;
+            }
+
+            case 1:
+            {
+                ImGui::Text("%s", Language::GetSymbol("vs_value"));
+                ImGui::SameLine();
+
+                float i = std::any_cast<float>(var->data);
+                ImGui::InputFloat("##vsInputFloat", &i);
+                var->data = i;
+                break;
+            }
+
+            case 2:
+            {
+                ImGui::Text("%s", Language::GetSymbol("vs_value"));
+                ImGui::SameLine();
+
+                bool i = std::any_cast<bool>(var->data);
+                ImGui::Checkbox("##vsInputBool", &i);
+                var->data = i;
+                break;
+            }
+
+            case 3:
+            {
+                ImGui::Text("%s", Language::GetSymbol("value"));
+                ImGui::SameLine();
+
+                std::string i = std::any_cast<std::string>(var->data);
+                ImGui::InputText("##vsInputText", &i);
+                var->data = i;
+                break;
+            }
+        }
+    }
+}
+
+void VisualScriptingEditor::UpdateNodeList()
+{
+    ImGui::Begin("Nodes");
+    if (ImGui::TreeNode("Nodes"))
+    {
+        std::unordered_map<std::string, std::vector<std::pair<std::string, NodeRegistry::CreateMethod>>> sorted;
+        for (auto& key : NodeRegistry::s_methods())
+        {
+            sorted[NodeRegistry::GetCategory(key.first)].push_back(key);
+        }
+
+        static ImGuiTreeNodeFlags nodeFlags = ImGuiTreeNodeFlags_Leaf | ImGuiTreeNodeFlags_NoTreePushOnOpen;
+
+
+        int i = 0;
+        for (auto& key :sorted)
+        {
+            if (ImGui::TreeNode(key.first.c_str()))
+            {
+                for (auto& p : key.second)
+                {
+                    ImGui::TreeNodeEx((void*)i, nodeFlags, "%s", p.first.c_str());
+                    i++;
+                }
+
+                ImGui::TreePop();
+            }
+        }
+    }
+    ImGui::End();
+}
+
+void VisualScriptingEditor::UpdateVariableList()
+{
+    std::string name = Language::GetSymbol("vs_varList"); name += "###varList";
+    ImGui::Begin(name.c_str(), &m_isOpen);
+    {
+        if (m_currentlyOpenGraph != nullptr)
+        {
+            for (auto& var : m_currentlyOpenGraph->GetSpecification().variables)
+            {
+                if (ImGui::CollapsingHeader(var->name.c_str()))
+                {
+                    ShowTypeSelect(var);
+                }
+            }
+        }
+    }
+    ImGui::End();
 }
 
 void VisualScriptingEditor::UpdateNodeWindow()
@@ -346,6 +420,10 @@ void VisualScriptingEditor::DrawNode(std::shared_ptr<Node> &node)
     ImNodes::BeginNodeTitleBar();
     ImGui::Text("%s", node->name.c_str());
     ImNodes::EndNodeTitleBar();
+
+    node->DrawContent();
+
+    ImNodes::EndNode();
 }
 
 void VisualScriptingEditor::DrawInput(InputAttribute &attr, std::shared_ptr<Node> &node, bool isProperties) {}

@@ -28,6 +28,8 @@
   "vs_type" : "Type",
   "vs_value" : "Value",
   "vs_create" : "Create",
+  "vs_varList" : "Variables",
+  "vs_nameExists" : "Name already used!",
   "t_integer" : "Integer",
   "t_decimal" : "Decimal",
   "t_bool" : "Boolean",

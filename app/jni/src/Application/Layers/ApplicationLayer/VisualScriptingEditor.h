@@ -24,10 +24,14 @@ private:
 
     void UpdateNodeWindow();
     void UpdateToolsWindow();
+    void UpdateVariableList();
+    void UpdateNodeList();
 
     //Pop-ups
     void UpdateCreateVariable();
 
+    //Helpers
+    void ShowTypeSelect(std::shared_ptr<Variable>& var);
     void RemoveNode(uint32_t id);
     void RemoveLink(uint32_t id);
 

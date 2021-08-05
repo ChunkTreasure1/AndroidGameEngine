@@ -18,7 +18,8 @@ enum class PropertyType
     Integer, //int32_t
     Decimal, //float
     Bool, //bool
-    Text //string
+    Text, //string
+    Typeless
 };
 
 struct Variable
@@ -71,10 +72,11 @@ struct Node
 public:
     Node();
     Node(std::shared_ptr<Node>& node);
-
+    virtual ~Node() {}
 
 public:
     virtual void OnEvent(Event& e) {}
+    virtual void DrawContent() = 0;
 
 public:
     template<typename T>

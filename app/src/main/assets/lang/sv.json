@@ -28,6 +28,8 @@
   "vs_type" : "Typ",
   "vs_value": "Värde",
   "vs_create" : "Skapa",
+  "vs_varList" : "Variabler",
+  "vs_nameExists" : "Namn redan använt!",
   "t_integer" : "Tal",
   "t_decimal" : "Decimaltal",
   "t_bool" : "Boolean",

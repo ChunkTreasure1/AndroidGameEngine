@@ -68,6 +68,10 @@ target_sources(main PRIVATE
 			VisualScripting/CodeGraph.cpp
 			VisualScripting/CodeGraph.h
             VisualScripting/Link.h
+			VisualScripting/NodeRegistry.h
+			VisualScripting/NodeRegistry.cpp
+			VisualScripting/Nodes/EventNodes.cpp
+			VisualScripting/Nodes/EventNodes.h
 )
 
 target_include_directories(main PUBLIC

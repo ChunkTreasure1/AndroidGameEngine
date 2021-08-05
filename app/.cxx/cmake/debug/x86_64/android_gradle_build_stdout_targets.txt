@@ -1,2 +1,7 @@
 ninja: Entering directory `/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64'
-ninja: no work to do.
+[1/2] Building CXX object src/CMakeFiles/main.dir/Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp.o
+/home/chunktreasure/StudioProjects/AndroidGameEngine/app/jni/src/Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp:253:39: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+                    ImGui::TreeNodeEx((void*)i, nodeFlags, "%s", p.first.c_str());
+                                      ^
+1 warning generated.
+[2/2] Linking CXX shared library /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86_64/libmain.so

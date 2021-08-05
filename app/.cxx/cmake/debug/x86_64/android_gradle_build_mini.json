@@ -112,17 +112,6 @@
       "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/src/vendor/imgui/libIMGUI.a",
       "runtimeFiles": []
     },
-    "uninstall-Debug-x86_64": {
-      "artifactName": "uninstall",
-      "buildCommandComponents": [
-        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
-        "-C",
-        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64",
-        "uninstall"
-      ],
-      "abi": "x86_64",
-      "runtimeFiles": []
-    },
     "cpufeatures-Debug-x86_64": {
       "artifactName": "cpufeatures",
       "buildCommandComponents": [
@@ -133,6 +122,17 @@
       ],
       "abi": "x86_64",
       "output": "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64/libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "uninstall-Debug-x86_64": {
+      "artifactName": "uninstall",
+      "buildCommandComponents": [
+        "/home/chunktreasure/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64",
+        "uninstall"
+      ],
+      "abi": "x86_64",
       "runtimeFiles": []
     }
   }

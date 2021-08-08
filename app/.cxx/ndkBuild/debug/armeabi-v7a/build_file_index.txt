@@ -1,2 +1,0 @@
-C:\Programming\android\GameEngine\app\jni\Android.mk
-C:\Programming\android\GameEngine\app\jni\Application.mk

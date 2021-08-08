@@ -1,3 +1,0 @@
-ninja: Entering directory `/home/chunktreasure/StudioProjects/AndroidGameEngine/app/.cxx/cmake/debug/x86_64'
-[1/2] Building CXX object src/CMakeFiles/main.dir/VisualScripting/Nodes/EventNodes.cpp.o
-[2/2] Linking CXX shared library /home/chunktreasure/StudioProjects/AndroidGameEngine/app/build/intermediates/cmake/debug/obj/x86_64/libmain.so

@@ -32,7 +32,7 @@ void ImGuiLayer::OnAttach()
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;
     io.ConfigWindowsMoveFromTitleBarOnly = true;
 
-    m_iniPath = Settings::GetFilePath() + "/imgui1.ini";
+    m_iniPath = Settings::GetFilesPath() + "/imgui1.ini";
     io.IniFilename = m_iniPath.c_str();
 
     //Load font
@@ -61,7 +61,6 @@ void ImGuiLayer::OnAttach()
     }
 
     style.ChildRounding = 4.0f;
-    style.FrameBorderSize = 1.0f;
     style.FrameRounding = 2.0f;
     style.GrabMinSize = 7.0f;
     style.PopupRounding = 2.0f;

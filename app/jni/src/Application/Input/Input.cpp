@@ -36,7 +36,7 @@ bool Input::IsMouseButtonReleased(uint32_t button)
     return !(mouseState & button);
 }
 
-const glm::vec2 & Input::GetMousePosition()
+glm::vec2 Input::GetMousePosition()
 {
     int x, y;
     SDL_GetMouseState(&x, &y);

@@ -12,7 +12,7 @@ class Settings
 public:
     static void SetTheme(const std::string& theme);
     static void SetFilesPath(std::string path) { s_filesPath = path; }
-    static const std::string& GetFilePath() { return s_filesPath; }
+    static const std::string& GetFilesPath() { return s_filesPath; }
 
 private:
     static std::string s_filesPath;

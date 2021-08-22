@@ -29,6 +29,8 @@ target_sources(main PRIVATE
 			Application/Layers/ApplicationLayer/ImGuiRenderer.cpp
             Application/Layers/ApplicationLayer/VisualScriptingEditor.cpp
             Application/Layers/ApplicationLayer/VisualScriptingEditor.h
+			Application/Layers/ApplicationLayer/AssetManagerPanel.cpp
+			Application/Layers/ApplicationLayer/AssetManagerPanel.h
             Application/ImGui/ImGuiBuild.cpp
 			Application/Input/Input.cpp
 			Application/Input/Input.h

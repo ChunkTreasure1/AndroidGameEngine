@@ -33,5 +33,8 @@
   "t_integer" : "Tal",
   "t_decimal" : "Decimaltal",
   "t_bool" : "Boolean",
-  "t_text" : "Text"
+  "t_text" : "Text",
+  "am_assetManager" : "Tillgångshanterare",
+  "am_create" : "Skapa",
+  "am_createDir" : "Skapa mapp"
 }

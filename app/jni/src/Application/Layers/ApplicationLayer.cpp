@@ -6,8 +6,8 @@
 
 #include "Application/Events/Event.h"
 #include "Application/Settings/Language.h"
-#include <SDL.h>
 
+#include <SDL.h>
 #include <imgui.h>
 #include <vendor/imnodes/imnodes.h>
 
@@ -21,6 +21,7 @@ ApplicationLayer::ApplicationLayer(uint32_t width, uint32_t height)
     m_testTexture = Texture2D::Create("Agent.png");
 
     m_pVisualScriptingWindow = new VisualScriptingEditor();
+    m_pAssetMangerPanel = new AssetManagerPanel();
 
     m_list.push_back(new Object("Object0"));
 }
@@ -54,6 +55,8 @@ void ApplicationLayer::OnImGuiRender(Timestep ts)
     RenderObjectsPanel();
     RenderBaseTools();
     RenderObjectProperties();
+
+    m_pAssetMangerPanel->OnImGuiRender();
 
     ImGuiUpdateEvent e;
     OnEvent(e);

@@ -14,6 +14,8 @@
 #include <list>
 #include <vector>
 #include "ApplicationLayer/VisualScriptingEditor.h"
+#include <filesystem>
+#include <Application/Layers/ApplicationLayer/AssetManagerPanel.h>
 
 class ApplicationLayer : public Layer
 {
@@ -51,6 +53,7 @@ private:
     bool m_objectsPanelOpen = true;
     bool m_objectPropertiesOpen = true;
     VisualScriptingEditor* m_pVisualScriptingWindow = nullptr;
+    AssetManagerPanel* m_pAssetMangerPanel = nullptr;
 
     /////Objects/////
     std::vector<Object*> m_list;
@@ -59,6 +62,5 @@ private:
     /////Testing/////
     std::shared_ptr<Texture2D> m_testTexture;
 };
-
 
 #endif //TESTPROJECT_APPLICATIONLAYER_H

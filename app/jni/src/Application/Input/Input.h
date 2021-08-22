@@ -18,7 +18,7 @@ public:
     static bool IsMouseButtonPressed(uint32_t button);
     static bool IsMouseButtonReleased(uint32_t button);
 
-    static const glm::vec2& GetMousePosition();
+    static glm::vec2 GetMousePosition();
 };
 
 

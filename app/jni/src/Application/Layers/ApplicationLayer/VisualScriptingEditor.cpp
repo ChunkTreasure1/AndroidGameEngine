@@ -33,7 +33,7 @@ void VisualScriptingEditor::OnEvent(Event &e)
     dispatcher.Dispatch<ImGuiUpdateEvent>(LP_BIND_EVENT_FN(VisualScriptingEditor::OnImGuiUpdate));
 }
 
-void VisualScriptingEditor::OpenGraph(std::shared_ptr<CodeGraph> &graph)
+void VisualScriptingEditor::OpenGraph(std::shared_ptr<CodeGraph> graph)
 {
     m_currentlyOpenGraph = graph;
 

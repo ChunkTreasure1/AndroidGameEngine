@@ -2,10 +2,12 @@
 // Created by xXRag on 2021-07-07.
 //
 
+#include <Application/UI/UIUtility.h>
 #include <Application/Layers/ApplicationLayer.h>
 #include <Application/Settings/Language.h>
 #include <Application/Settings/Settings.h>
 #include <Application/Application.h>
+
 #include <misc/cpp/imgui_stdlib.h>
 #include <glm/gtc/type_ptr.hpp>
 
@@ -84,7 +86,7 @@ void ApplicationLayer::RenderViewport()
     ImGui::Begin(name.c_str());
     {
         ImVec2 perspectivePanelSize = ImGui::GetContentRegionAvail();
-        if (m_lastPerspectiveSize.x != perspectivePanelSize.x && m_lastPerspectiveSize.y != perspectivePanelSize.y)
+        if (m_lastPerspectiveSize.x != perspectivePanelSize.x || m_lastPerspectiveSize.y != perspectivePanelSize.y)
         {
             m_viewportBuffer->Update((uint32_t)perspectivePanelSize.x, (uint32_t)perspectivePanelSize.y);
             m_lastPerspectiveSize = perspectivePanelSize;
@@ -107,65 +109,57 @@ void ApplicationLayer::RenderSettings()
     std::string name = Language::GetSymbol("settings"); name += "###settings";
     ImGui::Begin(name.c_str(), &m_settingsOpen);
     {
-        /////Theme/////
+        if (UI::BeginProperties())
         {
-            static int themeCurrSelected = -1;
-            static int themeLastSelected = -1;
-            const char* themeItems[] = { Language::GetSymbol("theme_dark"), Language::GetSymbol("theme_light")};
-
-            ImGui::Text("%s", Language::GetSymbol("theme"));
-            ImGui::SameLine();
-            ImGui::Combo("##themeCombo", &themeCurrSelected, themeItems, 2);
-
-            if (themeCurrSelected != themeLastSelected)
+            /////Theme/////
             {
-                if (themeCurrSelected == 0)
-                {
-                    Settings::SetTheme("dark");
-                }
-                else if (themeCurrSelected == 1)
-                {
-                    Settings::SetTheme("light");
-                }
+                static int themeCurrSelected = 0;
+                static int themeLastSelected = 0;
 
-                themeLastSelected = themeCurrSelected;
+                std::vector<const char*> themeItems = { Language::GetSymbol("theme_dark"), Language::GetSymbol("theme_light")};
+
+                if (UI::Combo(Language::GetSymbol("theme"), themeCurrSelected, themeItems))
+                {
+                    if (themeCurrSelected == 0)
+                    {
+                        Settings::SetTheme("dark");
+                    }
+                    else if (themeCurrSelected == 1)
+                    {
+                        Settings::SetTheme("light");
+                    }
+
+                    themeLastSelected = themeCurrSelected;
+                }
             }
-        }
-        ///////////////
+            ///////////////
 
-        /////Language/////
-        {
-            static int langCurrSelected = 1;
-            static int langLastSelected = 1;
-            const char* langItems[] = { "English", "Svenska" };
-
-            ImGui::Text("%s", Language::GetSymbol("language"));
-            ImGui::SameLine();
-            ImGui::Combo("##langCombo", &langCurrSelected, langItems, 2);
-
-            if (langLastSelected != langCurrSelected)
+            /////Language/////
             {
-                if (langCurrSelected == 0)
-                {
-                    Language::LoadLanguage("en");
-                }
-                else if (langCurrSelected == 1)
-                {
-                    Language::LoadLanguage("sv");
-                }
+                static int langCurrSelected = 1;
+                static int langLastSelected = 1;
+                std::vector<const char*> langItems = { "English", "Svenska" };
 
-                langLastSelected = langCurrSelected;
+                if (UI::Combo(Language::GetSymbol("language"), langCurrSelected, langItems))
+                {
+                    if (langLastSelected != langCurrSelected)
+                    {
+                        if (langCurrSelected == 0)
+                        {
+                            Language::LoadLanguage("en");
+                        }
+                        else if (langCurrSelected == 1)
+                        {
+                            Language::LoadLanguage("sv");
+                        }
+
+                        langLastSelected = langCurrSelected;
+                    }
+                }
             }
-        }
-        //////////////////
+            //////////////////
 
-        ImVec2 windowSize = ImGui::GetWindowSize();
-        ImVec2 windowPos = ImGui::GetWindowPos();
-        ImVec2 appSize = ImVec2(Application::Get().GetWindow()->GetWidth(), Application::Get().GetWindow()->GetHeight());
-
-        if (windowPos.x + windowSize.x > appSize.x)
-        {
-            ImGui::SetWindowPos(ImVec2(appSize.x - windowPos.x - windowSize.x, windowPos.y));
+            UI::EndProperties();
         }
     }
     ImGui::End();
@@ -200,6 +194,7 @@ void ApplicationLayer::RenderObjectsPanel()
     {
         for (int i = 0; i < m_list.size(); ++i)
         {
+
             ImGuiTreeNodeFlags nodeFlags = ImGuiTreeNodeFlags_Leaf | ImGuiTreeNodeFlags_NoTreePushOnOpen;
             ImGui::TreeNodeEx((void*)(intptr_t)i, nodeFlags, "%s", m_list[i]->GetName().c_str());
 
@@ -223,37 +218,35 @@ void ApplicationLayer::RenderObjectProperties()
         if (m_pSelectedObject != nullptr)
         {
             std::string objName = m_pSelectedObject->GetName();
-            ImGui::InputText(Language::GetSymbol("inputName") ,&objName);
+            ImGui::InputText("##objName",&objName);
             m_pSelectedObject->SetName(objName);
 
-            if (ImGui::CollapsingHeader(Language::GetSymbol("transform")))
+            if (ImGui::CollapsingHeader(Language::GetSymbol("transform"), ImGuiTreeNodeFlags_DefaultOpen))
             {
-                glm::vec2 pos = m_pSelectedObject->GetPosition();
-                float f[2] = { pos.x, pos.y };
+                UI::PushId();
 
-                ImGui::DragFloat2(Language::GetSymbol("position"), f);
-                m_pSelectedObject->SetPosition(glm::make_vec2(f));
+                if (UI::BeginProperties("", false))
+                {
+                    UI::PropertyAxisColor(Language::GetSymbol("position"), const_cast<glm::vec2&>(m_pSelectedObject->GetPosition()));
+                    UI::Property(Language::GetSymbol("rotation"), const_cast<float&>(m_pSelectedObject->GetRotation()));
+                    UI::PropertyAxisColor(Language::GetSymbol("scale"), const_cast<glm::vec2&>(m_pSelectedObject->GetScale()));
 
-                float rot = m_pSelectedObject->GetRotation();
-                ImGui::DragFloat(Language::GetSymbol("rotation"), &rot);
-                m_pSelectedObject->SetRotation(rot);
+                    m_pSelectedObject->UpdateTransform();
 
-                glm::vec2 scale = m_pSelectedObject->GetScale();
-                float s[2] = { scale.x, scale.y };
-                ImGui::DragFloat2(Language::GetSymbol("scale"), s);
-                m_pSelectedObject->SetScale(glm::make_vec2(s));
+                    UI::EndProperties(false);
+                }
+
+                UI::PopId();
             }
 
             if (ImGui::CollapsingHeader(Language::GetSymbol("settings")))
             {
-                glm::vec4 color = m_pSelectedObject->GetColor();
-                float c[4] = { color.x, color.y, color.z, color.w };
-                ImGui::ColorEdit4(Language::GetSymbol("color"), c);
-                m_pSelectedObject->SetColor(glm::make_vec4(c));
+                UI::BeginProperties();
 
-                bool sprite = m_pSelectedObject->GetIsSprite();
-                ImGui::Checkbox(Language::GetSymbol("isSprite"), &sprite);
-                m_pSelectedObject->SetIsSprite(sprite);
+                UI::PropertyColor(Language::GetSymbol("color"), const_cast<glm::vec4&>(m_pSelectedObject->GetColor()));
+                UI::Property(Language::GetSymbol("isSprite"), const_cast<bool&>(m_pSelectedObject->GetIsSprite()));
+
+                UI::EndProperties();
             }
 
             if (ImGui::CollapsingHeader(Language::GetSymbol("visualScriptingCode")))
@@ -281,7 +274,3 @@ void ApplicationLayer::RenderObjectProperties()
     }
     ImGui::End();
 }
-
-/////////////////////////////////////////
-
-/////////////////////////////////////////

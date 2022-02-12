@@ -31,18 +31,18 @@ public:
     //Getting
     inline const glm::vec2& GetPosition() const { return m_position; }
     inline const glm::vec2& GetScale() const { return m_scale; }
-    inline const float GetRotation() const { return m_rotation; }
+    inline const float& GetRotation() const { return m_rotation; }
     inline const glm::mat4& GetTransform() const { return m_transform; }
     inline const std::string& GetName() const { return m_name; }
     inline const glm::vec4& GetColor() const { return m_color; }
-    inline const bool GetIsSprite() const { return m_isSprite; }
-    inline std::shared_ptr<CodeGraph>& GetCodeGraph() { return m_codeGraph; }
+    inline const bool& GetIsSprite() const { return m_isSprite; }
+    inline std::shared_ptr<CodeGraph> GetCodeGraph() { return m_codeGraph; }
+
+    void UpdateTransform();
 
 private:
     bool OnRenderEvent(AppRenderEvent& e);
     bool OnUpdateEvent(AppUpdateEvent& e);
-
-    void UpdateTransform();
 
 private:
     bool m_isSprite = true;

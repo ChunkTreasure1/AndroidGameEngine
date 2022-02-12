@@ -93,8 +93,6 @@ bool ApplicationLayer::OnUpdate(AppUpdateEvent &e)
         i->OnEvent(render);
     }
 
-    //Renderer::DrawQuad({0.f, 0.f, 0.f}, m_testTexture, {1.f, 1.f, 1.f, 1.f});
-
     Renderer::End();
     m_viewportBuffer->Unbind();
 

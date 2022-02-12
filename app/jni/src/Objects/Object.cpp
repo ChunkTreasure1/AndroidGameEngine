@@ -41,6 +41,6 @@ bool Object::OnUpdateEvent(AppUpdateEvent &e)
 void Object::UpdateTransform()
 {
     m_transform = glm::translate(glm::mat4(1.f), { m_position.x, m_position.y, 0.f })
-            * glm::scale(glm::mat4(1.f), { m_scale.x, m_scale. y, 1.f })
-            * glm::rotate(glm::mat4(1.f), glm::radians(m_rotation), { 0.f, 0.f, 1.f });
+            * glm::rotate(glm::mat4(1.f), glm::radians(m_rotation), { 0.f, 0.f, 1.f })
+            * glm::scale(glm::mat4(1.f), { m_scale.x, m_scale. y, 1.f });
 }

@@ -15,7 +15,7 @@ public:
     ~VisualScriptingEditor();
 
     void OnEvent(Event& e);
-    void OpenGraph(std::shared_ptr<CodeGraph>& graph);
+    void OpenGraph(std::shared_ptr<CodeGraph> graph);
     bool& GetIsOpen() { return m_isOpen; }
 
 private:
